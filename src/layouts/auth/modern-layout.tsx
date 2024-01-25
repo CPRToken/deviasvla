@@ -1,9 +1,9 @@
 import type { FC, ReactNode } from 'react';
 import PropTypes from 'prop-types';
 import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
+
 import Stack from '@mui/material/Stack';
-import Head from 'next/head';
+
 
 
 import { RouterLink } from 'src/components/router-link';
