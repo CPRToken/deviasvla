@@ -1,11 +1,10 @@
 import type { FC } from 'react';
 
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
+
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
-import Stack from '@mui/material/Stack';
-import SvgIcon from '@mui/material/SvgIcon';
+
 import { typography, primaryFont } from "src/theme/typography";
 import { useTheme } from '@mui/material/styles';
 import Slider from 'react-slick';
