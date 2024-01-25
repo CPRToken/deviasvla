@@ -1,4 +1,3 @@
-
 import type {Lawyer} from 'src/types/lawyer';
 import { tokens } from 'src/locales/tokens';
 
