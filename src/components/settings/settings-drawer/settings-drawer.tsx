@@ -141,28 +141,7 @@ export const SettingsDrawer: FC<SettingsDrawerProps> = (props) => {
           spacing={5}
           sx={{ p: 3 }}
         >
-          <Box>
-            <Typography sx={{ fontSize: '12px' }}>{t(tokens.headings.language)}</Typography>
 
-
-            <Stack direction="row"
-                   spacing={2}
-                   sx={{ padding: 2 }}
-
-
-            >
-              <img
-                src="/assets/flags/flag-uk.svg"
-                alt="English"
-                onClick={() => i18n.changeLanguage('en')}
-              />
-              <img
-                src="/assets/flags/flag-es.svg"
-                alt="Spanish"
-                onClick={() => i18n.changeLanguage('es')}
-              />
-            </Stack>
-          </Box>
 
 
           <OptionsColorPreset
