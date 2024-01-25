@@ -27,7 +27,7 @@ export const lawyers: Lawyer[] = [
     title: tokens.form.carlosTitle as string,
     cover: '/assets/team/villarroel.jpg',
     image: '/assets/team/villarroel.jpg',
-    userUrl: 'carlos-villarroel',
+    userurl: 'carlos-villarroel',
     bio: tokens.form.carlosBio as string, // Truncated for brevity
     intro: tokens.form.carlosIntro as string, // Truncated for brevity
     education: tokens.form.carlosEducation as string, // Truncated for brevity
@@ -43,7 +43,7 @@ export const lawyers: Lawyer[] = [
     title: tokens.form.gabrielTitle as string,
     cover: '/assets/team/villarroel-g.jpg',
     image: '/assets/team/villarroel-g.jpg',
-    userUrl: 'gabriel-villarroel',
+    userurl: 'gabriel-villarroel',
     bio: tokens.form.gabrielBio as string, // Truncated for brevity
     intro: tokens.form.gabrielIntro as string, // Truncated for brevity
     education: tokens.form.gabrielEducation as string, // Truncated for brevity
@@ -59,7 +59,7 @@ export const lawyers: Lawyer[] = [
     title: tokens.form.raulTitle as string,
     cover: '/assets/team/raul-lecaros.jpg',
     image: '/assets/team/raul-lecaros.jpg',
-    userUrl: 'raul-lecaros',
+    userurl: 'raul-lecaros',
     bio: tokens.form.raulBio as string, // Truncated for brevity
     intro: tokens.form.raulIntro as string, // Truncated for brevity
     education: tokens.form.raulEducation as string, // Truncated for brevity
@@ -75,7 +75,7 @@ export const lawyers: Lawyer[] = [
     title: tokens.form.christianTitle as string,
     cover: '/assets/team/aste.jpg',
     image: '/assets/team/aste.jpg',
-    userUrl: 'christian-aste',
+    userurl: 'christian-aste',
     bio: tokens.form.christianBio as string, // Truncated for brevity
     intro: tokens.form.christianIntro as string, // Truncated for brevity
     education: tokens.form.christianEducation as string, // Truncated for brevity
@@ -92,7 +92,7 @@ export const lawyers: Lawyer[] = [
     title: 'Abogado',
     cover: '/assets/team/juan-cristobal.jpg', // Placeholder
     image: '/assets/team/juan-cristobal.jpg', // Placeholder
-    userUrl: 'juan-cristobal-jaramillo',
+    userurl: 'juan-cristobal-jaramillo',
     bio: 'Director de varias empresas. Inició su carrera profesional como abogado en Deloitte.',
     intro: 'Abogado Pontificia Universidad Católica de Chile.',
     education: 'Diplomado en Planificación y Gestión Tributaria, PUC (2007).',
@@ -108,7 +108,7 @@ export const lawyers: Lawyer[] = [
     title: tokens.form.carolinaTitle as string, // Add title here
     cover: '/assets/team/langlois.jpg', // Placeholder
     image: '/assets/team/langlois.jpg', // Placeholder
-    userUrl: 'carolina-langlois',
+    userurl: 'carolina-langlois',
     education: tokens.form.carolinaEducation as string, // 'Magíster en Derecho de la Empresa, PUC (1998).'
    experience: tokens.form.carolinaExperiencePro as string, // 'Experiencia profesional: Abogado Jefe y Gerente de RRHH Grupo CCF.'
     professional: tokens.form.carolinaProfessionalAca as string, // 'Actividad Académica: Profesor de Derecho del Trabajo, PUC.'
@@ -125,7 +125,7 @@ export const lawyers: Lawyer[] = [
     title: 'Abogado',
     cover: '/assets/team/maria-lopez.jpg', // Placeholder
     image: '/assets/team/maria-lopez.jpg', // Placeholder
-    userUrl: 'maria-lopez',
+    userurl: 'maria-lopez',
     bio: 'Publicaciones en la Revista Laboral Chilena.',
     intro: 'Educación: Licenciada en Derecho, PUC (1987).',
     education: 'Magíster de Derecho Laboral, Universidad Adolfo Ibáñez (2011).',
@@ -141,7 +141,7 @@ export const lawyers: Lawyer[] = [
     title: 'Abogado',
     cover: '/assets/team/jaime-valenzuela.jpg', // Placeholder
     image: '/assets/team/jaime-valenzuela.jpg', // Placeholder
-    userUrl: 'jaime-valenzuela',
+    userurl: 'jaime-valenzuela',
     bio: 'Asociación Latinoamericana de Hidrología Subterránea para el Desarrollo, ALHSUD.',
     intro: 'Educación: Centro de Estudios de Humanidades Clásicas, Salamanca, España (1985).',
     education: 'Universidad Adolfo Ibáñez, Magister en Dirección y Gestión Tributaria (2005).',
@@ -157,7 +157,7 @@ export const lawyers: Lawyer[] = [
     title: 'Abogado',
     cover: '/assets/team/verdugo.jpg', // Placeholder
     image: '/assets/team/verdugo.jpg', // Placeholder
-    userUrl: 'claudio-verdugo',
+    userurl: 'claudio-verdugo',
     bio: 'Ponente en congresos nacionales e internacionales en Derecho Civil.',
     intro: 'Educación: Licenciado en Derecho, PUC (1992).',
     education: 'Premios: Premio Docente Destacado, PUC (2011).',
@@ -173,7 +173,7 @@ export const lawyers: Lawyer[] = [
     title: 'Abogado',
     cover: '/assets/team/rafael-del-valle.jpg', // Placeholder
     image: '/assets/team/rafael-del-valle.jpg', // Placeholder
-    userUrl: '/rafael-del-valle',
+    userurl: '/rafael-del-valle',
     bio: 'Especialista en Derecho de Aguas y Recursos Naturales.',
     intro: 'Educación: Universidad de Chile (Licenciado en Derecho, 1987).',
     education: 'Universidad Adolfo Ibáñez, Magíster en Dirección y Gestión Tributaria (2005).',
@@ -188,7 +188,7 @@ export const lawyers: Lawyer[] = [
     title: 'Abogado',
     cover: '/assets/team/kyle-townley.jpg', // Placeholder
     image: '/assets/team/kyle-townley.jpg',// Placeholder
-    userUrl: 'kyle-townley',
+    userurl: 'kyle-townley',
     bio: 'Especialista en Derecho de Aguas y Recursos Naturales.',
     intro: 'Educación: Universidad de Chile (Licenciado en Derecho, 1987).',
     education: 'Universidad Adolfo Ibáñez, Magíster en Dirección y Gestión Tributaria (2005).',
@@ -203,7 +203,7 @@ export const lawyers: Lawyer[] = [
     title: tokens.form.franciscoTitle as string,
     cover: '/assets/team/francisco-micheli.jpg',
     image: '/assets/team/francisco-micheli.jpg',
-    userUrl: 'francisco-micheli-b',
+    userurl: 'francisco-micheli-b',
     education: tokens.form.franciscoEducation as string, // Add education here
     professional: tokens.form.franciscoProfessionalAca as string, // Add professional experience here
     experience: tokens.form.franciscoExperiencePro as string, // Add professional experience here

@@ -12,7 +12,7 @@ export interface Lawyer {
   languages?: string;
   experience?: string;
 
- userUrl: string;
+ userurl: string;
 intro?: string;
   title?: string;
 }

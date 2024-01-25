@@ -33,10 +33,10 @@ const Page: NextPage = () => {
 
 const { t } = useTranslation();
   const router = useRouter();
-  const { userUrl } = router.query;
+  const { userurl } = router.query;
 
 
-  const lawyer = lawyers.find(l => l.userUrl === userUrl);
+  const lawyer = lawyers.find(l => l.userurl === userurl);
 
   if (!lawyer) {
     return <div>Lawyer not found</div>;

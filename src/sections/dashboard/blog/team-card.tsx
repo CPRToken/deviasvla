@@ -58,19 +58,19 @@ export const TeamCard: FC<TeamCardProps> = ({
     return null;
   }
 
-  const { userUrl } = post;
+  const { userurl } = post;
 
   return (
     <Card {...other}>
       <CardMedia
         component={RouterLink}
-        href={`/${userUrl}`}
+        href={`/${userurl}`}
         image={image}
         sx={{ height: 250 }}
       />
       <CardContent>
         <Typography variant="h4" sx={{ ...typography.h4 }}>
-          <Link component={RouterLink} href={`/${userUrl}`}>
+          <Link component={RouterLink} href={`/${userurl}`}>
             {post.name ? t(post.name) : t('defaultTitleKey')}
           </Link>
         </Typography>
@@ -131,6 +131,6 @@ TeamCard.propTypes = {
   name: PropTypes.string.isRequired,
   email: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-
+  bio: PropTypes.string,
   sx: PropTypes.any,
 };

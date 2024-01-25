@@ -33,7 +33,7 @@ const Page: NextPage = () => {
             bio={lawyer.bio}
             image={lawyer.image}
             cover={lawyer.cover}
-            userUrl={lawyer.userUrl}
+
             intro={lawyer.intro}
             education={lawyer.education}
             professional={lawyer.professional}
