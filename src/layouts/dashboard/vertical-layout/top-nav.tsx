@@ -9,7 +9,7 @@ import SvgIcon from '@mui/material/SvgIcon';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import type { Theme } from '@mui/material/styles/createTheme';
 
-import { AccountButton } from '../account-button';
+
 import { ContactsButton } from '../contacts-button';
 import { LanguageSwitch } from '../language-switch';
 
@@ -76,7 +76,7 @@ export const TopNav: FC<TopNavProps> = (props) => {
           <LanguageSwitch />
 
           <ContactsButton />
-          <AccountButton />
+
         </Stack>
       </Stack>
     </Box>
