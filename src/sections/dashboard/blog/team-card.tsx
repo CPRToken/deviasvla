@@ -19,7 +19,7 @@ interface TeamCardProps {
   title?: string;
   email?: string;
   bio?: string;
-userUrl?: string;
+
   cover?: string;
   image?: string;
   intro?: string;
@@ -122,7 +122,7 @@ export const TeamCard: FC<TeamCardProps> = ({
 TeamCard.propTypes = {
   id: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
-  userUrl: PropTypes.string.isRequired,
+
   intro: PropTypes.string,
   education: PropTypes.string,
   professional: PropTypes.string,
@@ -131,6 +131,6 @@ TeamCard.propTypes = {
   name: PropTypes.string.isRequired,
   email: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  bio: PropTypes.string.isRequired,
+
   sx: PropTypes.any,
 };
