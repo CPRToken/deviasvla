@@ -23,11 +23,11 @@ import 'src/global.css';
 import 'src/locales/i18n';
 
 import { RTL } from 'src/components/rtl';
-import { SplashScreen } from 'src/components/splash-screen';
+
 import { SettingsButton } from 'src/components/settings/settings-button';
 import { SettingsDrawer } from 'src/components/settings/settings-drawer';
 import { Toaster } from 'src/components/toaster';
-import { AuthConsumer, AuthProvider } from 'src/contexts/auth/firebase';
+
 import { SettingsConsumer, SettingsProvider } from 'src/contexts/settings';
 
 import { useNprogress } from 'src/hooks/use-nprogress';
@@ -61,9 +61,7 @@ const CustomApp = (props: CustomAppProps) => {
       </Head>
 
         <LocalizationProvider dateAdapter={AdapterDateFns}>
-          <AuthProvider>
-            <AuthConsumer>
-              {(auth) => (
+
                 <SettingsProvider>
                   <SettingsConsumer>
                     {(settings) => {
@@ -83,7 +81,7 @@ const CustomApp = (props: CustomAppProps) => {
                       });
 
                       // Prevent guards from redirecting
-                      const showSlashScreen = !auth.isInitialized;
+
 
                       return (
                         <ThemeProvider theme={theme}>
@@ -100,9 +98,8 @@ const CustomApp = (props: CustomAppProps) => {
                           </Head>
                           <RTL direction={settings.direction}>
                             <CssBaseline />
-                            {showSlashScreen ? (
-                              <SplashScreen />
-                            ) : (
+
+
                               <>
                                 {getLayout(<Component {...pageProps} />)}
                                 <SettingsButton onClick={settings.handleDrawerOpen} />
@@ -124,7 +121,7 @@ const CustomApp = (props: CustomAppProps) => {
                                   }}
                                 />
                               </>
-                            )}
+
                             <Toaster />
                           </RTL>
                         </ThemeProvider>
@@ -132,9 +129,7 @@ const CustomApp = (props: CustomAppProps) => {
                     }}
                   </SettingsConsumer>
                 </SettingsProvider>
-              )}
-            </AuthConsumer>
-          </AuthProvider>
+
         </LocalizationProvider>
 
     </CacheProvider>

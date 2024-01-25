@@ -7,7 +7,7 @@ import { tokens } from  'src/locales/tokens';
 import { Layout as MarketingLayout } from 'src/layouts/marketing';
 import Typography from '@mui/material/Typography';
 import { typography, primaryFont } from "src/theme/typography";
-import Grid from '@mui/material/Grid';
+
 import Paper from '@mui/material/Paper';
 import { useRouter } from 'next/router';
 import { useTheme } from '@mui/material/styles';
