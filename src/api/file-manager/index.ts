@@ -1,0 +1,3 @@
+class FileManagerApi {
+}
+new FileManagerApi();
