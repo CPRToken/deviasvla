@@ -13,7 +13,6 @@ import Mail04Icon from 'src/icons/untitled-ui/duocolor/mail-04';
 import XSquareIcon from 'src/icons/untitled-ui/duocolor/x-square';
 import { paths } from 'src/paths';
 
-
 interface Item {
   caption?: string;
   children?: {
@@ -42,7 +41,7 @@ const sections: Section[] = [
             <HomeSmileIcon />
           </SvgIcon>
         ),
-        
+        caption: '40+ screens',
         children: [
           {
             title: 'Overview',
@@ -52,7 +51,10 @@ const sections: Section[] = [
             title: 'Customers',
             path: paths.dashboard.customers.index,
           },
-
+          {
+            title: 'Logistics',
+            path: paths.dashboard.logistics.index,
+          },
           {
             title: 'File Manager',
             path: paths.dashboard.fileManager,
@@ -68,8 +70,8 @@ const sections: Section[] = [
   {
     items: [
       {
-        title: 'Capsules',
-        path: paths.dashboard.capsules.index,
+        title: 'Blog',
+        path: paths.dashboard.blog.index,
         icon: (
           <SvgIcon fontSize="small">
             <LayoutAlt02Icon />
@@ -228,13 +230,56 @@ export const PagesPopover: FC = () => (
                       pl: 20 + 16 + 'px', // icon size + icon margin
                     }}
                   >
-
+                    {item.children.map((child) => {
+                      const linkProps = child.path
+                        ? child.external
+                          ? {
+                              component: 'a',
+                              href: child.path,
+                              target: '_blank',
+                            }
+                          : {
+                              component: RouterLink,
+                              href: child.path,
+                            }
                         : {};
 
                       return (
-
-
-
+                        <li key={child.title}>
+                          <ButtonBase
+                            sx={{
+                              alignItems: 'center',
+                              borderRadius: 1,
+                              display: 'flex',
+                              justifyContent: 'flex-start',
+                              px: '12px',
+                              py: '6px',
+                              textAlign: 'left',
+                              width: '100%',
+                              '&:hover': {
+                                backgroundColor: 'action.hover',
+                              },
+                            }}
+                            {...linkProps}
+                          >
+                            <Box
+                              component="span"
+                              sx={{
+                                color: 'text.secondary',
+                                display: 'block',
+                                fontFamily: (theme) => theme.typography.fontFamily,
+                                fontSize: 14,
+                                fontWeight: 500,
+                                lineHeight: '24px',
+                                whiteSpace: 'nowrap',
+                              }}
+                            >
+                              {child.title}
+                            </Box>
+                          </ButtonBase>
+                        </li>
+                      );
+                    })}
                   </Stack>
                 )}
               </li>

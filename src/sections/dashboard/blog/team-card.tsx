@@ -122,7 +122,7 @@ export const TeamCard: FC<TeamCardProps> = ({
 TeamCard.propTypes = {
   id: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
-  userurl: PropTypes.string.isRequired,
+  userurl: PropTypes.string,
   intro: PropTypes.string,
   education: PropTypes.string,
   professional: PropTypes.string,

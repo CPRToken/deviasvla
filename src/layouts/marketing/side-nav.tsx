@@ -4,13 +4,15 @@ import Box from '@mui/material/Box';
 import ButtonBase from '@mui/material/ButtonBase';
 import Drawer from '@mui/material/Drawer';
 import Stack from '@mui/material/Stack';
-
+import type { Theme } from '@mui/material/styles/createTheme';
+import { useTheme } from '@mui/material/styles';
 import { Logo } from 'src/components/logo';
 import { RouterLink } from 'src/components/router-link';
 import { usePathname } from 'src/hooks/use-pathname';
 import { paths } from 'src/paths';
-
+import { LanguageSwitch } from 'src/layouts/dashboard/language-switch/language-switch';
 import { SideNavItem } from './side-nav-item';
+import useMediaQuery from "@mui/material/useMediaQuery";
 
 interface Item {
   children?: {
@@ -28,63 +30,48 @@ interface Item {
 }
 
 const items: Item[] = [
+
   {
-    title: 'Components',
-    path: paths.components.index,
-  },
-  {
-    title: 'Pages',
+    title: 'Paginas',
     children: [
       {
-        subheader: 'Dashboard',
+        subheader: 'INICIO',
         items: [
           {
-            title: 'Overview',
-            path: paths.dashboard.index,
-          },
-          {
-            title: 'Customers',
-            path: paths.dashboard.customers.index,
+            title: 'Firma',
+            path: paths.firma.index,
           },
 
-          {
-            title: 'File Manager',
-            path: paths.dashboard.fileManager,
-          },
-          {
-            title: 'Academy',
-            path: paths.dashboard.academy.index,
-          },
+
         ],
       },
       {
-        subheader: 'Other',
+        subheader: 'ÁREAS',
         items: [
+
+
           {
-            title: 'Capsules',
-            path: paths.dashboard.capsules.index,
+            title: 'Firma',
+            path: paths.firma.index,
+          },
+
+          {
+            title: 'Equipo',
+            path: paths.equipo.index,
           },
           {
-            title: 'Pricing',
-            path: paths.pricing,
-          },
-          {
-            title: 'Contact',
+            title: 'Contacto',
             path: paths.contact,
-          },
-          {
-            title: 'Checkout',
-            path: paths.checkout,
-          },
-          {
-            title: 'Error',
-            path: paths.notFound,
           },
         ],
       },
     ],
   },
-
+  {
+    title: 'Equipo',
+    path: paths.equipo.index,
+    external: true,
+  },
 ];
 
 const renderItems = ({
@@ -124,6 +111,7 @@ const reduceChildRoutes = ({
 
   if (item.children) {
     acc.push(
+
       <SideNavItem
         active={partialMatch}
         depth={depth}
@@ -132,6 +120,7 @@ const reduceChildRoutes = ({
         open={partialMatch}
         title={item.title}
       >
+
         <Stack spacing={2}>
           {item.children.map((child, index) => (
             <Stack
@@ -144,6 +133,7 @@ const reduceChildRoutes = ({
                 p: 0,
               }}
             >
+
               {child.subheader && (
                 <Box
                   component="li"
@@ -176,6 +166,12 @@ const reduceChildRoutes = ({
                         href: item.path,
                       }
                   : {};
+
+
+
+
+                // Determine the logo based on the theme mode
+
 
                 return (
                   <li key={item.title}>
@@ -235,6 +231,7 @@ const reduceChildRoutes = ({
                       >
                         {item.title}
                       </Box>
+
                     </ButtonBase>
                   </li>
                 );
@@ -242,7 +239,9 @@ const reduceChildRoutes = ({
             </Stack>
           ))}
         </Stack>
+
       </SideNavItem>
+
     );
   } else {
     acc.push(
@@ -255,6 +254,7 @@ const reduceChildRoutes = ({
         path={item.path}
         title={item.title}
       />
+
     );
   }
 
@@ -269,6 +269,14 @@ interface SideNavProps {
 export const SideNav: FC<SideNavProps> = (props) => {
   const { onClose, open = false } = props;
   const pathname = usePathname();
+  const smDown = useMediaQuery((theme: Theme) => theme.breakpoints.down('sm'));
+  const theme = useTheme();
+
+  // Define your logos for light and dark mode
+  const lightModeLogo = '/assets/logos/vla-light2.svg';
+  const darkModeLogo = '/assets/logos/vla-dark2.svg';
+  const logoImage = theme.palette.mode === 'dark' ? darkModeLogo : lightModeLogo;
+
 
   return (
     <Drawer
@@ -299,29 +307,14 @@ export const SideNav: FC<SideNavProps> = (props) => {
           sx={{ textDecoration: 'none' }}
         >
           <Box
+            component="img"
+            src={logoImage}
             sx={{
               display: 'inline-flex',
-              height: 24,
-              width: 24,
+              height: smDown ? 50 : 80, // Smaller height for small screens
+              width: smDown ? 250 : 500, // Smaller width for small screens
             }}
-          >
-            <Logo />
-          </Box>
-          <Box
-            sx={{
-              color: 'text.primary',
-              fontFamily: "'Plus Jakarta Sans', sans-serif",
-              fontSize: 14,
-              fontWeight: 800,
-              letterSpacing: '0.3px',
-              lineHeight: 2.5,
-              '& span': {
-                color: 'primary.main',
-              },
-            }}
-          >
-            Virtual <span>Eternity</span>
-          </Box>
+          />
         </Stack>
       </Box>
       <Box
