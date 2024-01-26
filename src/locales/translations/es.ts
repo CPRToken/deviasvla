@@ -155,7 +155,8 @@ export const es = {
   '\n' +
   '\n' +
   'Premio “Excelencia Académica” al mejor profesor de su categoría (2008), otorgados por la Facultad de Derecho de la Pontificia Universidad Católica de Chile.',
-  [tokens.form.carlosProfessionalAca]:'Actividad Académica: Profesor de Derecho Internacional Privado, Facultad de Derecho, Pontificia Universidad Católica de Chile (1984-). ' +
+  [tokens.form.carlosExperiencePro]:'',
+ [tokens.form.carlosProfessionalAca]:'Actividad Académica: Profesor de Derecho Internacional Privado, Facultad de Derecho, Pontificia Universidad Católica de Chile (1984-). ' +
   '\n' +
   '\n' +
   'Ex miembro del Consejo de la Facultad de Derecho de la Pontificia Universidad Católica de Chile.\n' +
@@ -169,31 +170,40 @@ export const es = {
 
 
   [tokens.form.gabrielTitle]:'Socio',
+  [tokens.form.gabrielIntro]: ' ' ,
   [tokens.form.gabrielEducation]: 'Educación: Facultad de Derecho, Pontificia Universidad Católica de Chile (Licenciado en Derecho, 1981).\n' +
   'Admitido a práctica: 1982.\n' +
   'Premios y reconocimientos: Premio Tocornal y Premio Montenegro al alumno más sobresaliente de su generación (1980).\n',
   [tokens.form.gabrielExperiencePro]:'',
   [tokens.form.gabrielProfessionalAca]:'Actividad Académica: Profesor de Derecho Internacional Privado, Facultad de Derecho, Pontificia Universidad Católica de Chile (1984-). ' +
   '\n' +
-  '\n' +
+
   'Ex miembro del Consejo de la Facultad de Derecho de la Pontificia Universidad Católica de Chile.\n' +
   'Otras actividades: Árbitro del Centro de Arbitraje y Mediación de la Cámara de Comercio de Santiago. ' +
   '\n' +
-  '\n' +
+
   'Socio fundador de la Asociación Chilena de Derecho Internacional Privado.\n ' ,
-  [tokens.form.gabrielPublications]:'Publicaciones: Autor de varias publicaciones, entre ellas los siguientes libros: «La obligación natural como elemento moralizador de la relación jurídica en el Código Civil Chileno» (1982), obra que la Facultad de Derecho de la Pontifica Universidad Católica de Chile distinguió con el Premio Pedro Lira Urquieta; «Curso de Derecho Internacional Privado. Parte General» (2004); «Derecho Internacional Privado» (2016).',
+  [tokens.form.gabrielPublications]:'Publicaciones: Autor de varias publicaciones, entre ellas los siguientes libros: «La obligación natural como elemento moralizador de la relación jurídica en el Código Civil Chileno» (1982), obra que la Facultad de Derecho de la Pontifica Universidad Católica de Chile distinguió con el Premio Pedro Lira Urquieta; «Curso de Derecho Internacional Privado. Parte General» (2004); «Derecho Internacional Privado» (2016)\n.',
   [tokens.form.gabrielLanguages]: 'Idiomas: Español e inglés',
 
 
 
 
   [tokens.form.raulTitle]: 'Socio',
+  [tokens.form.raulIntro]: ' ' ,
   [tokens.form.raulEducation]: 'Educación: Facultad de Derecho, Pontificia Universidad Católica de Chile (Licenciado en Derecho, 1974).\n' +
   'Admitido a práctica: 1974.\n' +
   'Premios y reconocimientos: Premio Monseñor Carlos Casanueva (1971), otorgado por la Pontificia Universidad Católica de Chile, por su destacado rendimiento académico y su permanente colaboración con las actividades universitarias.\n',
   [tokens.form.raulExperiencePro]: 'Otras actividades: Miembro de la Cuarta Comisión Legislativa y de la Comisión Redactora de las Leyes Orgánicas Constitucionales. Abogado integrante de la Excma. Corte Suprema (1989-1990; 2012-2014).',
-  [tokens.form.raulProfessionalAca]: 'Actividad académica: Profesor Titular de Derecho Civil, Pontificia Universidad Católica de Chile (1984-). Decano de la Facultad de Derecho, Pontificia Universidad Católica de Chile (1996-2001).',
+  [tokens.form.raulProfessionalAca]: 'Actividad académica: Profesor Titular de Derecho Civil, Pontificia Universidad Católica de Chile (1984-). ' +
+  '\n' +
+  'Decano de la Facultad de Derecho, Pontificia Universidad Católica de Chile (1996-2001).' +
+  '\n' +
+  'Otras actividades: Miembro de la Cuarta Comisión Legislativa y de la Comisión Redactora de las Leyes Orgánicas Constitucionales. ' +
+  '\n' +
+  'Abogado integrante de la Excma. Corte Suprema (1989-1990; 2012-2014).',
   [tokens.form.raulPublications]: '',
+  [tokens.form.raulBio]:'',
   [tokens.form.raulLanguages]: '',
 
 

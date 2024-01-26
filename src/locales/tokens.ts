@@ -149,9 +149,8 @@ headings: {
     raulExperiencePro: 'form.raulExperiencePro',
     raulProfessionalAca: 'form.raulProfessional',
     raulPublications: 'form.raulPublications',
-    raulBio: 'form.raulBio',
     raulLanguages: 'form.raulLanguages',
-
+    raulBio: 'form.raulBio',
 
 
 

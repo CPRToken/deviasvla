@@ -32,6 +32,7 @@ export const lawyers: Lawyer[] = [
     intro: tokens.form.carlosIntro as string, // Truncated for brevity
     education: tokens.form.carlosEducation as string, // Truncated for brevity
     professional: tokens.form.carlosProfessionalAca as string, // Truncated for brevity
+    experience: tokens.form.carlosExperiencePro as string, // Truncated for brevity
     publications: tokens.form.carlosPublications as string, // Truncated for brevity
     languages: tokens.form.carlosLanguages as string, // Truncated for brevity
   },
@@ -48,6 +49,7 @@ export const lawyers: Lawyer[] = [
     intro: tokens.form.gabrielIntro as string, // Truncated for brevity
     education: tokens.form.gabrielEducation as string, // Truncated for brevity
     professional: tokens.form.gabrielProfessionalAca as string, // Truncated for brevity
+   experience: tokens.form.gabrielExperiencePro as string, // Truncated for brevity
     publications: tokens.form.gabrielPublications as string, // Truncated for brevity
     languages: tokens.form.gabrielLanguages as string, // Truncated for brevity
   },
@@ -64,13 +66,14 @@ export const lawyers: Lawyer[] = [
     intro: tokens.form.raulIntro as string, // Truncated for brevity
     education: tokens.form.raulEducation as string, // Truncated for brevity
     professional: tokens.form.raulProfessionalAca as string, // Truncated for brevity
+    experience: tokens.form.raulExperiencePro as string, // Truncated for brevity
     publications: tokens.form.raulPublications as string, // Truncated for brevity
     languages: tokens.form.raulLanguages as string, // Truncated for brevity
   },
 
   {
     id: '4',
-    name: 'Christian Aste M',
+    name: 'Christian Aste M.',
     email: 'caste@vla.cl',
     title: tokens.form.christianTitle as string,
     cover: '/assets/team/aste.jpg',

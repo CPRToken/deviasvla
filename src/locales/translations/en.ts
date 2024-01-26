@@ -168,8 +168,8 @@ export const en = {
   '\n' +
   'All books edited by Thomson Reuters. Author of articles included in the books the 3 C\'s in the Chilean tax system, and Grow, both published by the CNC.\n' +
   '\n' +
-  '\n' +
-  'Others\n' +
+
+  'Other:\n' +
   '\n' +
  'Member of the Editorial Board of the Tax Consultation Manual of the ANEIICH. Former member of the Superior Council of the School of Auditors of Chile. ' +
   '' +
@@ -184,6 +184,7 @@ export const en = {
   '\n' +
   '\n' +
   '“Academic Excellence” Award to the best professor of his category (2008), bestowed by the School of Law of the Pontifical Catholic University of Chile.',
+  [tokens.form.carlosExperiencePro]:'',
   [tokens.form.carlosProfessionalAca]: 'Academic Activity: Professor of Private International Law, School of Law, Pontifical Catholic University of Chile (1984-). ' +
   '\n' +
   '\n' +
@@ -194,16 +195,16 @@ export const en = {
 
 
   [tokens.form.gabrielTitle]: 'Name Partner',
+  [tokens.form.gabrielIntro]: ' ' ,
   [tokens.form.gabrielEducation]: 'Education: Law Faculty, Pontifical Catholic University of Chile (Bachelor of Law, 1981).\n' +
   'Admitted to practice: 1982.\n' +
-  'Awards and recognitions: Tocornal and Montenegro Awards for the most outstanding student of his generation (1980).\n',
+  'Awards and recognitions: Tocornal and Montenegro Awards for the most outstanding student of his generation (1980).',
   [tokens.form.gabrielExperiencePro]: '',
   [tokens.form.gabrielProfessionalAca]: 'Academic Activity: Professor of Private International Law, Law Faculty, Pontifical Catholic University of Chile (1984-). \n' +
   '\n' +
-  '\n' +
+
   'Past member of the Council of the Law Faculty of the Pontifical Catholic University of Chile.\n' +
   'Other activities: Arbitrator of the Arbitration and Mediation Center of the Santiago Chamber of Commerce. \n' +
-  '\n' +
   '\n' +
   'Founding partner of the Chilean Association of Private International Law.\n ',
   [tokens.form.gabrielPublications]: 'Publications: Author of several publications, including the following books: «The natural obligation as a moralizing element of the legal relationship in the Chilean Civil Code» (1982), a work that the Law Faculty of the Pontifical Catholic University of Chile distinguished with the Pedro Lira Urquieta Prize; «Course on Private International Law. General Part» (2004); «Private International Law» (2016).',
@@ -212,13 +213,23 @@ export const en = {
 
 
   [tokens.form.raulTitle]: 'Name Partner',
+  [tokens.form.raulIntro]: ' ' ,
   [tokens.form.raulEducation]: 'Education: Faculty of Law, Pontifical Catholic University of Chile (Bachelor of Laws, 1974).\n' +
   'Admitted to practice: 1974.\n' +
   'Awards and honors: Monseñor Carlos Casanueva Award (1971), granted by the Pontifical Catholic University of Chile, for his outstanding academic performance and his continuous collaboration with university activities.\n',
-  [tokens.form.raulExperiencePro]: 'Other activities: Member of the Fourth Legislative Commission and the Commission responsible for drafting the Organic Constitutional Laws. Attorney member of the Supreme Court (1989-1990; 2012-2014).',
-  [tokens.form.raulProfessionalAca]: 'Academic activity: Full Professor of Civil Law, Pontifical Catholic University of Chile (1984-). Dean of the Faculty of Law, Pontifical Catholic University of Chile (1996-2001).',
+  [tokens.form.raulExperiencePro]: 'Other activities: Member of the Fourth Legislative Commission and the Commission responsible for drafting the Organic Constitutional Laws. Attorney member of the Supreme Court (1989-1990; 2012-2014).\n',
+
+  [tokens.form.raulProfessionalAca]: 'Academic activity: Full Professor of Civil Law, Pontifical Catholic University of Chile (1984-). ' +
+
+'Dean of the Faculty of Law, Pontifical Catholic University of Chile (1996-2001).'+
+'\n' +
+
+'Other activities: Member of the Fourth Legislative Commission and the Commission responsible for drafting Organic Constitutional Laws. ' +
+'\n' +
+'Lawyer member of the Supreme Court (1989-1990; 2012-2014).',
   [tokens.form.raulPublications]: '',
   [tokens.form.raulLanguages]: '',
+  [tokens.form.raulBio]:'',
 
 
 
