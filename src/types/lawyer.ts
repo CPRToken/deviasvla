@@ -2,6 +2,7 @@ export interface Lawyer {
   id: string;
       name: string;
   email?: string;
+  linkedinUrl?: string;
  data?: string;
   bio?: string;
   image?: string;

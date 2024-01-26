@@ -56,6 +56,11 @@ const items: Item[] = [
     path: paths.equipo.index,
 
   },
+  {
+    title: 'TEAM',
+    path: paths.team.index,
+
+  },
 ];
 
 const TOP_NAV_HEIGHT = 64;

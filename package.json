@@ -19,7 +19,6 @@
     "@emotion/react": "11.11.1",
     "@emotion/server": "11.11.0",
     "@emotion/styled": "11.11.0",
-
     "@fontsource/inter": "5.0.4",
     "@fontsource/plus-jakarta-sans": "5.0.4",
     "@fontsource/roboto-mono": "5.0.4",
@@ -30,7 +29,7 @@
     "@fullcalendar/timegrid": "6.1.8",
     "@fullcalendar/timeline": "6.1.8",
     "@iconify/react": "^4.1.1",
-    "@mui/icons-material": "5.13.7",
+    "@mui/icons-material": "^5.13.7",
     "@mui/lab": "^5.0.0-alpha.144",
     "@mui/material": "^5.14.9",
     "@mui/system": "5.13.7",

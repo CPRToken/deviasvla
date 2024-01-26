@@ -1,4 +1,4 @@
-import type { FC } from 'react';
+import { FC, useState } from 'react';
 import PropTypes from 'prop-types';
 import type { SxProps } from '@mui/system';
 import {lawyers} from 'src/api/blog/data';
@@ -8,12 +8,16 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import { typography, primaryFont } from "src/theme/typography";
 import Link from '@mui/material/Link';
+import MailOutlineIcon from '@mui/icons-material/MailOutline'; // For email
+import IconButton from '@mui/material/IconButton';
+import PhoneIcon from '@mui/icons-material/Phone'; // For phone
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import { RouterLink } from 'src/components/router-link';
 
 
-interface TeamCardProps {
+interface TeamItemProps {
   id: string;
   name: string;
   title?: string;
@@ -32,7 +36,7 @@ userurl?: string;
 
 
 
-export const TeamCard: FC<TeamCardProps> = ({
+export const TeamItem: FC<TeamItemProps> = ({
                                               id,
                                               name,
                                               title,
@@ -59,15 +63,38 @@ export const TeamCard: FC<TeamCardProps> = ({
   }
 
   const { userurl } = post;
+  const [isHovered, setIsHovered] = useState(false);
+
+  const { sx: otherSx, ...rest } = other;
+
+  // Combine styles
+  const cardStyle = {
+    position: 'relative',
+    transition: 'transform 0.3s ease-in-out',
+    transform: isHovered ? 'scale(0.95)' : 'scale(1)',
+    ...(otherSx as any),
+  };
+
+  // CardMedia (Image) styles with transition
+  const cardMediaStyle = {
+    height: 250,
+    transition: 'transform 0.3s ease-in-out',
+    transform: isHovered ? 'scale(1.10)' : 'scale(1)', // Zoom in when hovered
+  };
 
   return (
-    <Card {...other}>
+    <Card {...other} sx={cardStyle}
+          onMouseEnter={() => setIsHovered(true)}
+          onMouseLeave={() => setIsHovered(false)}
+    >
+
       <CardMedia
         component={RouterLink}
         href={`/${userurl}`}
         image={image}
-        sx={{ height: 250 }}
+        sx={cardMediaStyle}
       />
+      {!isHovered && ( // Render this part only when not hovering
       <CardContent>
         <Typography variant="h4" sx={{ ...typography.h4 }}>
           <Link component={RouterLink} href={`/${userurl}`}>
@@ -88,6 +115,8 @@ export const TeamCard: FC<TeamCardProps> = ({
               {post.title ? t(post.title) : t('defaultTitleKey')}
 
           </Typography>
+
+
         </Stack>
           <Stack
             alignItems="center"
@@ -96,30 +125,55 @@ export const TeamCard: FC<TeamCardProps> = ({
             spacing={1}
             sx={{ mt: 0 }}
           >
-          <Typography
-            color="text.secondary"
-            sx={{
-              ...typography.body2, // Apply the body1 typography style
-              height: 22,
-              mt: 0,
-              mb: 1,
-              overflow: 'hidden',
-              textOverflow: 'ellipsis',
-              WebkitBoxOrient: 'vertical',
-              WebkitLineClamp: 2,
-            }}
-            variant="body2"
-          >
-            Email: {email}
-          </Typography>
+
         </Stack>
 
       </CardContent>
+      )}
+
+      {isHovered && (
+        <div style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          display: 'flex',
+          flexDirection: 'column', // Aligns children vertically
+          justifyContent: 'center',
+          alignItems: 'center',
+          backgroundColor: 'rgba(0,0,0,0.5)'
+        }}>
+          {/* Name and Link inside overlay */}
+          <Link component={RouterLink} href={`/${userurl}`} style={{ color: '#fff', marginBottom: '10px' }}>
+            <Typography variant="h4" sx={{ ...typography.h4 }}>
+              {post.name ? t(post.name) : t('defaultTitleKey')}
+            </Typography>
+          </Link>
+
+          {/* Container for Icons */}
+          <div style={{ display: 'flex', flexDirection: 'row' }}> {/* Aligns icons horizontally */}
+            {/* Email Icon */}
+            {post.email && (
+              <IconButton component="a" href={`mailto:${post.email}`}>
+                <MailOutlineIcon />
+              </IconButton>
+            )}
+
+            {/* LinkedIn Icon */}
+            {post.linkedinUrl && (
+              <IconButton component="a" href={post.linkedinUrl} target="_blank" rel="noopener noreferrer">
+                <LinkedInIcon />
+              </IconButton>
+            )}
+          </div>
+        </div>
+      )}
     </Card>
   );
 };
 
-TeamCard.propTypes = {
+TeamItem.propTypes = {
   id: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
   userurl: PropTypes.string.isRequired,

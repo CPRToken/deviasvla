@@ -24,6 +24,7 @@ const carouselSettings = {
 
 const subtitles = [
   "EXCELENCIA",
+  "DEVIAS OP. 2",
   "RESPUESTA ÁGIL Y OPORTUNA",
   "TRAYECTORIA",
   "ATENCIÓN PERSONALIZADA",

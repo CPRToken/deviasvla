@@ -42,6 +42,9 @@ export const paths = {
     index: '/areas',
   },
 
+  team: {
+    index: '/team',
+  },
 
   equipo: {
     index: '/equipo',
