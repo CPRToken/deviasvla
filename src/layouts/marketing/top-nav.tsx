@@ -17,13 +17,12 @@ import { RouterLink } from 'src/components/router-link';
 import { useTheme } from '@mui/material/styles';
 import { usePathname } from 'src/hooks/use-pathname';
 import { useWindowScroll } from 'src/hooks/use-window-scroll';
-import { typography, primaryFont } from "src/theme/typography";
-import Typography from '@mui/material/Typography';
+
 import { paths } from 'src/paths';
-import { PagesPopover } from './pages-popover';
+
 import { TopNavItem } from './top-nav-item';
 import {useTranslation} from "react-i18next";
-import {tokens} from "src/locales/tokens";
+
 
 
 interface Item {
