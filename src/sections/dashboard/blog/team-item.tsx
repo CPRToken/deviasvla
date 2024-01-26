@@ -54,6 +54,7 @@ export const TeamItem: FC<TeamItemProps> = ({
 
                                               ...other
                                             }) => {
+  const [isHovered, setIsHovered] = useState(false);
   const { t } = useTranslation();
   const post = lawyers.find((post) => post.id === id);
 
@@ -63,7 +64,7 @@ export const TeamItem: FC<TeamItemProps> = ({
   }
 
   const { userurl } = post;
-  const [isHovered, setIsHovered] = useState(false);
+
 
   const { sx: otherSx, ...rest } = other;
 
