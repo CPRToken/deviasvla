@@ -96,15 +96,17 @@ export const lawyers: Lawyer[] = [
     id: '5',
     name: 'Juan Cristobal Jaramillo Charles',
     email: 'jcjaramillo@vla.cl',
-    title: 'Abogado',
-    cover: '/assets/team/juan-cristobal.jpg', // Placeholder
-    image: '/assets/team/juan-cristobal.jpg', // Placeholder
+    title: tokens.form.juanTitle as string, // Placeholder token for title
+    cover: '/assets/team/juan-cristobal.jpg',
+    image: '/assets/team/juan-cristobal.jpg',
     userurl: 'juan-cristobal-jaramillo',
-    bio: 'Director de varias empresas. Inició su carrera profesional como abogado en Deloitte.',
-    intro: 'Abogado Pontificia Universidad Católica de Chile.',
-    education: 'Diplomado en Planificación y Gestión Tributaria, PUC (2007).',
-    professional: 'Experiencia profesional: Emigró de Deloitte en 2005, asumiendo el área comercial de AVL Abogados en 2009.',
-    publications: 'Publicaciones: Varios trabajos en tributación internacional.'
+    bio: tokens.form.juanBio as string, // Placeholder token for bio
+    intro: tokens.form.juanIntro as string, // Placeholder token for intro
+    education: tokens.form.juanEducation as string, // Placeholder token for education
+    professional: tokens.form.juanProfessionalAca as string, // Placeholder token for professional
+    experience: tokens.form.juanExperiencePro as string, // Placeholder token for experience
+    publications: tokens.form.juanPublications as string, // Placeholder token for publications
+    languages: tokens.form.juanLanguages as string // Placeholder token for languages
   },
 
 
@@ -129,15 +131,17 @@ export const lawyers: Lawyer[] = [
     id: '7',
     name: 'María Cecilia López G.',
     email: 'mclopez@vla.cl',
-    title: 'Abogado',
-    cover: '/assets/team/maria-lopez.jpg', // Placeholder
-    image: '/assets/team/maria-lopez.jpg', // Placeholder
+    title: tokens.form.mariaTitle as string, // Placeholder token for title
+    cover: '/assets/team/maria-lopez.jpg',
+    image: '/assets/team/maria-lopez.jpg',
     userurl: 'maria-lopez',
-    bio: 'Publicaciones en la Revista Laboral Chilena.',
-    intro: 'Educación: Licenciada en Derecho, PUC (1987).',
-    education: 'Magíster de Derecho Laboral, Universidad Adolfo Ibáñez (2011).',
-    professional: '',
-    publications: 'Publicaciones: Varios artículos en Derecho Laboral.'
+    bio: tokens.form.mariaBio as string, // Placeholder token for bio
+    intro: tokens.form.mariaIntro as string, // Placeholder token for intro
+    education: tokens.form.mariaEducation as string, // Placeholder token for education
+    professional: tokens.form.mariaProfessionalAca as string, // Placeholder for empty professional data
+    experience: tokens.form.mariaExperiencePro as string, // Placeholder token for experience
+    publications: tokens.form.mariaPublications as string, // Placeholder token for publications
+    languages: tokens.form.mariaLanguages as string ,
   },
 
 // Jaime Valenzuela del V.
@@ -145,15 +149,17 @@ export const lawyers: Lawyer[] = [
     id: '8',
     name: 'Jaime Valenzuela del V.',
     email: 'jvalenzuela@vla.cl',
-    title: 'Abogado',
-    cover: '/assets/team/jaime-valenzuela.jpg', // Placeholder
-    image: '/assets/team/jaime-valenzuela.jpg', // Placeholder
+    title: tokens.form.jaimeTitle as string, // Placeholder token for title
+    cover: '/assets/team/jaime-valenzuela.jpg',
+    image: '/assets/team/jaime-valenzuela.jpg',
     userurl: 'jaime-valenzuela',
-    bio: 'Asociación Latinoamericana de Hidrología Subterránea para el Desarrollo, ALHSUD.',
-    intro: 'Educación: Centro de Estudios de Humanidades Clásicas, Salamanca, España (1985).',
-    education: 'Universidad Adolfo Ibáñez, Magister en Dirección y Gestión Tributaria (2005).',
-    professional: 'Actividad Académica: Profesor de Derecho de Aguas.',
-    publications: 'Publicaciones: Varios artículos y libros en Derecho de Aguas.'
+    bio: tokens.form.jaimeBio as string, // Placeholder token for bio
+    intro: tokens.form.jaimeIntro as string, // Placeholder token for intro
+    education: tokens.form.jaimeEducation as string, // Placeholder token for education
+    professional: tokens.form.jaimeProfessionalAca as string, // Placeholder token for academic professional experience
+    experience: tokens.form.jaimeExperiencePro as string, // Placeholder token for professional experience
+    publications: tokens.form.jaimePublications as string, // Placeholder token for publications
+    languages: tokens.form.jaimeLanguages as string, // Pla
   },
 
 // Claudio Verdugo B.
@@ -161,15 +167,17 @@ export const lawyers: Lawyer[] = [
     id: '9',
     name: 'Claudio Verdugo B.',
     email: 'cverdugo@vla.cl',
-    title: 'Abogado',
-    cover: '/assets/team/verdugo.jpg', // Placeholder
-    image: '/assets/team/verdugo.jpg', // Placeholder
+    title: tokens.form.claudioTitle as string, // Placeholder token for title
+    cover: '/assets/team/verdugo.jpg',
+    image: '/assets/team/verdugo.jpg',
     userurl: 'claudio-verdugo',
-    bio: 'Ponente en congresos nacionales e internacionales en Derecho Civil.',
-    intro: 'Educación: Licenciado en Derecho, PUC (1992).',
-    education: 'Premios: Premio Docente Destacado, PUC (2011).',
-    professional: 'Actividad Académica: Profesor de Derecho Civil, PUC.',
-    publications: 'Publicaciones: Diversos trabajos en Derecho Civil.'
+    bio: tokens.form.claudioBio as string, // Placeholder token for bio
+    intro: tokens.form.claudioIntro as string, // Placeholder token for intro
+    education: tokens.form.claudioEducation as string, // Placeholder token for education
+    professional: tokens.form.claudioProfessionalAca as string, // Placeholder token for academic professional experience
+    experience: tokens.form.claudioExperiencePro as string, // Placeholder token for professional experience
+    publications: tokens.form.claudioPublications as string, // Placeholder token for publications
+    languages: tokens.form.claudioLanguages as string,
   },
 
 // Rafael del Valle V.
@@ -177,19 +185,21 @@ export const lawyers: Lawyer[] = [
     id: '10',
     name: 'Rafael del Valle V.',
     email: 'rdelvalle@vla.cl',
-    title: 'Abogado',
-    cover: '/assets/team/rafael-del-valle.jpg', // Placeholder
-    image: '/assets/team/rafael-del-valle.jpg', // Placeholder
+    title: tokens.form.rafaelTitle as string, // Placeholder token for title
+    cover: '/assets/team/rafael-del-valle.jpg',
+    image: '/assets/team/rafael-del-valle.jpg',
     userurl: 'rafael-del-valle',
-    bio: 'Especialista en Derecho de Aguas y Recursos Naturales.',
-    intro: 'Educación: Universidad de Chile (Licenciado en Derecho, 1987).',
-    education: 'Universidad Adolfo Ibáñez, Magíster en Dirección y Gestión Tributaria (2005).',
-    professional: 'Actividad Académica: Profesor de Derecho de Aguas.',
-    publications: 'Publicaciones: Varios artículos en Derecho de Aguas y Medio Ambiente.'
+    bio: tokens.form.rafaelBio as string, // Placeholder token for bio
+    intro: tokens.form.rafaelIntro as string, // Placeholder token for intro
+    education: tokens.form.rafaelEducation as string, // Placeholder token for education
+    professional: tokens.form.rafaelProfessionalAca as string, // Placeholder token for academic professional experience
+    experience: tokens.form.rafaelExperiencePro as string, // Placeholder token for professional experience
+    publications: tokens.form.rafaelPublications as string, // Placeholder token for publications
+    languages: tokens.form.rafaelLanguages as string, // Placehold
   },
 
   {
-    id: '11',
+    id: '23',
     name: 'Kyle Townley',
     email: 'kyle@vla.cl ',
     title: 'Abogado',
@@ -201,6 +211,77 @@ export const lawyers: Lawyer[] = [
     education: 'Universidad Adolfo Ibáñez, Magíster en Dirección y Gestión Tributaria (2005).',
     professional: 'Actividad Académica: Profesor de Derecho de Aguas.',
     publications: 'Publicaciones: Varios artículos en Derecho de Aguas y Medio Ambiente.'
+  },
+
+
+  {
+    id: '11',
+    name: 'Jorge Luis Varela del S.',
+    email: 'jvarela@vla.cl',
+    title: tokens.form.jorgeTitle as string,
+    cover: '/assets/team/jorge-varela.jpg',
+    image: '/assets/team/jorge-varela.jpg',
+    userurl: 'jorge-varela',
+    bio: tokens.form.jorgeBio as string,
+    intro: tokens.form.jorgeIntro as string,
+    education: tokens.form.jorgeEducation as string,
+    professional: tokens.form.jorgeProfessionalAca as string,
+    experience: tokens.form.jorgeExperiencePro as string,
+    publications: tokens.form.jorgePublications as string,
+    languages: tokens.form.jorgeLanguages as string,
+  },
+
+// 12. Ricardo Celaya B.
+  {
+    id: '12',
+    name: 'Ricardo Celaya B.',
+    email: 'rcelaya@vla.cl',
+    title: tokens.form.ricardoCBTitle as string,
+    cover: '/assets/team/ricardo-celaya.jpg',
+    image: '/assets/team/ricardo-celaya.jpg',
+    userurl: 'ricardo-celaya',
+    bio: tokens.form.ricardoCBBio as string,
+    intro: tokens.form.ricardoCBIntro as string,
+    education: tokens.form.ricardoCBEducation as string,
+    professional: tokens.form.ricardoCBProfessionalAca as string,
+    experience: tokens.form.ricardoCBExperiencePro as string,
+    publications: tokens.form.ricardoCBPublications as string,
+    languages: tokens.form.ricardoCBLanguages as string,
+  },
+
+  {
+    id: '13',
+    name: 'Ricardo Freire Sch.',
+    email: 'rfreire@vla.cl',
+    title: tokens.form.ricardoFSTitle as string,
+    cover: '/assets/team/ricardo-freire.jpg',
+    image: '/assets/team/ricardo-freire.jpg',
+    userurl: 'ricardo-freire',
+    bio: tokens.form.ricardoFSBio as string,
+    intro: tokens.form.ricardoFSIntro as string,
+    education: tokens.form.ricardoFSEducation as string,
+    professional: tokens.form.ricardoFSProfessionalAca as string,
+    experience: tokens.form.ricardoFSExperiencePro as string,
+    publications: tokens.form.ricardoFSPublications as string,
+    languages: tokens.form.ricardoFSLanguages as string,
+  },
+
+// 14. Eduardo Silva D.
+  {
+    id: '14',
+    name: 'Eduardo Silva D.',
+    email: 'esilva@vla.cl',
+    title: tokens.form.eduardoTitle as string,
+    cover: '/assets/team/eduardo-silva.jpg',
+    image: '/assets/team/eduardo-silva.jpg',
+    userurl: 'eduardo-silva',
+    bio: tokens.form.eduardoBio as string,
+    intro: tokens.form.eduardoIntro as string,
+    education: tokens.form.eduardoEducation as string,
+    professional: tokens.form.eduardoProfessionalAca as string,
+    experience: tokens.form.eduardoExperiencePro as string,
+    publications: tokens.form.eduardoPublications as string,
+    languages: tokens.form.eduardoLanguages as string,
   },
 
   {
@@ -218,7 +299,130 @@ export const lawyers: Lawyer[] = [
      languages: tokens.form.franciscoLanguages as string, // Add languages here
   },
 
+  {
+    id: '16',
+    name: 'Francisca Moya O.',
+    email: 'fmoya@vla.cl',
+    title: tokens.form.franciscaTitle as string,
+    cover: '/assets/team/francisca-moya.jpg',
+    image: '/assets/team/francisca-moya.jpg',
+    userurl: 'francisca-moya',
+    bio: tokens.form.franciscaBio as string,
+    intro: tokens.form.franciscaIntro as string,
+    education: tokens.form.franciscaEducation as string,
+    professional: tokens.form.franciscaProfessionalAca as string,
+    experience: tokens.form.franciscaExperiencePro as string,
+    publications: tokens.form.franciscaPublications as string,
+    languages: tokens.form.franciscaLanguages as string,
+  },
+
+// 17. Catalina Faz A.
+  {
+    id: '17',
+    name: 'Catalina Faz A.',
+    email: 'cfaz@vla.cl',
+    title: tokens.form.catalinaTitle as string,
+    cover: '/assets/team/catalina-faz.jpg',
+    image: '/assets/team/catalina-faz.jpg',
+    userurl: 'catalina-faz',
+    bio: tokens.form.catalinaBio as string,
+    intro: tokens.form.catalinaIntro as string,
+    education: tokens.form.catalinaEducation as string,
+    professional: tokens.form.catalinaProfessionalAca as string,
+    experience: tokens.form.catalinaExperiencePro as string,
+    publications: tokens.form.catalinaPublications as string,
+    languages: tokens.form.catalinaLanguages as string,
+  },
+
+  {
+    id: '18',
+    name: 'Diego Núñez C.',
+    email: 'dnunez@vla.cl',
+    title: tokens.form.diegoTitle as string,
+    cover: '/assets/team/diego-nunez.jpg',
+    image: '/assets/team/diego-nunez.jpg',
+    userurl: 'diego-nunez',
+    bio: tokens.form.diegoBio as string,
+    intro: tokens.form.diegoIntro as string,
+    education: tokens.form.diegoEducation as string,
+    professional: tokens.form.diegoProfessionalAca as string,
+    experience: tokens.form.diegoExperiencePro as string,
+    publications: tokens.form.diegoPublications as string,
+    languages: tokens.form.diegoLanguages as string,
+  },
+
+// 19. Luis Zurita T.
+  {
+    id: '19',
+    name: 'Luis Zurita T.',
+    email: 'lzurita@vla.cl',
+    title: tokens.form.luisTitle as string,
+    cover: '/assets/team/luis-zurita.jpg',
+    image: '/assets/team/luis-zurita.jpg',
+    userurl: 'luis-zurita',
+    bio: tokens.form.luisBio as string,
+    intro: tokens.form.luisIntro as string,
+    education: tokens.form.luisEducation as string,
+    professional: tokens.form.luisProfessionalAca as string,
+    experience: tokens.form.luisExperiencePro as string,
+    publications: tokens.form.luisPublications as string,
+    languages: tokens.form.luisLanguages as string,
+  },
+
+// 20. Fernanda Aste Baeza
+  {
+    id: '20',
+    name: 'Fernanda Aste Baeza',
+    email: 'faste@vla.cl',
+    title: tokens.form.fernandaTitle as string,
+    cover: '/assets/team/fernanda-aste.jpg',
+    image: '/assets/team/fernanda-aste.jpg',
+    userurl: 'fernanda-aste',
+    bio: tokens.form.fernandaBio as string,
+    intro: tokens.form.fernandaIntro as string,
+    education: tokens.form.fernandaEducation as string,
+    professional: tokens.form.fernandaProfessionalAca as string,
+    experience: tokens.form.fernandaExperiencePro as string,
+    publications: tokens.form.fernandaPublications as string,
+    languages: tokens.form.fernandaLanguages as string,
+  },
   // Add more lawyers as needed
+
+
+{
+  id: '21',
+    name: 'Maria Gracia Labadia Drápela',
+  email: 'mglabadia@vla.cl',
+  title: tokens.form.mariaGLDTitle as string,
+  cover: '/assets/team/maria-gracia-labadia.jpg',
+  image: '/assets/team/maria-gracia-labadia.jpg',
+  userurl: 'maria-gracia-labadia',
+  bio: tokens.form.mariaGLDBio as string,
+  intro: tokens.form.mariaGLDIntro as string,
+  education: tokens.form.mariaGLDEducation as string,
+  professional: tokens.form.mariaGLDProfessionalAca as string,
+  experience: tokens.form.mariaGLDExperiencePro as string,
+  publications: tokens.form.mariaGLDPublications as string,
+  languages: tokens.form.mariaGLDLanguages as string,
+},
+
+// 22. João Castillo
+{
+  id: '22',
+    name: 'João Castillo',
+  email: 'jcastillo@vla.cl',
+  title: tokens.form.joaoTitle as string,
+  cover: '/assets/team/joao-castillo.jpg',
+  image: '/assets/team/joao-castillo.jpg',
+  userurl: 'joao-castillo',
+  bio: tokens.form.joaoBio as string,
+  intro: tokens.form.joaoIntro as string,
+  education: tokens.form.joaoEducation as string,
+  professional: tokens.form.joaoProfessionalAca as string,
+  experience: tokens.form.joaoExperiencePro as string,
+  publications: tokens.form.joaoPublications as string,
+  languages: tokens.form.joaoLanguages as string,
+},
+
+
 ];
-
-

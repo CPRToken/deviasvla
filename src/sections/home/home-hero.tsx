@@ -56,7 +56,7 @@ export const HomeHero: FC = () => {
         backgroundImage: `${backgroundGradient}, url(${backgroundImage})`,
         pt: '170px',
         pb: '10px',
-        height: '65vh',
+        height: '60vh',
         width: '100vw',
         '@media (max-width:600px)': {
           pt: '60px', // Adjust the padding-top value for mobile

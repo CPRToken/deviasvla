@@ -152,6 +152,33 @@ headings: {
     raulLanguages: 'form.raulLanguages',
     raulBio: 'form.raulBio',
 
+    juanTitle: 'form.juanTitle',
+    juanIntro: 'form.juanIntro',
+    juanEducation: 'form.juanEducation',
+    juanExperiencePro: 'form.juanExperiencePro',
+    juanProfessionalAca: 'form.juanProfessionalAca',
+    juanPublications: 'form.juanPublications',
+    juanLanguages: 'form.juanLanguages',
+    juanBio: 'form.juanBio',
+
+    mariaTitle: 'form.mariaTitle',
+    mariaIntro: 'form.mariaIntro',
+    mariaEducation: 'form.mariaEducation',
+    mariaExperiencePro: 'form.mariaExperiencePro',
+    mariaProfessionalAca: 'form.mariaProfessionalAca',
+    mariaPublications: 'form.mariaPublications',
+    mariaLanguages: 'form.mariaLanguages',
+    mariaBio: 'form.mariaBio',
+
+    jaimeTitle: 'form.jaimeTitle',
+    jaimeIntro: 'form.jaimeIntro',
+    jaimeEducation: 'form.jaimeEducation',
+    jaimeExperiencePro: 'form.jaimeExperiencePro',
+    jaimeProfessionalAca: 'form.jaimeProfessionalAca',
+    jaimePublications: 'form.jaimePublications',
+    jaimeLanguages: 'form.jaimeLanguages',
+    jaimeBio: 'form.jaimeBio',
+
 
 
     franciscoTitle: 'form.franciscoTitle',
@@ -162,12 +189,142 @@ headings: {
     franciscoLanguages: 'form.franciscoLanguages',
     franciscoPublications: 'form.franciscoPublications',
 
+    claudioTitle: 'form.claudioTitle',
+    claudioIntro: 'form.claudioIntro',
+    claudioEducation: 'form.claudioEducation',
+    claudioExperiencePro: 'form.claudioExperiencePro',
+    claudioProfessionalAca: 'form.claudioProfessionalAca',
+    claudioPublications: 'form.claudioPublications',
+    claudioLanguages: 'form.claudioLanguages',
+    claudioBio: 'form.claudioBio',
+
+    rafaelTitle: 'form.rafaelTitle',
+    rafaelIntro: 'form.rafaelIntro',
+    rafaelEducation: 'form.rafaelEducation',
+    rafaelExperiencePro: 'form.rafaelExperiencePro',
+    rafaelProfessionalAca: 'form.rafaelProfessionalAca',
+    rafaelPublications: 'form.rafaelPublications',
+    rafaelLanguages: 'form.rafaelLanguages',
+    rafaelBio: 'form.rafaelBio',
+
+    jorgeTitle: 'form.jorgeTitle',
+    jorgeIntro: 'form.jorgeIntro',
+    jorgeEducation: 'form.jorgeEducation',
+    jorgeExperiencePro: 'form.jorgeExperiencePro',
+    jorgeProfessionalAca: 'form.jorgeProfessionalAca',
+    jorgePublications: 'form.jorgePublications',
+    jorgeLanguages: 'form.jorgeLanguages',
+    jorgeBio: 'form.jorgeBio',
+
+    ricardoCBTitle: 'form.ricardoCBTitle',
+    ricardoCBIntro: 'form.ricardoCBIntro',
+    ricardoCBEducation: 'form.ricardoCBEducation',
+    ricardoCBExperiencePro: 'form.ricardoCBExperiencePro',
+    ricardoCBProfessionalAca: 'form.ricardoCBProfessionalAca',
+    ricardoCBPublications: 'form.ricardoCBPublications',
+    ricardoCBLanguages: 'form.ricardoCBLanguages',
+    ricardoCBBio: 'form.ricardoCBBio',
+
+
+    ricardoFSTitle: 'form.ricardoFSTitle',
+    ricardoFSIntro: 'form.ricardoFSIntro',
+    ricardoFSEducation: 'form.ricardoFSEducation',
+    ricardoFSExperiencePro: 'form.ricardoFSExperiencePro',
+    ricardoFSProfessionalAca: 'form.ricardoFSProfessionalAca',
+    ricardoFSPublications: 'form.ricardoFSPublications',
+    ricardoFSLanguages: 'form.ricardoFSLanguages',
+    ricardoFSBio: 'form.ricardoFSBio',
+
+
     carolinaTitle: 'form.carolinaTitle',
+    carolinaIntro: 'form.carolinaIntro',
     carolinaEducation: 'form.carolinaEducation',
     carolinaExperiencePro: 'form.carolinaExperiencePro',
     carolinaProfessionalAca: 'form.carolinaProfessionalAca',
     carolinaLanguages: 'form.carolinaLanguages',
     carolinaPublications: 'form.carolinaPublications',
+
+
+
+    eduardoTitle: 'form.eduardoTitle',
+    eduardoIntro: 'form.eduardoIntro',
+    eduardoEducation: 'form.eduardoEducation',
+    eduardoExperiencePro: 'form.eduardoExperiencePro',
+    eduardoProfessionalAca: 'form.eduardoProfessionalAca',
+    eduardoLanguages: 'form.eduardoLanguages',
+    eduardoPublications: 'form.eduardoPublications',
+    eduardoBio: 'form.eduardoBio',
+
+
+    franciscaTitle: 'form.franciscaTitle',
+    franciscaIntro: 'form.franciscaIntro',
+    franciscaEducation: 'form.franciscaEducation',
+    franciscaExperiencePro: 'form.franciscaExperiencePro',
+    franciscaProfessionalAca: 'form.franciscaProfessionalAca',
+    franciscaLanguages: 'form.franciscaLanguages',
+    franciscaPublications: 'form.franciscaPublications',
+    franciscaBio: 'form.franciscaBio',
+
+    catalinaTitle: 'form.catalinaTitle',
+    catalinaIntro: 'form.catalinaIntro',
+    catalinaEducation: 'form.catalinaEducation',
+    catalinaExperiencePro: 'form.catalinaExperiencePro',
+    catalinaProfessionalAca: 'form.catalinaProfessionalAca',
+    catalinaLanguages: 'form.catalinaLanguages',
+    catalinaPublications: 'form.catalinaPublications',
+    catalinaBio: 'form.catalinaBio',
+
+
+    diegoTitle: 'form.diegoTitle',
+    diegoIntro: 'form.diegoIntro',
+    diegoEducation: 'form.diegoEducation',
+    diegoExperiencePro: 'form.diegoExperiencePro',
+    diegoProfessionalAca: 'form.diegoProfessionalAca',
+    diegoLanguages: 'form.diegoLanguages',
+    diegoPublications: 'form.diegoPublications',
+    diegoBio: 'form.diegoBio',
+
+
+    luisTitle: 'form.luisTitle',
+    luisIntro: 'form.luisIntro',
+    luisEducation: 'form.luisEducation',
+    luisExperiencePro: 'form.luisExperiencePro',
+    luisProfessionalAca: 'form.luisProfessionalAca',
+    luisLanguages: 'form.luisLanguages',
+    luisPublications: 'form.luisPublications',
+    luisBio: 'form.luisBio',
+
+
+    fernandaTitle: 'form.fernandaTitle',
+    fernandaIntro: 'form.fernandaIntro',
+    fernandaEducation: 'form.fernandaEducation',
+    fernandaExperiencePro: 'form.fernandaExperiencePro',
+    fernandaProfessionalAca: 'form.fernandaProfessionalAca',
+    fernandaLanguages: 'form.fernandaLanguages',
+    fernandaPublications: 'form.fernandaPublications',
+    fernandaBio: 'form.fernandaBio',
+
+
+    mariaGLDTitle: 'form.mariaGLDTitle',
+    mariaGLDIntro: 'form.mariaGLDIntro',
+    mariaGLDEducation: 'form.mariaGLDEducation',
+    mariaGLDExperiencePro: 'form.mariaGLDExperiencePro',
+    mariaGLDProfessionalAca: 'form.mariaGLDProfessionalAca',
+    mariaGLDLanguages: 'form.mariaGLDLanguages',
+    mariaGLDPublications: 'form.mariaGLDPublications',
+    mariaGLDBio: 'form.mariaGLDBio',
+
+
+    joaoTitle: 'form.joaoTitle',
+    joaoIntro: 'form.joaoIntro',
+    joaoEducation: 'form.joaoEducation',
+    joaoExperiencePro: 'form.joaoExperiencePro',
+    joaoProfessionalAca: 'form.joaoProfessionalAca',
+    joaoLanguages: 'form.joaoLanguages',
+    joaoPublications: 'form.joaoPublications',
+    joaoBio: 'form.joaoBio',
+
+
 
     details: 'form.details',
     sendNow: 'form.sendNow',

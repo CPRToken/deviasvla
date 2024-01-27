@@ -137,6 +137,8 @@ export const es = {
 
 
 
+
+
   [tokens.form.christianExperiencePro]:'',
   [tokens.form.christianProfessionalAca]:'Actividad Académica: Profesor de Derecho Internacional Privado, Facultad de Derecho, ' +
   '\n' +
@@ -145,7 +147,20 @@ export const es = {
   'Otras actividades: Socio fundador de la Asociación Chilena de Derecho Internacional Privado.\n',
 
 
+  [tokens.form.fernandaTitle]: 'Abogado',
+  [tokens.form.fernandaEducation]: 'Licenciada en Ciencias Jurídicas de la Universidad de los Andes (2018). Minor en ciencias políticas Universidad de los Andes (2017). Diplomada en Recursos Naturales y Medio Ambiente Universidad de los Andes (2019). Magíster en Derecho Administrativo Universidad de los Andes (2022). Diplomada en Derecho Laboral, Universidad de los Andes (2023). \n' +
+  '\n' +
+  'Admitida a práctica 2020\n' +
+  '\n' +
+  'Certificaciones: Curso en Mercado de Carbono I. Tecnológico de Monterrey (2020).\n' ,
 
+  [tokens.form.fernandaProfessionalAca]:'Experiencia académica \n' +
+  'Ha sido ayudante de la cátedra de Derecho Ambiental con la Profesora Silvia Bertazzo de la Universidad de los Andes.\n ' ,
+  [tokens.form.fernandaExperiencePro]: 'Otros\n' +
+  'Cursando magister en Relaciones laborales (2024) Universidad de los Andes.\n.\n',
+  [tokens.form.fernandaPublications]:'',
+  [tokens.form.fernandaLanguages]: 'Idiomas: Español e inglés',
+  [tokens.form.fernandaBio]: '',
 
 
   [tokens.form.carlosTitle]: 'Socio',
@@ -208,6 +223,124 @@ export const es = {
 
 
 
+  [tokens.form.juanTitle]: 'Abogado',
+  [tokens.form.juanEducation]: 'Abogado Pontificia Universidad Católica de Chile (PUC), Diplomado por la PUC en Planificación y Gestión Tributaria (2007), Diplomado en curso sobre nueva Justicia Tributaria, en la misma Universidad (2008), Post Grado en Derecho tributario, en la Universidad de Salamanca España. En el año 2007, asistió al curso sobre Tributación Internacional que se realizó en la Universidad de Chile por el especialista internacional, académico Australiano, Profesor Visitante en Harvard, Sr. Richard Vann (2008). ' +
+  '\n' +
+  '\n' +
+  'Philosophy and Artificial Intelligence en la Northeastern University London.\n',
+  [tokens.form.juanExperiencePro]: 'Experiencia profesional\n' +
+  '\n' +
+  'Inició su carrera profesional como abogado en Deloitte. Emigró de dicha consultora el año 2005, asumiendo desde esa fecha el área comercial del equipo que se integró a AVL Abogados el año 2009. ' +
+  '\n' +
+  'Director de varias empresas.\n\n',
+  [tokens.form.juanProfessionalAca]: '' ,
+  [tokens.form.juanPublications]: '',
+  [tokens.form.juanLanguages]: '',
+
+
+  [tokens.form.mariaTitle]: 'Abogado',
+  [tokens.form.mariaEducation]: 'Educación: Facultad de Derecho, Pontificia Universidad Católica de Chile (Licenciada en Derecho, 1987). Diplomado en Derecho Laboral en la Empresa (2009). ' +
+  '\n' +
+  'Universidad de los Andes. Magíster de Derecho Laboral (2011) Universidad Adolfo Ibáñez. Tesis “Cláusulas de Indemnización Convencional”, publicación Revista Laboral Chilena N° 203, Enero 2012.\n' +
+  'Admitida a práctica: 1987.\n\n',
+  [tokens.form.mariaExperiencePro]: 'Experiencia profesional\n',
+  [tokens.form.mariaProfessionalAca]: ' ' ,
+  [tokens.form.mariaPublications]: '',
+  [tokens.form.mariaLanguages]: 'Idiomas: Español, francés e inglés.',
+
+
+  [tokens.form.jaimeTitle]: 'Abogado',
+  [tokens.form.jaimeEducation]: 'Educación: Centro de Estudios de Humanidades Clásicas, Salamanca, España (1985). Pontificia Universidad Gregoriana de Roma, Italia (Bachiller en Filosofía (1987). Oaklawn Academy, Edgerton, Wisconsin (EE.UU) (1989); Facultad de Derecho, Universidad Diego Portales (Licenciado en Ciencias Sociales y Jurídicas, 1996). Universidad Adolfo Ibáñez, Magister en Dirección y Gestión Tributaria (2005).\n' +
+  'Admitido a práctica: 1997.\n.\n',
+  [tokens.form.jaimeExperiencePro]: '',
+  [tokens.form.jaimeProfessionalAca]: ' ' ,
+  [tokens.form.jaimePublications]: '',
+  [tokens.form.jaimeLanguages]: 'Idiomas: Español, italiano e inglés.',
+
+
+  [tokens.form.claudioTitle]: 'Abogado',
+  [tokens.form.claudioBio]:'',
+  [tokens.form.claudioEducation]: 'Educación: Facultad de Derecho, Pontificia Universidad Católica de Chile (Licenciado en Derecho, 1992).' +
+  '\n' +
+      '\n' +
+  'Premios y Reconocimientos: Premio Docente Destacado, Facultad de Derecho, Pontificia Universidad Católica de Chile (2011). \n.\n' ,
+
+  [tokens.form.claudioExperiencePro]: 'Admitido a práctica: 1993.\n',
+  [tokens.form.claudioProfessionalAca]: 'Actividad Académica: Profesor de Derecho Civil, Facultad de Derecho, Pontificia Universidad Católica de Chile (1999 en adelante). Profesor de Legislación en Construcción, Facultad de Ingeniería Civil, Pontificia Universidad Católica de Chile (2015-2016). Ponente en congresos nacionales e internacionales en Derecho Civil.\n' +
+  'Propuesto en terna por la Excma. Corte Suprema para ser designado como su abogado integrante en el período (2024-2026).\n.\n' ,
+
+  [tokens.form.claudioLanguages]: 'Idiomas: Español e inglés.',
+
+
+
+  [tokens.form.rafaelTitle]: 'Abogado',
+  [tokens.form.rafaelBio]:'',
+  [tokens.form.rafaelEducation]: 'Educación: Facultad de Derecho de la Universidad de Chile (Licenciado en Derecho, 1987). Diplomado en Derecho Público, Transparencia, Regulaciones y Control, Universidad Finis Terrae 2011. Diplomado en Recursos Naturales y Medio Ambiente, Universidad de Los Andes 2017.\n' ,
+  [tokens.form.rafaelExperiencePro]: 'Admitido a Práctica: 1987.\n',
+  [tokens.form.rafaelProfessionalAca]: 'Actividad Académica: Profesor de Derecho de Aguas en la Facultad de Agronomía e Ingeniería Forestal de la Pontificia Universidad Católica de Chile (2001 – 2014), Profesor de Derecho de Aguas en la Facultad de Derecho de la Universidad Adolfo Ibáñez (2015 en adelante).\n' ,
+  [tokens.form.rafaelPublications]: 'Publicaciones: Artículos: La (falta de) motivación de las resoluciones  que fijan patentes a beneficio fiscal por la no utilización de las aguas, 2019. ' +
+  '\n' +
+  'Capacidad del presidente del directorio para representar a una organización de usuarios de aguas para gestiones ante la Dirección General de Aguas, 2016. ' +
+  '\n' +
+  '\n' +
+  'Organizaciones de usuarios e inscripción de derechos de aprovechamiento de aguas. La otra modificación pendiente, 2002. El procedimiento administrativo de aplicación general del Código de Aguas, después de 20 años de aplicación, 2001. Constitución de derechos de aprovechamiento de aguas subterráneas captadas mediante sistemas de drenaje, 2000. ' +
+  '\n' +
+  '\n' +
+  'Aspectos Procesales del procedimiento del artículo 2º transitorio del Código de Aguas, 1999. Las Organizaciones de usuarios y la inscripción de derechos de aprovechamiento de Aguas, 1998. ¿Es obligatorio pertenecer a una organización de usuarios de aguas?, 1993. Procedimientos de aplicación común en Derecho de Aguas, 1989. Libros: Apuntes Docentes de Derecho de Aguas, 2002. La Investigación Científica Marina en la Convención de Naciones Unidas sobre el Derecho del Mar, 1985. Catastro de las Potencialidades para el aprovechamiento de los recursos Marinos, 1984.\n' +
+  '\n' +
+  '\n' +
+  'Otras actividades: 1984, 1985, 1986, Departamento de Tratados de la Dirección de Asuntos Jurídicos del Ministerio de Relaciones Exteriores de Chile. 1984 – 1985, Programa CEPAL/PNUD sobre Recursos del Mar y Desarrollo de América Latina y El Caribe. 1983, Departamento de Antártica y Mar de la Dirección de Política Especial, Ministerio de Relaciones Exteriores de Chile. Actualmente, Asociación Latinoamericana de Hidrología Subterránea para el Desarrollo, ALHSUD; Comité de Aguas de la Sociedad Nacional de Agricultura; Confederación de Canalistas de Chile; Asociación Gremial de Riego y Drenaje AGRYD.\n',
+  [tokens.form.rafaelLanguages]: 'Idiomas: Español e inglés',
+
+
+  [tokens.form.jorgeTitle]: 'Abogado',
+  [tokens.form.jorgeBio]:'',
+  [tokens.form.jorgeEducation]: 'Educación: Facultad de Filosofía, Pontificia Universidad Católica de Chile (Licenciado en Filosofía, 1983). Facultad de Derecho, Pontificia Universidad Católica de Chile (Licenciado en Derecho, 1986). ' +
+  '\n' +
+  'University of Wisconsin, Diplomado en “North American Law and Legal Institutions and American Constitutional Law” o Derecho Norteamericano, (1989). The Washington College of Law of The American University, Master in Laws in International Environmental Law – MILS (1991). The National Law Center of The George Washington University, SJD Doctorado en Derecho Público (1997)..\n' ,
+  [tokens.form.jorgeExperiencePro]: 'Admitido a práctica: 1987.\n',
+  [tokens.form.jorgeProfessionalAca]: 'Actividad Académica: Profesor de Derecho Constitucional; Derecho Administrativo; Derecho Ambiental; Inglés Jurídico y Derecho Norteamericano; Derecho Internacional Comparado de la Pontificia Universidad Católica de Chile, Universidad Diego Portales, Universidad de Los Andes, Universidad Gabriela Mistral y Universidad del Desarrollo; también profesor de Derecho Internacional Ambiental y de Derecho Comparado en Tulane University (Louisiana) y en Universidades en América Central (1986-2014). Expositor y Académico exponente en múltiples Universidades de USA (entre 1989 y 2016).\n' +
+  'Otras actividades: Ex funcionario internacional de OEA y del PNUMA, con sedes en México; Nairobi, Kenia; Washington D.C. y consultor del BID USAID, USEPA (Ministerio de Medio Ambiente de EE.UU) y del Banco Mundial (1989-2005). Asesor Gobiernos de Perú, Paraguay, Bolivia, Brasil, Panamá y El Salvador entre años 1997 y 2006,\n.\n' ,
+  [tokens.form.jorgePublications]: 'Publicaciones: Personales o en coautoría: «El Recurso de Protección en Materia Tributaria.». «Estudio Crítico Constitución 1980». «Nafta and the Environment Kluwer law International» Seymour Rubin, Dean C. Alexander (editores) The Hague-London-Boston. «Liberalización del Comercio Internacional y Protección del Medio Ambiente» (en coautoría).  «La Irreprochable Conducta Anterior en la Doctrina y la Jurisprudencia», por la Editorial Jurídica de Chile. ' +
+  '\n' +
+  'Investigador de publicaciones permanentes en Revista Chilena de Derecho de la PUC (décadas 80 y 90); Revista de actualidad Jurídica de la Universidad del Desarrollo (2010 al 2013). Autor de múltiples publicaciones entre 1986 y el presente.\n' ,
+  [tokens.form.jorgeLanguages]: 'Idiomas: Español, inglés y portugués.',
+
+
+  [tokens.form.ricardoCBTitle]: 'Abogado',
+  [tokens.form.ricardoCBEducation]: 'Educación: Facultad de Derecho, Universidad Central (Licenciado en Derecho, 2000). Diplomado en Contabilidad (2000). Magíster en Derecho Tributario, Universidad de Chile (c). Diplomado en Tributación Internacional, Pontificia Universidad Católica de Chile (2008). ' +
+  '\n' +
+  'Diplomado en Reforma Tributaria, Legal Publishing (2015)..\n' ,
+  [tokens.form.ricardoCBExperiencePro]: 'Admitido a práctica: 2003.\n',
+  [tokens.form.ricardoCBProfessionalAca]: 'Actividad Académica y Profesional:  Relator en Diplomados y Seminarios dirigidos por LegalPublishing a Tribunales Tributarios y Aduaneros (2008-2016).\n' ,
+  [tokens.form.ricardoCBPublications]: '\n' ,
+  [tokens.form.ricardoCBLanguages]: 'Idiomas: Español e inglés.',
+
+
+
+  [tokens.form.ricardoFSTitle]: 'Abogado',
+  [tokens.form.ricardoFSEducation]: ' Educación: Facultad de Derecho, Universidad de Concepción (Licenciado en Derecho, 1997). Estudios de Magister en Derecho (LLM), Universidad Humboldt, Berlín, Alemania, 2007. Diplomado en Derecho de los Recursos Naturales y Energía, con menciones en Derecho de Energía y Derecho de Aguas, Pontificia Universidad Católica de Chile, 2013.' ,
+  [tokens.form.ricardoFSExperiencePro]: 'Admitido a práctica: 2001.\n',
+  [tokens.form.ricardoFSProfessionalAca]: 'Actividad Académica: Profesor de Derecho Procesal Penal, Universidad de Chile (2008-2009). Profesor en Diplomado sobre el Nuevo Proceso Penal Oral y Cursos Profundizados en Litigación Oral, dirigidos a defensores penales públicos y jueces del fuero Federal, Distrito Federal, Guadalajara, Guanajuato y Monterrey de México, Universidad Alberto Hurtado, Universidad Anáhuac del Norte y Consejo de la Judicatura Federal de México (2012-2014).\n' +
+  '\n' +
+  'Otras Actividades: Fiscal del Ministerio Público (2002-2007 y 2010-2012); Abogado Asesor del Fiscal Nacional (2008-2009). \n' +
+  '\n' +
+  'Coautor Libro Delitos Económicos. Editado y Publicado por Thomson Reuters.\n' ,
+  [tokens.form.ricardoFSPublications]: '' ,
+  [tokens.form.ricardoFSLanguages]: 'Idiomas: Español, Alemán e Inglés.',
+  [tokens.form.ricardoFSBio]: '',
+
+
+
+  [tokens.form.eduardoTitle]: 'Abogado',
+    [tokens.form.eduardoBio]:'',
+  [tokens.form.eduardoEducation]: 'Facultad de Derecho, Universidad de Los Andes (Licenciado en Derecho, 2009). Diplomado en Sociedades y Financiamiento, Universidad de Los Andes (2012). Máster en Derecho (LLM), Queen Mary University of London (2015). Magíster en Derecho Laboral y Seguridad Social, Universidad Adolfo Ibáñez (2020).\n' +
+  'Admitido a práctica en 2011.\n ' ,
+  [tokens.form.eduardoExperiencePro]: 'Experiencia profesional:   Fontaine y Cía. (2011-2014).\n' ,
+  [tokens.form.eduardoProfessionalAca]: '' ,
+  [tokens.form.eduardoPublications]: '' ,
+  [tokens.form.eduardoLanguages]: 'Idiomas: Español e inglés.',
+
 
 
   [tokens.form.franciscoTitle]: 'Abogado',
@@ -224,7 +357,36 @@ export const es = {
   [tokens.form.franciscoPublications]:'',
 
 
+  [tokens.form.catalinaTitle]: 'Abogado',
+  [tokens.form.catalinaBio]:'',
+  [tokens.form.catalinaEducation]: 'Educación: Facultad de Derecho, Universidad de Los Andes (Licenciada en Derecho, 2007). Diploma de Estudios Profundizados en Responsabilidad Civil, Universidad de Los Andes (2007).\n' +
+  'Admitida a práctica: 2009.\n ' ,
+  [tokens.form.catalinaExperiencePro]: '' ,
+  [tokens.form.catalinaProfessionalAca]: '' ,
+  [tokens.form.catalinaPublications]: '' ,
+  [tokens.form.catalinaLanguages]: 'Idiomas: Español e inglés.',
 
+
+
+  [tokens.form.diegoTitle]: 'Abogado',
+  [tokens.form.diegoBio]:'',
+  [tokens.form.diegoEducation]: 'Educación: Facultad de Derecho, Universidad de Chile (Licenciado en Derecho, 2018). Diplomado en Planificación Tributaria, Facultad de Economía y Negocios, Universidad de Chile, 2023 ' ,
+  [tokens.form.diegoExperiencePro]: 'Admitido a práctica: 2020.\n' ,
+  [tokens.form.diegoProfessionalAca]: 'Actividad académica: Ayudante Clínica de Derecho, Universidad de Chile (2015 – 2017).' ,
+  [tokens.form.diegoPublications]: '' ,
+  [tokens.form.diegoLanguages]: 'Idiomas: Español',
+
+
+
+
+  [tokens.form.luisTitle]: 'Abogado',
+  [tokens.form.luisBio]:'',
+  [tokens.form.luisEducation]: 'Educación: Facultad de Derecho, Universidad de Chile, diplomado en Legislación Tributaria, U. de Chile. Autor de “Organización Venezolana en Chile” (Revista Anales de la Universidad de Chile, serie N° 7, «Migrantes», 2019). \n' +
+  'Coautor Libro Delitos Económicos. Editado y Publicado por Thomson Reuters.\n ' ,
+  [tokens.form.luisExperiencePro]: '\n' ,
+  [tokens.form.luisProfessionalAca]: '' ,
+  [tokens.form.luisPublications]: '' ,
+  [tokens.form.luisLanguages]: 'Idiomas: Español e inglés.',
 
 
   [tokens.form.carolinaTitle]: 'Abogado',
@@ -240,6 +402,36 @@ export const es = {
   [tokens.form.carolinaProfessionalAca]:'',
   [tokens.form.carolinaPublications]:'',
   [tokens.form.carolinaLanguages]: 'Idiomas: Español e inglés',
+
+
+  [tokens.form.mariaGLDTitle]: 'Abogado',
+  [tokens.form.mariaGLDEducation]: 'Licenciada en Ciencias Jurídicas de la Universidad de Los Andes (2019). Diplomada en Estudios Profundizados en Inglés Legal, Universidad de Los Andes (2018). Minor en Ciencias Políticas (2018). Ayudante de Derecho Penal, Universidad de Los Andes (2016-2017)' ,
+  [tokens.form.mariaGLDExperiencePro]: 'Admitido a práctica en 2020.\n' ,
+  [tokens.form.mariaGLDProfessionalAca]: '' ,
+  [tokens.form.mariaGLDPublications]: '' ,
+  [tokens.form.mariaGLDLanguages]: 'Idiomas: Español e inglés.',
+
+
+  [tokens.form.franciscaTitle]: 'Abogado',
+  [tokens.form.franciscaBio]:'',
+  [tokens.form.franciscaEducation]: 'Educación: Facultad de Derecho, Universidad Diego Portales (Licenciada en Derecho, 2014). Magíster en Derecho Penal y Procesal Penal, Universidad Diego Portales (2014). Post Grado en Compliance Universidat Pompeu Fabra, Barcelona. Postítulo en Tributación General, U. de Chile. \n' +
+  '\n' +
+  'Coautora Libro Delitos Económicos. Editado y Publicado por Thomson Reuters.\n' ,
+  [tokens.form.franciscaExperiencePro]: 'Admitida a práctica: 2015.\n' ,
+  [tokens.form.franciscaProfessionalAca]: 'Actividad Académica: Profesora-Ayudante de Derecho Penal, Universidad Diego Portales (2015-).' ,
+  [tokens.form.franciscaPublications]: '' ,
+  [tokens.form.franciscaLanguages]: 'Idiomas: Español e inglés.',
+
+  [tokens.form.joaoTitle]: 'Abogado',
+  [tokens.form.joaoBio]:'',
+  [tokens.form.joaoEducation]: 'Educación: Facultad de Derecho, Universidad de Chile (Licenciado en Derecho, 2021).\n' +
+  'Ayudante clínica Jurídica de la gestión de empresas – U. de Chile (2021-2022)\n ' ,
+  [tokens.form.joaoExperiencePro]: ' ' ,
+  [tokens.form.joaoProfessionalAca]: '' ,
+  [tokens.form.joaoPublications]: '' ,
+  [tokens.form.joaoLanguages]: 'Idioma: Español, Inglés y Portugués.',
+
+
 
 
   [tokens.form.privacy]: 'Privacidad',

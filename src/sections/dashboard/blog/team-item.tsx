@@ -78,7 +78,7 @@ export const TeamItem: FC<TeamItemProps> = ({
 
   // CardMedia (Image) styles with transition
   const cardMediaStyle = {
-    height: 250,
+    height: 270,
     transition: 'transform 0.3s ease-in-out',
     transform: isHovered ? 'scale(1.10)' : 'scale(1)', // Zoom in when hovered
   };

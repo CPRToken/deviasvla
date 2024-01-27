@@ -38,6 +38,10 @@ export const paths = {
     },
   },
 
+  services : {
+    index : '/services',
+      },
+
   areas:  {
     index: '/areas',
   },

@@ -90,10 +90,10 @@ export const typography = {
   fontWeightSemiBold: 600,
   fontWeightBold: 700,
   h1: {
-    fontWeight: 200,
+    fontWeight: 100,
     lineHeight: 100 / 64,
     fontSize: pxToRem(40),
-    fontFamily: quinaryFont.style.fontFamily,
+    fontFamily: secondaryFont.style.fontFamily,
     ...responsiveFontSizes({ sm: 40, md: 50, lg: 55 }),
   },
   h2: {
@@ -115,7 +115,7 @@ export const typography = {
     lineHeight: 1,
     fontSize: pxToRem(24),
     fontFamily: tertiaryFont.style.fontFamily,
-    ...responsiveFontSizes({ sm: 24, md: 23, lg: 26 }),
+    ...responsiveFontSizes({ sm: 24, md: 23, lg: 24 }),
   },
   h5: {
     fontWeight: 500,
@@ -127,15 +127,15 @@ export const typography = {
   },
   h6: {
     fontWeight: 400,
-    lineHeight:  1.6,
-    fontSize: pxToRem(21),
+    lineHeight:  1.4,
+    fontSize: pxToRem(20),
     fontFamily: tertiaryFont.style.fontFamily,
-    ...responsiveFontSizes({ sm: 15, md: 18, lg: 19 }),
+    ...responsiveFontSizes({ sm: 15, md: 17, lg: 18 }),
   },
   subtitle1: {
-    fontWeight: 600,
+    fontWeight: 400,
     lineHeight: 1.5,
-    fontSize: pxToRem(18),
+    fontSize: pxToRem(17),
     fontFamily: tertiaryFont.style.fontFamily,
   },
   subtitle2: {
@@ -145,12 +145,12 @@ export const typography = {
   },
   body1: {
     fontWeight: 300,
-    lineHeight: 1.5,
-    fontSize: pxToRem(18),
-    fontFamily: quaternaryFont.style.fontFamily,
+    lineHeight: 1.6,
+    fontSize: pxToRem(20),
+    fontFamily: tertiaryFont.style.fontFamily,
   },
   body2: {
-    lineHeight: 1.5,
+    lineHeight: 1.4,
     fontSize: pxToRem(20),
     fontFamily: secondaryFont.style.fontFamily,
   },

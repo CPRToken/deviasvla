@@ -66,7 +66,7 @@ export const TeamCard: FC<TeamCardProps> = ({
         component={RouterLink}
         href={`/${userurl}`}
         image={image}
-        sx={{ height: 250 }}
+        sx={{ height: 280 }}
       />
       <CardContent>
         <Typography variant="h4" sx={{ ...typography.h4 }}>
@@ -100,17 +100,17 @@ export const TeamCard: FC<TeamCardProps> = ({
             color="text.secondary"
             sx={{
               ...typography.body2, // Apply the body1 typography style
-              height: 22,
+              height: 25,
               mt: 0,
               mb: 1,
               overflow: 'hidden',
               textOverflow: 'ellipsis',
               WebkitBoxOrient: 'vertical',
-              WebkitLineClamp: 2,
+              WebkitLineClamp: 1,
             }}
-            variant="body2"
+            variant="body1"
           >
-            Email: {email}
+             {email}
           </Typography>
         </Stack>
 

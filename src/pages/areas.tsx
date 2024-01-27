@@ -1,95 +1,216 @@
-import React from 'react';
-import { areas} from 'src/api/blog/data';
-import type { NextPage } from 'next';
-import Container from '@mui/material/Container';
+import React from "react";
+import { NextPage } from 'next';
 import Box from '@mui/material/Box';
-import { tokens } from  'src/locales/tokens';
+import Card from '@mui/material/Card';
+import Stack from '@mui/material/Stack';
+import Container from '@mui/material/Container';
 import { Layout as MarketingLayout } from 'src/layouts/marketing';
+import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import { typography, primaryFont } from "src/theme/typography";
-import Grid from '@mui/material/Grid';
+import {typography } from "src/theme/typography";
+import { createTheme } from '@mui/material/styles';
+import { paths } from 'src/paths';
+import { RouterLink } from 'src/components/router-link';
+import  TextMaxLine  from 'src/components/text-max-line/text-max-line';
+import Iconify from 'src/components/iconify';
+import SvgColor from "../components/svg-color";
+import {useTheme} from "@mui/material/styles";
 
-import { useRouter } from 'next/router';
-import { useTheme } from '@mui/material/styles';
-import { useTranslation } from 'react-i18next'
+import { alpha } from '@mui/system/colorManipulator';
 
 
-
-const renderTextWithLineBreaks = (text: string) => {
-  return text.split('\n').map((line: string, index: number) => (
-    <React.Fragment key={index}>
-      {line}
-      <br />
-    </React.Fragment>
-  ));
+type ServiceItem = {
+  title: string;
+  icon: string;
 };
 
+const COLORS = ['primary', 'secondary', 'success', 'warning'] as const;
+
+const SERVICES = [
+  {
+    title: 'CORPORATIVO',
+    icon: '/assets/icons/ic_checklist.svg',
+  },
+  {
+    title: 'FUSIONES Y ADQUISICIONES',
+    icon: 'assets/icons/ic_file.svg', // Replace with the correct path
+  },
+  {
+    title: 'TRIBUTARIA',
+    icon: 'assets/icons/ic_agreement.svg', // Replace with the correct path
+  },
+  {
+    title: 'LABORAL',
+    icon: 'assets/icons/ic_service_bullhorn.svg', // Replace with the correct path
+  },
+  {
+    title: 'CONTRATACIÓN NACIONAL E INTERNACIONAL',
+    icon: 'assets/icons/ic_service_analysis.svg', // Replace with the correct path
+  },
+  {
+    title: 'INMOBILIARIA, INGENIERÍA Y CONSTRUCCIÓN',
+    icon: 'assets/icons/ic_banking_currency.svg', // Replace with the correct path
+  },
+  {
+    title: 'FINANCIAMIENTO DE PROYECTOS',
+    icon: 'assets/icons/ic_money.svg', // Replace with the correct path
+  },
+  {
+    title: 'MERCADOS REGULADOS',
+    icon: 'assets/icons/ic_banking.svg', // Replace with the correct path
+  },
+  {
+    title: 'INMIGRACIÓN',
+    icon: 'assets/icons/ic_customer_service.svg', // Replace with the correct path
+  },
+  {
+    title: 'INVERSIÓN EXTRANJERA',
+    icon: 'assets/icons/ic_money.svg', // Replace with the correct path
+  },
+  {
+    title: 'ENERGÍA Y RECURSOS NATURALES',
+    icon: 'assets/icons/energy.svg', // Replace with the correct path
+  },
+  {
+    title: 'AGUAS',
+    icon: 'assets/icons/aguas.svg', // Replace with the correct path
+  },
+];
 
 
 
+const additionalAreas = [
+  { title: 'LITIGIOS', icon: 'assets/icons/gavel_2.svg' },
+  { title: 'SOLUCIÓN DE CONFLICTOS Y ARBITRAJE', icon: 'assets/icons/shake.svg' },
+  { title: 'LIBRE COMPETENCIA', icon: 'assets/icons/free.svg' },
+  { title: 'CONSTITUCIONAL Y ADMINISTRATIVO', icon: 'assets/icons/const.svg' },
+  { title: 'INFORMES ESPECIALIZADOS EN DERECHO', icon: 'assets/icons/law.svg' },
+  { title: 'CONFLICTOS DE LEYES Y JURISDICCIÓN', icon: 'assets/icons/conflicts.svg' },
+  { title: 'PROTECCIÓN DEL CONSUMIDOR', icon: 'assets/icons/protect.svg' },
+  { title: 'INSOLVENCIA Y REORGANIZACIÓN EMPRESARIAL', icon: 'assets/icons/reorg.svg' },
+  { title: 'MEDIO AMBIENTE', icon: 'assets/icons/environ.svg' },
+  { title: 'AGROINDUSTRIA', icon: 'assets/icons/AGROIN.svg ' },
+  { title: 'EDUCACIÓN', icon: 'assets/icons/edu.svg ' },
+  { title: 'PRÁCTICA GENERAL', icon: 'assets/icons/general.svg' }
+];
+
+
+// ----------------------------------------------------------------------
 const Page: NextPage = () => {
   useTheme();
 
+  useTheme();
+  const firstHalf = SERVICES.slice(0, 6);
+  const secondHalf = SERVICES.slice(6, 12);
+  // Additional areas
 
-  const { t } = useTranslation();
-  const router = useRouter();
+
+  return (
+    <Container sx={{ py: { xs: 5, md: 10, lg: 15 } }}>
+      <Typography sx={{ ...typography.h5, mb: 6, mt: 4, textAlign: 'center' }}>
+        ÁREAS DE PRÁCTICA
+      </Typography>
+
+      <Stack
+        spacing={2}
+        sx={{
+          maxWidth: 480,
+          mb: { xs: 8, md: 5 },
+          mx: { xs: 'auto', md: 'unset' },
+          textAlign: { xs: 'center', md: 'unset' },
+        }}
+      >
+        {/* Other content */}
+      </Stack>
+
+
+      <Box sx={{ display: 'flex', justifyContent: 'flex-start' }}>
+        {/* First two columns */}
+        <Box sx={{ display: 'grid', gap: 3, gridTemplateColumns: 'repeat(2, 1fr)', paddingRight: 4 }}>
+          {[...firstHalf, ...secondHalf].map((value) => (
+            <div key={value.title} style={{ textAlign: 'center' }}>
+              <SvgColor
+                src={value.icon}
+                color="info"
+                sx={{ width: 40, height: 40, mx: 'auto', paddingRight: 4 , bgcolor: 'primary.main' }}
+              />
+              <Typography sx={{ ...typography.subtitle1, mt: 2, mb: 2 }}>
+                {value.title}
+              </Typography>
+            </div>
+          ))}
+        </Box>
+        {/* Additional areas */}
+        <Box sx={{ display: 'grid', gap: 3, gridTemplateColumns: 'repeat(2, 1fr)', paddingLeft:4 }}>
+          {additionalAreas.map((value) => (
+            <div key={value.title} style={{ textAlign: 'center' }}>
+              <SvgColor src={value.icon} color="info" sx={{ width: 40, height: 40, mx: 'auto', bgcolor: 'primary.main' }} />
+              <Typography sx={{ ...typography.subtitle1, mt: 2, mb: 2 }}>
+                {value.title}
+              </Typography>
+            </div>
+          ))}
+        </Box>
+      </Box>
+    </Container>
+  );
+}
+
+// ----------------------------------------------------------------------
+
+type ServiceItemProps = {
+  service: {
+    name: string;
+    content: string;
+    path: string;
+    icon: string;
+  };
+  index: number;
+};
+
+function ServiceItem({ service, index }: ServiceItemProps) {
+  const { name, icon, content, path } = service;
 
 
 
   return (
-    <Container
-      maxWidth="xl"
+    <Card
       sx={{
-        pt: { xs: '60px', sm: '80px', md: '120px', lg: '180px' },
-        pb: { xs: '30px', sm: '40px', md: '50px', lg: '120px' },
-        px: { xs: '10px', sm: '15px', md: '20px', lg: '25px' },
-        display: 'flex', // Add flex display
-        flexDirection: 'column', // Stack children vertically
-        alignItems: 'center', // Align items to the center
-        justifyContent: 'center', // Center items along the cross axis
-      }}>
+        px: 4,
+        py: 5,
+        textAlign: 'center',
+        ...(index === 1 && {
+          py: { xs: 5, md: 8 },
+        }),
+        ...(index === 2 && {
+          py: { xs: 5, md: 10 },
 
-      <Typography
-        color="text.primary"
-        sx={{
-          ...typography.h2,
-          fontSize: { xs: '34px', sm: '28px', md: '32px', lg: '36px' }, // Adjust font size for different screen sizes
-        }}
-        variant="h2">
-        {}
-      </Typography>
+        }),
+      }}
+    >
 
 
+      <Stack spacing={1} sx={{ my: 5 }}>
+        <TextMaxLine variant="h6">{name}</TextMaxLine>
+        <TextMaxLine variant="body2" sx={{ color: 'text.secondary' }}>
+          {content}
+        </TextMaxLine>
+      </Stack>
 
-      <Typography
-        color="#b98f55"
-        sx={{
-          ...typography.h5,
-
-          paddingTop: '10px', // Add padding to the top
-          paddingBottom: '10px', // Add padding to the bottom
-        }}
-        variant="body1">
-        {areas.title ? renderTextWithLineBreaks(t(areas.title)) : t('defaultTitleKey')}
-      </Typography>
-
-
-
-      <Typography color="text.secondary" sx={{ ...typography.body2 }} variant="body1">
-        {areas.about ? renderTextWithLineBreaks(t(areas.about)) : t('defaultEducationKey')}
-      </Typography>
-
-
-
-
-
-
-      {/* ... Other components ... */}
-    </Container>
+      <IconButton
+        component={RouterLink}
+        href={path}
+        color={
+          (index === 0 && 'primary') ||
+          (index === 1 && 'secondary') ||
+          (index === 2 && 'success') ||
+          'warning'
+        }
+      >
+        <Iconify icon="carbon:direction-straight-right" />
+      </IconButton>
+    </Card>
   );
-};
-
-
+}
 Page.getLayout = (page) => <MarketingLayout>{page}</MarketingLayout>;
-
 export default Page;

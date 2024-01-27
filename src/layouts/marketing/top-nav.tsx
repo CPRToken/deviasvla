@@ -159,7 +159,7 @@ export const TopNav: FC<TopNavProps> = (props) => {
                 sx={{
                   display: 'inline-flex',
                   height: smDown ? 50 : 80, // Smaller height for small screens
-                  width: smDown ? 330 : 600, // Smaller width for small screens
+                  width: smDown ? 330 : 520, // Smaller width for small screens
                 }}
               />
             </Stack>

@@ -34,7 +34,7 @@ const sections: Section[] = [
         path: '#',
       },
       {
-        title: 'Contact',
+        title: 'Contacto',
         path: '#',
       },
     ],
@@ -54,11 +54,11 @@ const sections: Section[] = [
 export const Footer: FC = (props) => (
   <Box
     sx={{
-      backgroundColor: (theme) => (theme.palette.mode === 'dark' ? 'neutral.800' : 'neutral.50'),
+      backgroundColor: (theme) => (theme.palette.mode === 'dark' ? 'neutral.900' : 'neutral.50'),
       borderTopColor: 'divider',
       borderTopStyle: 'solid',
       borderTopWidth: 1,
-      pb: 6,
+      pb: 3,
       pt: {
         md: 15,
         xs: 6,
@@ -92,15 +92,7 @@ export const Footer: FC = (props) => (
               spacing={1}
               sx={{ textDecoration: 'none' }}
             >
-              <Box
-                  component="img"
-                  src="/assets/logos/vla.svg"
-                  sx={{
-                    display: 'inline-flex',
-                    height: 30,
-                    width: 30,
-                  }}
-              />
+
               <Box
                 sx={{
                   color: 'text.primary',
@@ -114,7 +106,7 @@ export const Footer: FC = (props) => (
                   },
                 }}
               >
-                Villarroel, Lecaros y Aste
+
               </Box>
             </Stack>
             <Typography

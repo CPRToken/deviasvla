@@ -22,7 +22,7 @@ const Page: NextPage = () => {
         // You can add more responsive styles here
       }}>
       <Paper elevation={3} sx={{ mt: 4, p: 3 }}>
-    <Grid container spacing={5}>
+    <Grid container spacing={4}>
       {lawyers.map((lawyer) => (
         <Grid item xs={12} sm={6} md={4} lg={3} key={lawyer.id}> {/* Added lg={3} for larger screens */}
           <TeamCard

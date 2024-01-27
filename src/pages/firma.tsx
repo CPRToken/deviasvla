@@ -67,7 +67,7 @@ const Page: NextPage = () => {
             ...typography.h5,
 
             paddingTop: '10px', // Add padding to the top
-            paddingBottom: '10px', // Add padding to the bottom
+            paddingBottom: '30px', // Add padding to the bottom
           }}
           variant="body1">
           {firma.title ? renderTextWithLineBreaks(t(firma.title)) : t('defaultTitleKey')}
@@ -75,7 +75,7 @@ const Page: NextPage = () => {
 
 
 
-        <Typography color="text.secondary" sx={{ ...typography.body2 }} variant="body1">
+        <Typography color="text.secondary" sx={{ ...typography.body1 }} variant="body1">
           {firma.about ? renderTextWithLineBreaks(t(firma.about)) : t('defaultEducationKey')}
         </Typography>
 

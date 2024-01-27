@@ -177,6 +177,27 @@ export const en = {
   [tokens.form.christianLanguages]: '',
 
 
+  [tokens.form.fernandaTitle]: 'Lawyer',
+  [tokens.form.fernandaEducation]: 'Degree in Legal Sciences from the University of the Andes (2018). Minor in Political Science from the University of the Andes (2017). Diploma in Natural Resources and the Environment from the University of the Andes (2019). Master in Administrative Law from the University of the Andes (2022). Diploma in Labor Law, University of the Andes (2023). ' +
+  '' +
+  'Admitted to practice 2020. ' +
+  '\n' +
+
+ 'Certifications: Course in Carbon Market I. Technological Institute of Monterrey (2020). ',
+
+  [tokens.form.fernandaProfessionalAca]: 'Academic experience: Has been assistant to the Chair of Environmental Law with Professor Silvia Bertazzo of the University of the Andes. ' ,
+
+  [tokens.form.fernandaExperiencePro]: 'Other: Studying for a master\'s degree in Labor Relations (2024) at the University of the Andes.',
+
+  [tokens.form.fernandaPublications]: '',
+  [tokens.form.fernandaLanguages]: 'Languages: Spanish and English',
+  [tokens.form.fernandaBio]: '',
+
+
+
+
+
+
   [tokens.form.carlosTitle]: 'Name Partner',
   [tokens.form.carlosEducation]: 'Education: School of Law, Pontifical Catholic University of Chile (Bachelor in Law, 1981).\n' +
   'Admitted to practice: 1982.\n' +
@@ -233,6 +254,127 @@ export const en = {
 
 
 
+  [tokens.form.juanTitle]: 'Lawyer',
+  [tokens.form.juanEducation]: 'Lawyer Pontifical Catholic University of Chile (PUC), Diploma from the PUC in Planning and Tax Management (2007), Diploma in new Tax Justice, at the same University (2008), Postgraduate in Tax Law, at the University of Salamanca Spain. In 2007, he attended an international tax course held at the University of Chile by international specialist, Australian academic, Visiting Professor at Harvard, Mr. Richard Vann (2008).' +
+  '\n' +
+  '\n' +
+  'Philosophy and Artificial Intelligence at the Northeastern University London.\n',
+  [tokens.form.juanExperiencePro]: 'Professional experience\n' +
+  '\n' +
+  'He started his professional career as a lawyer at Deloitte. He left the consulting firm in 2005, since then assuming the commercial area of the team that joined AVL Lawyers in 2009. ' +
+  '\n' +
+  'Director of several companies.\n\n',
+  [tokens.form.juanProfessionalAca]: '' ,
+  [tokens.form.juanPublications]: '',
+  [tokens.form.juanLanguages]: '',
+
+
+  [tokens.form.mariaTitle]: 'Lawyer',
+  [tokens.form.mariaEducation]: 'Education: Faculty of Law, Pontificia Universidad Católica de Chile (Law Degree, 1987). Diploma in Labor Law in the Company (2009). ' +
+  '\n' +
+  'Universidad de los Andes. Master of Labor Law (2011) Adolfo Ibáñez University. Thesis “Conventional Indemnification Clauses”, publication Chilean Labor Journal N° 203, January 2012.\n' +
+  'Admitted to practice: 1987.\n\n',
+  [tokens.form.mariaExperiencePro]: 'Professional experience\n',
+  [tokens.form.mariaProfessionalAca]: ' ' ,
+  [tokens.form.mariaPublications]: '',
+  [tokens.form.mariaLanguages]: 'Languages: Spanish, French and English.',
+
+
+  [tokens.form.jaimeTitle]: 'Lawyer',
+  [tokens.form.jaimeEducation]: 'Education: Center of Classical Humanities Studies, Salamanca, Spain (1985). Pontifical Gregorian University, Rome, Italy (Bachelor in Philosophy (1987). ' +
+  '\n' +
+  'Oaklawn Academy, Edgerton, Wisconsin (USA) (1989); Faculty of Law, Diego Portales University (Bachelor in Social Science and Law, 1996). Adolfo Ibáñez University, Master in Tax Management and Direction (2005).\n' +
+  'Admitted to practice: 1997.\n.\n',
+  [tokens.form.jaimeExperiencePro]: '',
+  [tokens.form.jaimeProfessionalAca]: ' ',
+  [tokens.form.jaimePublications]: '',
+  [tokens.form.jaimeLanguages]: 'Languages: Spanish, Italian, and English.',
+
+  [tokens.form.claudioTitle]: 'Lawyer',
+  [tokens.form.claudioBio]: '',
+  [tokens.form.claudioEducation]: 'Education: Faculty of Law, Pontifical Catholic University of Chile (Degree in Law, 1992).' + '\n' + '\n' + 'Awards and Recognitions: Outstanding Teaching Award, Faculty of Law, Pontifical Catholic University of Chile (2011). \n.\n' ,
+
+  [tokens.form.claudioExperiencePro]: 'Admitted to practice: 1993.\n',
+  [tokens.form.claudioProfessionalAca]: 'Academic Activity: Professor of Civil Law, Faculty of Law, Pontifical Catholic University of Chile (1999 onwards). Professor of Legislation in Construction, Faculty of Civil Engineering, Pontifical Catholic University of Chile (2015-2016). Speaker at national and international congresses on Civil Law.\n' +
+  'Proposed in shortlist by the Honorable Supreme Court to be appointed as its member lawyer for the period (2024-2026).\n.\n' ,
+
+  [tokens.form.claudioLanguages]: 'Languages: Spanish and English.',
+
+
+  [tokens.form.rafaelTitle]: 'Lawyer',
+  [tokens.form.rafaelBio]: '',
+  [tokens.form.rafaelEducation]: 'Education: Law Faculty of the University of Chile (Law Degree, 1987). Diploma in Public Law, Transparency, Regulations and Control, Finis Terrae University 2011. Diploma in Natural Resources and Environment, Los Andes University 2017.\n' ,
+  [tokens.form.rafaelExperiencePro]: 'Admitted to Practice: 1987.\n',
+  [tokens.form.rafaelProfessionalAca]: 'Academic Activity: Professor of Water Law at the Faculty of Agronomy and Forestry Engineering of the Pontifical Catholic University of Chile (2001 – 2014), Professor of Water Law at the Law Faculty of Adolfo Ibáñez University (2015 onwards).\n' ,
+  [tokens.form.rafaelPublications]: 'Publications: Articles: The (lack of) motivation of resolutions setting taxes to fiscal benefit for not using waters, 2019. ' +
+  '\n' +
+  '\n' +
+  'Capacity of the president of the board to represent a water users organization for procedures before the General Water Directorate, 2016. ' +
+  '\n' +
+  'User organizations and registration of water rights. The other pending modification, 2002. The general administrative procedure of the Water Code, after 20 years of application, 2001. ' +
+  '\n' +
+  '\n' +
+  'Constitution of property rights of groundwater captured through drainage systems, 2000. Procedural aspects of the procedure of the 2nd transitional article of the Water Code, 1999. Water user organizations and the registration of water rights, 1998. Is it mandatory to belong to a water user\'s organization?, 1993. Common application procedures in Water Law, 1989. Books: Teaching Notes on Water Law, 2002. Marine Scientific Research in the United Nations Convention on the Law of the Sea, 1985. Cadastre of Potentialities for the use of Marine Resources, 1984.\n' +
+  '\n' +
+  '\n' +
+  'Other activities: 1984, 1985, 1986, Treaty Department of the Legal Affairs Directorate of the Chilean Ministry of Foreign Affairs. 1984 – 1985, ECLAC/UNDP Programme on Sea Resources and Development of Latin America and the Caribbean. 1983, Antarctic and Sea Department of the Special Policy Directorate, Chilean Ministry of Foreign Affairs. Currently, Latin American Association of Groundwater Hydrology for Development, ALHSUD; Water Committee of the National Agriculture Society; Confederation of Canalists of Chile; Trade Association of Irrigation and Drainage AGRYD.\n',
+  [tokens.form.rafaelLanguages]: 'Languages: Spanish and English',
+
+
+  [tokens.form.jorgeTitle]: 'Lawyer',
+  [tokens.form.jorgeBio]: '',
+  [tokens.form.jorgeEducation]: 'Education: Faculty of Philosophy, Pontifical Catholic University of Chile (Bachelor in Philosophy, 1983). Faculty of Law, Pontifical Catholic University of Chile (Bachelor in Law, 1986). ' +
+  '\n' +
+  'University of Wisconsin, Diploma in “North American Law and Legal Institutions and American Constitutional Law” (1989). The Washington College of Law of The American University, Master in Laws in International Environmental Law – MILS (1991). The National Law Center of The George Washington University, SJD Doctorate in Public Law (1997)..\n',
+  [tokens.form.jorgeExperiencePro]: 'Admitted to practice: 1987.\n',
+  [tokens.form.jorgeProfessionalAca]: 'Academic Activity: Professor of Constitutional Law; Administrative Law; Environmental Law; Legal English and American Law; International Comparative Law of the Pontifical Catholic University of Chile, Diego Portales University, University of Los Andes, Gabriela Mistral University and University of Development; also professor of International Environmental Law and Comparative Law at Tulane University (Louisiana) and at Universities in Central America (1986-2014). Speaker and Academic exponent in multiple Universities in the USA (between 1989 and 2016).\n' +
+  'Other activities: Former international official of OAS and UNEP, with headquarters in Mexico; Nairobi, Kenya; Washington D.C. and consultant of IDB USAID, USEPA (US Department of Environment) and the World Bank (1989-2005). Advisor to the Governments of Peru, Paraguay, Bolivia, Brazil, Panama and El Salvador between years 1997 and 2006,\n.\n',
+  [tokens.form.jorgePublications]: 'Publications: Personal or in co-authorship: “The Resource of Protection in Tax Matters.”. “Critical Study Constitution 1980”. “Nafta and the Environment Kluwer law International” Seymour Rubin, Dean C. Alexander (editors) The Hague-London-Boston. “Liberalization of International Trade and Environmental Protection” (in co-authorship). “The Irreproachable Previous Conduct in the Doctrine and the Jurisprudence”, by the Legal Editorial of Chile. ' +
+  '\n' +
+  'Researcher of permanent publications in the Chilean Law Review of the PUC (80s and 90s); Journal of current legal affairs of the University of Development (2010 to 2013). Author of multiple publications between 1986 and the present.\n',
+  [tokens.form.jorgeLanguages]: 'Languages: Spanish, English and Portuguese.',
+
+
+
+
+  [tokens.form.ricardoCBTitle]: 'Lawyer',
+  [tokens.form.ricardoCBBio]: '',
+  [tokens.form.ricardoCBEducation]: 'Education: Law School, Central University (Law Degree, 2000). Diploma in Accounting (2000). Master\'s in Tax Law, University of Chile (c). Diploma in International Taxation, Pontifical Catholic University of Chile (2008). ' +
+'\n' +
+'Diploma in Tax Reform, Legal Publishing (2015)..\n' ,
+  [tokens.form.ricardoCBExperiencePro]: 'Admitted to practice: 2003.\n',
+  [tokens.form.ricardoCBProfessionalAca]: 'Academic and Professional Activity: Speaker in Diplomas and Seminars directed by LegalPublishing to Tax and Customs Courts (2008-2016).\n' ,
+  [tokens.form.ricardoCBPublications]: '\n' ,
+  [tokens.form.ricardoCBLanguages]: 'Languages: Spanish and English.',
+
+
+  [tokens.form.ricardoFSTitle]: 'Lawyer',
+  [tokens.form.ricardoFSEducation]: 'Education: Faculty of Law, University of Concepción (Bachelor of Laws, 1997). Master\'s studies in Law (LLM), Humboldt University, Berlin, Germany, 2007. Diploma in Natural Resources and Energy Law, with specializations in Energy Law and Water Law, Pontifical Catholic University of Chile, 2013.',
+    [tokens.form.ricardoFSExperiencePro]: 'Admitted to practice: 2001.\n',
+  [tokens.form.ricardoFSProfessionalAca]: 'Academic Activity: Professor of Criminal Procedural Law, University of Chile (2008-2009). ' +
+  '\n' +
+  'Professor in Diploma on the New Oral Criminal Process and Deepened Courses in Oral Litigation, aimed at public criminal defenders and Federal jurisdiction judges, Federal District, Guadalajara, Guanajuato and Monterrey of Mexico, Alberto Hurtado University, North Anáhuac University and Federal Judiciary Council of Mexico (2012-2014).\n' +
+  '\n' +
+'Other Activities: Prosecutor for the Public Ministry (2002-2007 and 2010-2012); Legal Advisor to the National Prosecutor (2008-2009). \n' +
+
+'Coauthor book Economic Crimes. Edited and Published by Thomson Reuters.\n',
+  [tokens.form.ricardoFSPublications]: '',
+  [tokens.form.ricardoFSLanguages]: 'Languages: Spanish, German and English.',
+  [tokens.form.ricardoFSBio]: '',
+
+
+  [tokens.form.eduardoTitle]: 'Lawyer',
+  [tokens.form.eduardoBio]: '',
+  [tokens.form.eduardoEducation]: 'Law School, University of Los Andes (Law Degree, 2009). Diploma in Societies and Financing, University of Los Andes (2012). Master of Laws (LLM), Queen Mary University of London (2015). Master in Labor Law and Social Security, Adolfo Ibáñez University (2020).\n' +
+  'Admitted to practice in 2011.\n ' ,
+  [tokens.form.eduardoExperiencePro]: 'Professional Experience: Fontaine and Co. (2011-2014).\n' ,
+  [tokens.form.eduardoProfessionalAca]: '' ,
+  [tokens.form.eduardoPublications]: '' ,
+  [tokens.form.eduardoLanguages]: 'Languages: Spanish and English.',
+
+
+
+
 
   [tokens.form.franciscoTitle]: 'Lawyer',
   [tokens.form.franciscoEducation]: 'Education: Faculty of Law, Pontifical Catholic University of Chile (Degree in Law with Highest Distinction, 2014).' +
@@ -264,9 +406,60 @@ export const en = {
   [tokens.form.carolinaPublications]:'',
 
 
+  [tokens.form.catalinaTitle]: 'Lawyer',
+  [tokens.form.catalinaBio]: '',
+  [tokens.form.catalinaEducation]: 'Education: Law School, University of Los Andes (Law Degree, 2007). Diploma in Advanced Studies in Civil Liability, University of Los Andes (2007).\n' +
+  'Admitted to practice: 2009.\n ',
+  [tokens.form.catalinaExperiencePro]: '',
+  [tokens.form.catalinaProfessionalAca]: '',
+  [tokens.form.catalinaPublications]: '',
+  [tokens.form.catalinaLanguages]: 'Languages: Spanish and English.',
 
 
+  [tokens.form.diegoTitle]: 'Lawyer',
+  [tokens.form.diegoBio]: '',
+  [tokens.form.diegoEducation]: 'Education: Law School, University of Chile (Law Degree, 2018). Diploma in Tax Planning, Faculty of Economics and Business, University of Chile, 2023' ,
+  [tokens.form.diegoExperiencePro]: 'Admitted to practice: 2020.\n' ,
+  [tokens.form.diegoProfessionalAca]: 'Academic activity: Law Clinic Assistant, University of Chile (2015 – 2017).' ,
+  [tokens.form.diegoPublications]: '',
+  [tokens.form.diegoLanguages]: 'Languages: Spanish',
 
+
+  [tokens.form.luisTitle]: 'Lawyer',
+  [tokens.form.luisBio]: '',
+  [tokens.form.luisEducation]: 'Education: Law School, University of Chile, diploma in Tax Legislation, U. de Chile. Author of "Venezuelan Organization in Chile" (Journal Annals of the University of Chile, series No. 7, "Migrants", 2019)\n' +
+     'Coauthor of the book Economic Crimes. Edited and Published by Thomson Reuters.' ,
+    [tokens.form.luisExperiencePro]: '',
+  [tokens.form.luisProfessionalAca]: '',
+  [tokens.form.luisPublications]: '',
+  [tokens.form.luisLanguages]: 'Languages: Spanish and English.',
+
+  [tokens.form.mariaGLDTitle]: 'Lawyer',
+  [tokens.form.mariaGLDEducation]: 'Graduated in Juridical Sciences from the University of Los Andes (2019). Diploma in Advanced Studies in Legal English, University of Los Andes (2018). Minor in Political Science (2018). Assistant in Criminal Law, University of Los Andes (2016-2017)',
+  [tokens.form.mariaGLDExperiencePro]: 'Admitted to practice in 2020.\n',
+  [tokens.form.mariaGLDProfessionalAca]: '',
+  [tokens.form.mariaGLDPublications]: '',
+  [tokens.form.mariaGLDLanguages]: 'Languages: Spanish and English.',
+
+
+  [tokens.form.franciscaTitle]: 'Lawyer',
+  [tokens.form.franciscaBio]: '',
+  [tokens.form.franciscaEducation]: 'Education: Faculty of Law, Diego Portales University (Law Degree, 2014). Master\'s degree in Criminal Law and Criminal Procedural Law, Diego Portales University (2014). Post Graduate in Compliance Pompeu Fabra University, Barcelona. Graduate program in General Taxation, U. de Chile.\n' +
+  'Coauthor of the book Economic Crimes. Edited and Published by Thomson Reuters.',
+
+  [tokens.form.franciscaExperiencePro]: 'Admitted to practice: 2015.',
+  [tokens.form.franciscaProfessionalAca]: 'Academic Activity: Assistant Professor of Criminal Law, Diego Portales University (2015-).',
+  [tokens.form.franciscaPublications]: '',
+  [tokens.form.franciscaLanguages]: 'Languages: Spanish and English.',
+
+  [tokens.form.joaoTitle]: 'Lawyer',
+  [tokens.form.joaoBio]:'',
+  [tokens.form.joaoEducation]: 'Education: Law School, University of Chile (Bachelor of Law, 2021).\n' +
+  'Legal Clinic Assistant for Business Management – U. de Chile (2021-2022)\n ' ,
+  [tokens.form.joaoExperiencePro]: ' ' ,
+  [tokens.form.joaoProfessionalAca]: '' ,
+  [tokens.form.joaoPublications]: '' ,
+  [tokens.form.joaoLanguages]: 'Language: Spanish, English and Portuguese.',
 
 
   [tokens.form.private]: 'Private',
