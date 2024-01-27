@@ -97,7 +97,7 @@ const additionalAreas = [
 
 // ----------------------------------------------------------------------
 const Page: NextPage = () => {
-  useTheme();
+  const theme =
 
   useTheme();
   const firstHalf = SERVICES.slice(0, 6);
