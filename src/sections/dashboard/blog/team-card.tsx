@@ -11,7 +11,7 @@ import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import { RouterLink } from 'src/components/router-link';
-
+import Tooltip from '@mui/material/Tooltip';
 
 interface TeamCardProps {
   id: string;
@@ -69,11 +69,18 @@ export const TeamCard: FC<TeamCardProps> = ({
         sx={{ height: 280 }}
       />
       <CardContent>
-        <Typography variant="h4" sx={{ ...typography.h4 }}>
-          <Link component={RouterLink} href={`/${userurl}`}>
-            {post.name ? t(post.name) : t('defaultTitleKey')}
-          </Link>
-        </Typography>
+        <Tooltip title={post.name ? t(post.name) : t('defaultTitleKey')}>
+          <Typography variant="h4" sx={{
+            ...typography.h4,
+            overflow: 'hidden',
+            textOverflow: 'ellipsis',
+            whiteSpace: 'nowrap'
+          }}>
+            <Link component={RouterLink} href={`/${userurl}`}>
+              {post.name ? t(post.name) : t('defaultTitleKey')}
+            </Link>
+          </Typography>
+        </Tooltip>
 
 
         <Stack

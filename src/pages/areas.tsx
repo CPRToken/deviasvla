@@ -106,46 +106,42 @@ const Page: NextPage = () => {
 
 
   return (
-    <Container sx={{ py: { xs: 5, md: 10, lg: 15 } }}>
-      <Typography sx={{ ...typography.h5, mb: 6, mt: 4, textAlign: 'center' }}>
+    <Container sx={{ py: { xs: 5, md: 10, lg: 17 } }}>
+      <Typography sx={{ ...typography.h5, mb: 9, mt: 4, textAlign: 'center' }}>
         ÁREAS DE PRÁCTICA
       </Typography>
 
-      <Stack
-        spacing={2}
-        sx={{
-          maxWidth: 480,
-          mb: { xs: 8, md: 5 },
-          mx: { xs: 'auto', md: 'unset' },
-          textAlign: { xs: 'center', md: 'unset' },
-        }}
-      >
-        {/* Other content */}
-      </Stack>
+
+
+
 
 
       <Box sx={{ display: 'flex', justifyContent: 'flex-start' }}>
         {/* First two columns */}
-        <Box sx={{ display: 'grid', gap: 3, gridTemplateColumns: 'repeat(2, 1fr)', paddingRight: 4 }}>
+        <Box sx={{ display: 'grid', gap: 2, gridTemplateColumns: 'repeat(2, 1fr)', paddingRight: 2 }}>
           {[...firstHalf, ...secondHalf].map((value) => (
-            <div key={value.title} style={{ textAlign: 'center' }}>
-              <SvgColor
-                src={value.icon}
-                color="info"
-                sx={{ width: 40, height: 40, mx: 'auto', paddingRight: 4 , bgcolor: 'primary.main' }}
-              />
-              <Typography sx={{ ...typography.subtitle1, mt: 2, mb: 2 }}>
+            <div key={value.title} style={{
+              textAlign: 'center',
+              minHeight: '100px'
+            }}> {/* Adjust minHeight as needed */}
+              <SvgColor src={value.icon} color="info"
+                        sx={{width: 50, height: 50, mx: 'auto', bgcolor: 'primary.main'}}/>
+              <Typography sx={{...typography.subtitle1, color: 'text.secondary', mt: 2, mb: 2}}>
                 {value.title}
               </Typography>
             </div>
           ))}
         </Box>
         {/* Additional areas */}
-        <Box sx={{ display: 'grid', gap: 3, gridTemplateColumns: 'repeat(2, 1fr)', paddingLeft:4 }}>
+        <Box sx={{display: 'grid', gap: 4, gridTemplateColumns: 'repeat(2, 1fr)', paddingLeft: 2}}>
           {additionalAreas.map((value) => (
-            <div key={value.title} style={{ textAlign: 'center' }}>
-              <SvgColor src={value.icon} color="info" sx={{ width: 40, height: 40, mx: 'auto', bgcolor: 'primary.main' }} />
-              <Typography sx={{ ...typography.subtitle1, mt: 2, mb: 2 }}>
+            <div key={value.title} style={{
+              textAlign: 'center',
+              minHeight: '100px'
+            }}>
+              <SvgColor src={value.icon} color="info"
+                        sx={{width: 50, height: 50, mx: 'auto', bgcolor: 'primary.main' }} />
+              <Typography sx={{ ...typography.subtitle1, color: 'text.secondary', mt: 2, mb: 2 }}>
                 {value.title}
               </Typography>
             </div>

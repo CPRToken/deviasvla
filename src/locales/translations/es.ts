@@ -18,6 +18,7 @@ export const es = {
   [tokens.nav.course]: 'Curso',
   [tokens.nav.create]: 'Crear',
 
+
   [tokens.nav.customers]: 'Clientes',
   [tokens.nav.dashboard]: 'Tablero',
   [tokens.nav.details]: 'Detalles',
@@ -54,9 +55,37 @@ export const es = {
   [tokens.nav.billing]: 'Facturación',
   [tokens.nav.capsules]: 'Capsulas Virtuales ',
 
+
   [tokens.nav.verifyCode]: 'Verificar Código',
   [tokens.form.saveOrPublish]: 'Guardar o publicar',
   [tokens.form.education]: 'Educación',
+  [tokens.form.Corporate]: 'Corporativo',
+  [tokens.form.MergersAndAcquisitions]: 'Fusiones y Adquisiciones',
+  [tokens.form.Tax]: 'Tributaria',
+  [tokens.form.Labor]: 'Laboral',
+  [tokens.form.NationalAndInternationalContracting]: 'Contratación Nacional e Internacional',
+  [tokens.form.RealEstateEngineeringAndConstruction]: 'Inmobiliaria, Ingeniería y Construcción',
+  [tokens.form.ProjectFinancing]: 'Financiamiento de Proyectos',
+  [tokens.form.RegulatedMarkets]: 'Mercados Regulados',
+  [tokens.form.Immigration]: 'Inmigración',
+  [tokens.form.ForeignInvestment]: 'Inversión Extranjera',
+  [tokens.form.EnergyAndNaturalResources]: 'Energía y Recursos Naturales',
+  [tokens.form.Waters]: 'Aguas',
+  [tokens.form.Litigation]: 'Litigios',
+  [tokens.form.ConflictResolutionAndArbitration]: 'Solución de Conflictos y Arbitraje',
+  [tokens.form.FreeCompetition]: 'Libre Competencia',
+  [tokens.form.ConstitutionalAndAdministrative]: 'Constitucional y Administrativo',
+  [tokens.form.SpecializedLawReports]: 'Informes Especializados en Derecho',
+  [tokens.form.ConflictsOfLawsAndJurisdiction]: 'Conflictos de Leyes y Jurisdicción',
+  [tokens.form.ConsumerProtection]: 'Protección del Consumidor',
+  [tokens.form.InsolvencyAndBusinessReorganization]: 'Insolvencia y Reorganización Empresarial',
+  [tokens.form.Environment]: 'Medio Ambiente',
+  [tokens.form.Agribusiness]: 'Agroindustria',
+  [tokens.form.Education]: 'Educación',
+  [tokens.form.GeneralPractice]: 'Práctica General',
+
+
+
   [tokens.form.sendNow]: 'Enviar ahora',
   [tokens.form.aboutFirm]: 'Villarroel, Lecaros y Aste es una firma de gran trayectoria. Fue fundada en 1968 y desde entonces se ha caracterizado por construir relaciones de confianza y de larga data con sus clientes, basada en la excelencia y gran experiencia de sus profesionales, proporcionando una atención personalizada y un apoyo legal ágil y oportuno.\n' +
   '\n' +
@@ -92,7 +121,7 @@ export const es = {
   'EDUCACIÓN\n' +
   'PRÁCTICA GENERAL',
 
-  [tokens.form.christianTitle]: 'Socio',
+  [tokens.form.christianTitle]: 'Abogado',
   [tokens.form.christianEducation]: 'Licenciado en Ciencias Jurídicas de la Universidad Central (1992). Diplomado en Derecho Bancario, Universidad Central (1991).  ' +
   '\n' +
   '\n' +
@@ -105,22 +134,26 @@ export const es = {
   '\n' +
   '\n' +
   'Diplomado en Derecho Procesal Penal, (Universidad de Chile (2001)). Post Grado en Tributación Internacional. (Universidad de Maastricht (2021)).' +
-  'Certificaciones: Corporate Finance (Certificado profesional otorgado al finalizar programa de tres cursos ofrecido por Universidad de Columbia (ColumbiaX en colaboration con edx). Financial Management (Certificado profesional otorgado al finalizar programa de siete cursos ofrecido por la Universidad de Illinois con la colaboración de Coursera). Certificado de Post Grado en “convenios de Doble Imposición”, otorgado por la Universidad de Maastricht, Bruselas. \n' +
+  'Certificaciones: Corporate Finance (Certificado profesional otorgado al finalizar programa de tres cursos ofrecido por Universidad de Columbia (ColumbiaX en colaboration con edx). ' +
+  '\n' +
+  '\n' +
+  'Financial Management (Certificado profesional otorgado al finalizar programa de siete cursos ofrecido por la Universidad de Illinois con la colaboración de Coursera). Certificado de Post Grado en “convenios de Doble Imposición”, otorgado por la Universidad de Maastricht, Bruselas. \n' +
   '\n' +
   'Numerosos otros cursos en derecho, contabilidad y auditoría. Participación en diversos congresos y seminarios en Chile y el extranjero.\n',
 
-  [tokens.form.christianExperiencePro]: 'Profesor de Derecho Tributario en las Universidades de: Santiago (1992-1994); Central (1996 – 2006); Nacional Andrés Bello (1999- 2000), y Escuela de Contadores Auditores de Chile (1997-1999). Profesor en cursos de Post Grado en las Universidades: Arturo Prat, Tecnológica Metropolitana, Católica del Norte, Católica de Valparaíso, del Desarrollo, Pontificia Católica de Santiago, y Adolfo Ibañez. ',
+  [tokens.form.christianExperiencePro]: 'Entre el año 1990 y 1999 ejerció en el Departamento de Defensa Judicial de la Dirección Nacional del SII. ' +
+  '\n' +
+  'Entre 1999 y 2004 dirigió como gerente y después como socio el área judicial de Deloitte. Socio en Villarroel, Lecaros y Aste. www.vla.cl.\n ',
 
-  [tokens.form.christianProfessionalAca]: 'Professor of Tax Law at the Universities of: Santiago (1992-1994); Central (1996 – 2006); National Andrés Bello (1999- 2000), and School of Auditors of Chile (1997-1999). Professor in Postgraduate courses at the Universities: Arturo Prat, Metropolitan Technological, Northern Catholic, Valparaíso Catholic, Development, Pontifical Catholic of Santiago, and Adolfo Ibañez.\n' +
+  [tokens.form.christianProfessionalAca]: 'Experiencia directiva y gremial (ad honorem)\n' +
   '\n' +
-  'Executive and trade association experience (ad honorem)\n' +
-  '\n' +
-  '• Former director of the OTIC of the National Chamber of Commerce (CNC)\n' +
-  '• Member of the Tax Commission of the CNC (year 2006 -)\n' +
-  '• Chairman of the Tax Commission of the CNC\n' +
-  '• Tax and Legal Advisor of Conapyme\n' +
-  '• Member of the Tax Commission of the CPC\n' +
-  '• Member of the Tax Commission of the College of Accountants of Chile.\n ',
+  '• Ex director de la OTIC de la Cámara Nacional del Comercio (CNC)\n' +
+'• Miembro de la Comisión Tributaria de la CNC (año 2006 -)\n' +
+'• Presidente de la Comisión Tributaria de la CNC\n' +
+'• Asesor Tributario y Legal de Conapyme\n' +
+'• Miembro de la Comisión Tributaria de la CPC\n' +
+'• Miembro de la Comisión Tributaria del Colegio de Contadores de Chile.\n' ,
+
 
   [tokens.form.christianPublications]: 'Publicaciones \n' +
   '“Curso de Impuesto a la Renta de Primera Categoría I- II” (2007), Editorial Legal Publishing.  “Reforma Tributaria Comentada (2015). ' +
@@ -139,12 +172,9 @@ export const es = {
 
 
 
-  [tokens.form.christianExperiencePro]:'',
-  [tokens.form.christianProfessionalAca]:'Actividad Académica: Profesor de Derecho Internacional Privado, Facultad de Derecho, ' +
-  '\n' +
-  '\n' +
-  'Pontificia Universidad Católica de Chile (1984-). Ex miembro del Consejo de la Facultad de Derecho de la Pontificia Universidad Católica de Chile.\n' +
-  'Otras actividades: Socio fundador de la Asociación Chilena de Derecho Internacional Privado.\n',
+
+
+
 
 
   [tokens.form.fernandaTitle]: 'Abogado',
@@ -163,7 +193,7 @@ export const es = {
   [tokens.form.fernandaBio]: '',
 
 
-  [tokens.form.carlosTitle]: 'Socio',
+  [tokens.form.carlosTitle]: 'Abogado',
   [tokens.form.carlosEducation]: 'Educación: Facultad de Derecho, Pontificia Universidad Católica de Chile (Licenciado en Derecho, 1981).\n' +
   'Admitido a práctica: 1982.\n' +
   'Premios y reconocimientos: Premio Tocornal y Premio Montenegro al alumno más sobresaliente de su generación (1980); ' +
@@ -175,7 +205,7 @@ export const es = {
   '\n' +
   '\n' +
   'Ex miembro del Consejo de la Facultad de Derecho de la Pontificia Universidad Católica de Chile.\n' +
-  'Otras actividades: Socio fundador de la Asociación Chilena de Derecho Internacional Privado.\n',
+  'Otras actividades: Abogado fundador de la Asociación Chilena de Derecho Internacional Privado.\n',
   [tokens.form.carlosPublications]:'Publicaciones: Autor de varias publicaciones, entre ellas los siguientes libros: «La obligación natural como elemento moralizador de la relación jurídica en el Código Civil Chileno» (1982), obra que la Facultad de Derecho de la Pontifica Universidad Católica de Chile distinguió con el Premio Pedro Lira Urquieta; «Curso de Derecho Internacional Privado. Parte General» (2004); «Derecho Internacional Privado» (2016).',
   [tokens.form.carlosLanguages]: 'Idiomas: Español, inglés y francés',
 
@@ -184,7 +214,7 @@ export const es = {
 
 
 
-  [tokens.form.gabrielTitle]:'Socio',
+  [tokens.form.gabrielTitle]:'Abogado',
   [tokens.form.gabrielIntro]: ' ' ,
   [tokens.form.gabrielEducation]: 'Educación: Facultad de Derecho, Pontificia Universidad Católica de Chile (Licenciado en Derecho, 1981).\n' +
   'Admitido a práctica: 1982.\n' +
@@ -197,14 +227,14 @@ export const es = {
   'Otras actividades: Árbitro del Centro de Arbitraje y Mediación de la Cámara de Comercio de Santiago. ' +
   '\n' +
 
-  'Socio fundador de la Asociación Chilena de Derecho Internacional Privado.\n ' ,
+  'Abogado fundador de la Asociación Chilena de Derecho Internacional Privado.\n ' ,
   [tokens.form.gabrielPublications]:'Publicaciones: Autor de varias publicaciones, entre ellas los siguientes libros: «La obligación natural como elemento moralizador de la relación jurídica en el Código Civil Chileno» (1982), obra que la Facultad de Derecho de la Pontifica Universidad Católica de Chile distinguió con el Premio Pedro Lira Urquieta; «Curso de Derecho Internacional Privado. Parte General» (2004); «Derecho Internacional Privado» (2016)\n.',
   [tokens.form.gabrielLanguages]: 'Idiomas: Español e inglés',
 
 
 
 
-  [tokens.form.raulTitle]: 'Socio',
+  [tokens.form.raulTitle]: 'Abogado',
   [tokens.form.raulIntro]: ' ' ,
   [tokens.form.raulEducation]: 'Educación: Facultad de Derecho, Pontificia Universidad Católica de Chile (Licenciado en Derecho, 1974).\n' +
   'Admitido a práctica: 1974.\n' +
@@ -250,8 +280,16 @@ export const es = {
 
 
   [tokens.form.jaimeTitle]: 'Abogado',
-  [tokens.form.jaimeEducation]: 'Educación: Centro de Estudios de Humanidades Clásicas, Salamanca, España (1985). Pontificia Universidad Gregoriana de Roma, Italia (Bachiller en Filosofía (1987). Oaklawn Academy, Edgerton, Wisconsin (EE.UU) (1989); Facultad de Derecho, Universidad Diego Portales (Licenciado en Ciencias Sociales y Jurídicas, 1996). Universidad Adolfo Ibáñez, Magister en Dirección y Gestión Tributaria (2005).\n' +
-  'Admitido a práctica: 1997.\n.\n',
+  [tokens.form.jaimeEducation]: 'Educación: Centro de Estudios de Humanidades Clásicas, Salamanca, España (1985). ' +
+  '' +
+  'Pontificia Universidad Gregoriana de Roma, Italia (Bachiller en Filosofía (1987). ' +
+  '\n' +
+  '\n' +
+  'Oaklawn Academy, Edgerton, Wisconsin (EE.UU) (1989); Facultad de Derecho, Universidad Diego Portales (Licenciado en Ciencias Sociales y Jurídicas, 1996). ' +
+  '\n' +
+  '\n' +
+  'Universidad Adolfo Ibáñez, Magister en Dirección y Gestión Tributaria (2005).' +
+  'Admitido a práctica: 1997.',
   [tokens.form.jaimeExperiencePro]: '',
   [tokens.form.jaimeProfessionalAca]: ' ' ,
   [tokens.form.jaimePublications]: '',
@@ -432,6 +470,73 @@ export const es = {
   [tokens.form.joaoLanguages]: 'Idioma: Español, Inglés y Portugués.',
 
 
+
+  [tokens.form.franciscoRRTitle]: 'Abogado',
+  [tokens.form.franciscoRRBio]:'',
+  [tokens.form.franciscoRREducation]: 'Contador Público y Contador Auditor de la Universidad de Los Lagos, Post-Título en Legislación Tributaria de la Universidad de Santiago de Chile (1997), Post Título en Auditoria de Gestión de la Universidad de Santiago de Chile (1999), Diplomado en Contabilidad Internacional de la Universidad de Chile (2007), Jefe Tributario Aguas Andinas y Senior Manager en Deloitte.\n' ,
+   [tokens.form.franciscoRRExperiencePro]: ' Experiencia profesional\n' +
+   '\n' +
+   'Hasta parte del año 2010, ocupó el cargo de Senior Manager de la División de Consultoría Legal Tributaria de Deloitte & Touche. Ingresó a esta firma a comienzos de 1993 como especialista tributario.\n' +
+   '\n' +
+   'En el año 2001, dejó Deloitte para hacerse cargo del Departamento Tributario de Aguas Andinas. \n' +
+   '\n' +
+   'Tras nueve años en esta empresa, en la que conformó su propio equipo de asesoría tributaria, retornó a Deloitte para hacerse cargo de toda la división del Sur – Oficina Concepción. \n' +
+   '\n' +
+   'En el transcurso de su actividad profesional, ha prestado servicios de consultoría y planificación, a varias sociedades en distintas industrias. A fines del año 2010 decidió integrarse a AVL Abogados, para asumir la dirección del área auditoria tributaria, integrada por un equipo de auditores con especialidad en materia impositiva. \n ' ,
+  [tokens.form.franciscoRRProfessionalAca]: '' ,
+  [tokens.form.franciscoRRPublications]: '' ,
+  [tokens.form.franciscoRRLanguages]: '',
+
+
+
+  [tokens.form.franciscaGCTitle]: 'Auditor',
+  [tokens.form.franciscaGCBio]:'',
+  [tokens.form.franciscaGCEducation]: 'Contador Auditor, Pontificia Universidad Católica de Valparaíso (Licenciada en Comercio y Ciencias Económicas con mención en Finanzas 2012). Diplomado en Tributación, Facultad Economía y Negocios Universidad de Chile (2015).\n' ,
+  [tokens.form.franciscaGCExperiencePro]: ' ' ,
+  [tokens.form.franciscaGCProfessionalAca]: '' ,
+  [tokens.form.franciscaGCPublications]: '' ,
+  [tokens.form.franciscaGCLanguages]: '',
+
+
+  [tokens.form.silvanaTitle]: 'Auditor',
+  [tokens.form.silvanaBio]:'',
+  [tokens.form.silvanaEducation]: 'Ingeniero Comercial, Universidad de Valparaíso (Licenciado en Ciencias en la Administración de Empresas, 2010). Diplomado en Tributación, Facultad Economía y Negocios Universidad de Chile (2016).\n' +
+  '\n.\n' ,
+  [tokens.form.silvanaExperiencePro]: ' ' ,
+  [tokens.form.silvanaProfessionalAca]: '' ,
+  [tokens.form.silvanaPublications]: '' ,
+  [tokens.form.silvanaLanguages]: '',
+
+
+  [tokens.form.joseDQTitle]: 'Auditor',
+  [tokens.form.joseDQBio]:'',
+  [tokens.form.joseDQEducation]: 'Contador Público y Auditor de la Universidad de Santiago de Chile (2021). \n' +
+  '\n' +
+  'Ejerció hasta el año 2020 en la Contraloría General de la República.\n.\n' ,
+  [tokens.form.joseDQExperiencePro]: ' ' ,
+  [tokens.form.joseDQProfessionalAca]: '' ,
+  [tokens.form.joseDQPublications]: '' ,
+  [tokens.form.joseDQLanguages]: '',
+
+
+  [tokens.form.denisseTitle]: 'Auditor',
+  [tokens.form.denisseBio]:'',
+  [tokens.form.denisseEducation]: 'Ingeniera en comercio internacional. Universidad Metropolitana de Chile. Auditora de Instituto Profesional DUOC – UC. \n' +
+  '\n.\n' ,
+  [tokens.form.denisseExperiencePro]: ' ' ,
+  [tokens.form.denisseProfessionalAca]: '' ,
+  [tokens.form.denissePublications]: '' ,
+  [tokens.form.denisseLanguages]: '',
+
+
+  [tokens.form.darelysTitle]: 'Auditor',
+  [tokens.form.darelysBio]:'',
+  [tokens.form.darelysEducation]: 'Cursando carrera de auditoría – DUOC (UC) ',
+  [tokens.form.darelysExperiencePro]: ' ' ,
+  [tokens.form.darelysProfessionalAca]: '' ,
+  [tokens.form.darelysPublications]: '' ,
+  [tokens.form.darelysLanguages]: '',
+  [tokens.form.darelysBio]:'',
 
 
   [tokens.form.privacy]: 'Privacidad',

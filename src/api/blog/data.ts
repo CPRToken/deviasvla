@@ -18,6 +18,39 @@ export const areas = {
 
 };
 
+
+export const categories = [
+  tokens.form.Corporate as string,
+  tokens.form.MergersAndAcquisitions as string,
+  tokens.form.Tax as string,
+  tokens.form.Labor as string,
+  tokens.form.NationalAndInternationalContracting as string,
+  tokens.form.RealEstateEngineeringAndConstruction as string,
+  tokens.form.ProjectFinancing as string,
+  tokens.form.RegulatedMarkets as string,
+  tokens.form.Immigration as string,
+  tokens.form.ForeignInvestment as string,
+  tokens.form.EnergyAndNaturalResources as string,
+  tokens.form.Waters as string,
+  tokens.form.Litigation as string,
+  tokens.form.ConflictResolutionAndArbitration as string,
+  tokens.form.FreeCompetition as string,
+  tokens.form.ConstitutionalAndAdministrative as string,
+  tokens.form.SpecializedLawReports as string,
+  tokens.form.ConflictsOfLawsAndJurisdiction as string,
+  tokens.form.ConsumerProtection as string,
+  tokens.form.InsolvencyAndBusinessReorganization as string,
+  tokens.form.Environment as string,
+  tokens.form.Agribusiness as string,
+  tokens.form.Education as string,
+  tokens.form.GeneralPractice as string
+];
+
+
+
+
+
+
 export const lawyers: Lawyer[] = [
 
   {
@@ -199,7 +232,7 @@ export const lawyers: Lawyer[] = [
   },
 
   {
-    id: '23',
+    id: '29',
     name: 'Kyle Townley',
     email: 'kyle@vla.cl ',
     title: 'Abogado',
@@ -372,7 +405,7 @@ export const lawyers: Lawyer[] = [
 // 20. Fernanda Aste Baeza
   {
     id: '20',
-    name: 'Fernanda Aste Baeza',
+    name: 'Fernanda Aste B.',
     email: 'faste@vla.cl',
     title: tokens.form.fernandaTitle as string,
     cover: '/assets/team/fernanda-aste.jpg',
@@ -423,6 +456,119 @@ export const lawyers: Lawyer[] = [
   publications: tokens.form.joaoPublications as string,
   languages: tokens.form.joaoLanguages as string,
 },
+
+
+
+
+
+
+
+
+  {
+    id: '23',
+    name: 'Francisco Ramos Rojas',
+    email: 'framos@vla.cl',
+    title: tokens.form.franciscoRRTitle as string,
+    cover: '/assets/team/francisco-ramos.jpg',
+    image: '/assets/team/francisco-ramos.jpg',
+    userurl: 'francisco-ramos',
+    bio: tokens.form.franciscoRRBio as string,
+    intro: tokens.form.franciscoRRIntro as string,
+    education: tokens.form.franciscoRREducation as string,
+    professional: tokens.form.franciscoRRProfessionalAca as string,
+    experience: tokens.form.franciscoRRExperiencePro as string,
+    publications: tokens.form.franciscoRRPublications as string,
+    languages: tokens.form.franciscoRRLanguages as string,
+  },
+
+// 2. Francisca González Cabrera
+  {
+    id: '24',
+    name: 'Francisca González Cabrera',
+    email: 'fgonzalez@vla.cl',
+    title: tokens.form.franciscaGCTitle as string,
+    cover: '/assets/team/francisca-gonzalez.jpg',
+    image: '/assets/team/francisca-gonzalez.jpg',
+    userurl: 'francisca-gonzalez',
+    bio: tokens.form.franciscaGCBio as string,
+    intro: tokens.form.franciscaGCIntro as string,
+    education: tokens.form.franciscaGCEducation as string,
+    professional: tokens.form.franciscaGCProfessionalAca as string,
+    experience: tokens.form.franciscaGCExperiencePro as string,
+    publications: tokens.form.franciscaGCPublications as string,
+    languages: tokens.form.franciscaGCLanguages as string,
+  },
+
+// 3. Silvana Luccardi C.
+  {
+    id: '25',
+    name: 'Silvana Luccardi C.',
+    email: 'sluccardi@vla.cl',
+    title: tokens.form.silvanaTitle as string,
+    cover: '/assets/team/silvana-luccardi.jpg',
+    image: '/assets/team/silvana-luccardi.jpg',
+    userurl: 'silvana-luccardi',
+    bio: tokens.form.silvanaBio as string,
+    intro: tokens.form.silvanaIntro as string,
+    education: tokens.form.silvanaEducation as string,
+    professional: tokens.form.silvanaProfessionalAca as string,
+    experience: tokens.form.silvanaExperiencePro as string,
+    publications: tokens.form.silvanaPublications as string,
+    languages: tokens.form.silvanaLanguages as string,
+  },
+
+// 4. José Díaz Quiroz
+  {
+    id: '26',
+    name: 'José Díaz Quiroz',
+    email: 'jdiaz@vla.cl',
+    title: tokens.form.joseDQTitle as string,
+    cover: '/assets/team/jose-diaz.jpg',
+    image: '/assets/team/jose-diaz.jpg',
+    userurl: 'jose-diaz',
+    bio: tokens.form.joseDQBio as string,
+    intro: tokens.form.joseDQIntro as string,
+    education: tokens.form.joseDQEducation as string,
+    professional: tokens.form.joseDQProfessionalAca as string,
+    experience: tokens.form.joseDQExperiencePro as string,
+    publications: tokens.form.joseDQPublications as string,
+    languages: tokens.form.joseDQLanguages as string,
+  },
+
+// 5. Denisse Silvana Navarrete
+  {
+    id: '27',
+    name: 'Denisse Silvana Navarrete',
+    email: 'dnavarrete@vla.cl',
+    title: tokens.form.denisseTitle as string,
+    cover: '/assets/team/denisse-navarrete.jpg',
+    image: '/assets/team/denisse-navarrete.jpg',
+    userurl: 'denisse-navarrete',
+    bio: tokens.form.denisseBio as string,
+    intro: tokens.form.denisseIntro as string,
+    education: tokens.form.denisseEducation as string,
+    professional: tokens.form.denisseProfessionalAca as string,
+    experience: tokens.form.denisseExperiencePro as string,
+    publications: tokens.form.denissePublications as string,
+    languages: tokens.form.denisseLanguages as string,
+  },
+
+  {
+    id: '28',
+    name: 'Darelys Aguana',
+    email: 'daguana@vla.cl',
+    title: tokens.form.darelysTitle as string,
+    cover: '/assets/team/darelys-aguana.jpg',
+    image: '/assets/team/darelys-aguana.jpg',
+    userurl: 'darelys-aguana',
+    bio: tokens.form.darelysBio as string,
+    intro: tokens.form.darelysIntro as string,
+    education: tokens.form.darelysEducation as string,
+    professional: tokens.form.darelysProfessionalAca as string,
+    experience: tokens.form.darelysExperiencePro as string,
+    publications: tokens.form.darelysPublications as string,
+    languages: tokens.form.darelysLanguages as string,
+  },
 
 
 ];

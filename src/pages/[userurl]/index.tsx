@@ -63,8 +63,8 @@ const { t } = useTranslation();
             marginRight: '20px',
             marginTop: '20px',
             marginBottom: '20px',
-            width: 500, // Adjust the width as needed
-            height: 600, // Adjust the height as needed
+            width: 520, // Adjust the width as needed
+            height: '100%', // Adjust the height as needed
             maxWidth: '100%',
             objectFit: 'cover',
 
@@ -83,7 +83,7 @@ const { t } = useTranslation();
               color="text.primary"
               sx={{
                 ...typography.h2,
-                fontSize: { xs: '34px', sm: '28px', md: '32px', lg: '36px' }, // Adjust font size for different screen sizes
+                fontSize: { xs: '34px', sm: '28px', md: '32px', lg: '34px' }, // Adjust font size for different screen sizes
               }}
               variant="h2">
               {lawyer.name}

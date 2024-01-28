@@ -88,7 +88,32 @@ export const en = {
   [tokens.form.clickToUpload]: 'Click to upload',
   [tokens.form.details]: 'Details',
   [tokens.form.orDragAndDrop]: 'or drag and drop',
-  [tokens.form.privacy]: 'Privacy',
+  [tokens.form.Corporate]: 'Corporate',
+  [tokens.form.MergersAndAcquisitions]: 'Mergers and Acquisitions',
+  [tokens.form.Tax]: 'Tax',
+  [tokens.form.Labor]: 'Labor',
+  [tokens.form.NationalAndInternationalContracting]: 'National and International Contracting',
+  [tokens.form.RealEstateEngineeringAndConstruction]: 'Real Estate, Engineering and Construction',
+  [tokens.form.ProjectFinancing]: 'Project Financing',
+  [tokens.form.RegulatedMarkets]: 'Regulated Markets',
+  [tokens.form.Immigration]: 'Immigration',
+  [tokens.form.ForeignInvestment]: 'Foreign Investment',
+  [tokens.form.EnergyAndNaturalResources]: 'Energy and Natural Resources',
+  [tokens.form.Waters]: 'Waters',
+  [tokens.form.Litigation]: 'Litigation',
+  [tokens.form.ConflictResolutionAndArbitration]: 'Conflict Resolution and Arbitration',
+  [tokens.form.FreeCompetition]: 'Free Competition',
+  [tokens.form.ConstitutionalAndAdministrative]: 'Constitutional and Administrative',
+  [tokens.form.SpecializedLawReports]: 'Specialized Law Reports',
+  [tokens.form.ConflictsOfLawsAndJurisdiction]: 'Conflicts of Laws and Jurisdiction',
+  [tokens.form.ConsumerProtection]: 'Consumer Protection',
+  [tokens.form.InsolvencyAndBusinessReorganization]: 'Insolvency and Business Reorganization',
+  [tokens.form.Environment]: 'Environment',
+  [tokens.form.Agribusiness]: 'Agribusiness',
+  [tokens.form.Education]: 'Education',
+  [tokens.form.GeneralPractice]: 'General Practice',
+
+    [tokens.form.privacy]: 'Privacy',
   [tokens.form.firmaTitle]: 'About the Firm',
   [tokens.form.areasTitle]: 'Areas of Practice',
   [tokens.form.areasList]:' CORPORATE\n' +
@@ -117,14 +142,14 @@ export const en = {
   'GENERAL PRACTICE' ,
 
 
-  [tokens.form.aboutFirm]: ' Emanating a legacy that spans over half a century, Villarroel, Lecaros y Aste is much more than a law firm; it is a beacon of trust and assurance. Founded in 1968, our commitment to build strong, enduring relationship with our clients has been unwavering. We take pride in the proficiency and extensive wisdom of our skilled professionals, devoted to deliver bespoke legal support with alacrity and precision.\n' +
+  [tokens.form.aboutFirm]: ' Villarroel, Lecaros y Aste are much more than a law firm; it is a beacon of trust and assurance. Founded in 1968, our commitment to build strong, enduring relationship with our clients has been unwavering. We take pride in the proficiency and extensive wisdom of our skilled professionals, devoted to deliver bespoke legal support with alacrity and precision.\n' +
   '\n' +
   'Presenting a powerhouse team of doctorate professionals along with a faculty of university professors, retired members of the Supreme Court, and acclaimed professionals, the excellence of our team is a testament to our esteem. We strongly believe in cultivating an insightful academic environment and continual professional advancements, diligently maintaining our unparalleled professional caliber.\n' +
   '\n' +
   'At Villarroel, Lecaros y Aste, our lawyers are your confidantes first. Evolving scholars, innovative thinkers, constantly adept to the changing legal world, they are acutely committed to nurturing each client relationship with a fervor to succeed. ' ,
 
     [tokens.form.education]: 'Education',
-  [tokens.form.christianTitle]: 'Name Partner',
+  [tokens.form.christianTitle]: 'Attorney',
   [tokens.form.christianEducation]: 'Graduated with a Degree in Legal Sciences from Central University (1992). Diploma in Banking Law, Central University (1991). ' +
   '\n' +
   '\n' +
@@ -177,7 +202,7 @@ export const en = {
   [tokens.form.christianLanguages]: '',
 
 
-  [tokens.form.fernandaTitle]: 'Lawyer',
+  [tokens.form.fernandaTitle]: 'Attorney',
   [tokens.form.fernandaEducation]: 'Degree in Legal Sciences from the University of the Andes (2018). Minor in Political Science from the University of the Andes (2017). Diploma in Natural Resources and the Environment from the University of the Andes (2019). Master in Administrative Law from the University of the Andes (2022). Diploma in Labor Law, University of the Andes (2023). ' +
   '' +
   'Admitted to practice 2020. ' +
@@ -198,7 +223,7 @@ export const en = {
 
 
 
-  [tokens.form.carlosTitle]: 'Name Partner',
+  [tokens.form.carlosTitle]: 'Attorney',
   [tokens.form.carlosEducation]: 'Education: School of Law, Pontifical Catholic University of Chile (Bachelor in Law, 1981).\n' +
   'Admitted to practice: 1982.\n' +
   'Awards and recognitions: Tocornal Award and Montenegro Award to the most outstanding student of his generation (1980); ' +
@@ -215,7 +240,7 @@ export const en = {
   [tokens.form.carlosLanguages]: 'Languages: Spanish, English, and French',
 
 
-  [tokens.form.gabrielTitle]: 'Name Partner',
+  [tokens.form.gabrielTitle]: 'Attorney',
   [tokens.form.gabrielIntro]: ' ' ,
   [tokens.form.gabrielEducation]: 'Education: Law Faculty, Pontifical Catholic University of Chile (Bachelor of Law, 1981).\n' +
   'Admitted to practice: 1982.\n' +
@@ -233,7 +258,7 @@ export const en = {
 
 
 
-  [tokens.form.raulTitle]: 'Name Partner',
+  [tokens.form.raulTitle]: 'Attorney',
   [tokens.form.raulIntro]: ' ' ,
   [tokens.form.raulEducation]: 'Education: Faculty of Law, Pontifical Catholic University of Chile (Bachelor of Laws, 1974).\n' +
   'Admitted to practice: 1974.\n' +
@@ -247,15 +272,15 @@ export const en = {
 
 'Other activities: Member of the Fourth Legislative Commission and the Commission responsible for drafting Organic Constitutional Laws. ' +
 '\n' +
-'Lawyer member of the Supreme Court (1989-1990; 2012-2014).',
+'Attorney member of the Supreme Court (1989-1990; 2012-2014).',
   [tokens.form.raulPublications]: '',
   [tokens.form.raulLanguages]: '',
   [tokens.form.raulBio]:'',
 
 
 
-  [tokens.form.juanTitle]: 'Lawyer',
-  [tokens.form.juanEducation]: 'Lawyer Pontifical Catholic University of Chile (PUC), Diploma from the PUC in Planning and Tax Management (2007), Diploma in new Tax Justice, at the same University (2008), Postgraduate in Tax Law, at the University of Salamanca Spain. In 2007, he attended an international tax course held at the University of Chile by international specialist, Australian academic, Visiting Professor at Harvard, Mr. Richard Vann (2008).' +
+  [tokens.form.juanTitle]: 'Attorney',
+  [tokens.form.juanEducation]: 'Attorney Pontifical Catholic University of Chile (PUC), Diploma from the PUC in Planning and Tax Management (2007), Diploma in new Tax Justice, at the same University (2008), Postgraduate in Tax Law, at the University of Salamanca Spain. In 2007, he attended an international tax course held at the University of Chile by international specialist, Australian academic, Visiting Professor at Harvard, Mr. Richard Vann (2008).' +
   '\n' +
   '\n' +
   'Philosophy and Artificial Intelligence at the Northeastern University London.\n',
@@ -269,7 +294,7 @@ export const en = {
   [tokens.form.juanLanguages]: '',
 
 
-  [tokens.form.mariaTitle]: 'Lawyer',
+  [tokens.form.mariaTitle]: 'Attorney',
   [tokens.form.mariaEducation]: 'Education: Faculty of Law, Pontificia Universidad Católica de Chile (Law Degree, 1987). Diploma in Labor Law in the Company (2009). ' +
   '\n' +
   'Universidad de los Andes. Master of Labor Law (2011) Adolfo Ibáñez University. Thesis “Conventional Indemnification Clauses”, publication Chilean Labor Journal N° 203, January 2012.\n' +
@@ -280,17 +305,21 @@ export const en = {
   [tokens.form.mariaLanguages]: 'Languages: Spanish, French and English.',
 
 
-  [tokens.form.jaimeTitle]: 'Lawyer',
+  [tokens.form.jaimeTitle]: 'Attorney',
   [tokens.form.jaimeEducation]: 'Education: Center of Classical Humanities Studies, Salamanca, Spain (1985). Pontifical Gregorian University, Rome, Italy (Bachelor in Philosophy (1987). ' +
   '\n' +
-  'Oaklawn Academy, Edgerton, Wisconsin (USA) (1989); Faculty of Law, Diego Portales University (Bachelor in Social Science and Law, 1996). Adolfo Ibáñez University, Master in Tax Management and Direction (2005).\n' +
-  'Admitted to practice: 1997.\n.\n',
+  '\n' +
+  'Oaklawn Academy, Edgerton, Wisconsin (USA) (1989); Faculty of Law, Diego Portales University (Bachelor in Social Science and Law, 1996). ' +
+  '\n' +
+  '\n' +
+  'Adolfo Ibáñez University, Master in Tax Management and Direction (2005).' +
+  'Admitted to practice: 1997.',
   [tokens.form.jaimeExperiencePro]: '',
   [tokens.form.jaimeProfessionalAca]: ' ',
   [tokens.form.jaimePublications]: '',
   [tokens.form.jaimeLanguages]: 'Languages: Spanish, Italian, and English.',
 
-  [tokens.form.claudioTitle]: 'Lawyer',
+  [tokens.form.claudioTitle]: 'Attorney',
   [tokens.form.claudioBio]: '',
   [tokens.form.claudioEducation]: 'Education: Faculty of Law, Pontifical Catholic University of Chile (Degree in Law, 1992).' + '\n' + '\n' + 'Awards and Recognitions: Outstanding Teaching Award, Faculty of Law, Pontifical Catholic University of Chile (2011). \n.\n' ,
 
@@ -301,7 +330,7 @@ export const en = {
   [tokens.form.claudioLanguages]: 'Languages: Spanish and English.',
 
 
-  [tokens.form.rafaelTitle]: 'Lawyer',
+  [tokens.form.rafaelTitle]: 'Attorney',
   [tokens.form.rafaelBio]: '',
   [tokens.form.rafaelEducation]: 'Education: Law Faculty of the University of Chile (Law Degree, 1987). Diploma in Public Law, Transparency, Regulations and Control, Finis Terrae University 2011. Diploma in Natural Resources and Environment, Los Andes University 2017.\n' ,
   [tokens.form.rafaelExperiencePro]: 'Admitted to Practice: 1987.\n',
@@ -321,7 +350,7 @@ export const en = {
   [tokens.form.rafaelLanguages]: 'Languages: Spanish and English',
 
 
-  [tokens.form.jorgeTitle]: 'Lawyer',
+  [tokens.form.jorgeTitle]: 'Attorney',
   [tokens.form.jorgeBio]: '',
   [tokens.form.jorgeEducation]: 'Education: Faculty of Philosophy, Pontifical Catholic University of Chile (Bachelor in Philosophy, 1983). Faculty of Law, Pontifical Catholic University of Chile (Bachelor in Law, 1986). ' +
   '\n' +
@@ -337,7 +366,7 @@ export const en = {
 
 
 
-  [tokens.form.ricardoCBTitle]: 'Lawyer',
+  [tokens.form.ricardoCBTitle]: 'Attorney',
   [tokens.form.ricardoCBBio]: '',
   [tokens.form.ricardoCBEducation]: 'Education: Law School, Central University (Law Degree, 2000). Diploma in Accounting (2000). Master\'s in Tax Law, University of Chile (c). Diploma in International Taxation, Pontifical Catholic University of Chile (2008). ' +
 '\n' +
@@ -348,7 +377,7 @@ export const en = {
   [tokens.form.ricardoCBLanguages]: 'Languages: Spanish and English.',
 
 
-  [tokens.form.ricardoFSTitle]: 'Lawyer',
+  [tokens.form.ricardoFSTitle]: 'Attorney',
   [tokens.form.ricardoFSEducation]: 'Education: Faculty of Law, University of Concepción (Bachelor of Laws, 1997). Master\'s studies in Law (LLM), Humboldt University, Berlin, Germany, 2007. Diploma in Natural Resources and Energy Law, with specializations in Energy Law and Water Law, Pontifical Catholic University of Chile, 2013.',
     [tokens.form.ricardoFSExperiencePro]: 'Admitted to practice: 2001.\n',
   [tokens.form.ricardoFSProfessionalAca]: 'Academic Activity: Professor of Criminal Procedural Law, University of Chile (2008-2009). ' +
@@ -363,7 +392,7 @@ export const en = {
   [tokens.form.ricardoFSBio]: '',
 
 
-  [tokens.form.eduardoTitle]: 'Lawyer',
+  [tokens.form.eduardoTitle]: 'Attorney',
   [tokens.form.eduardoBio]: '',
   [tokens.form.eduardoEducation]: 'Law School, University of Los Andes (Law Degree, 2009). Diploma in Societies and Financing, University of Los Andes (2012). Master of Laws (LLM), Queen Mary University of London (2015). Master in Labor Law and Social Security, Adolfo Ibáñez University (2020).\n' +
   'Admitted to practice in 2011.\n ' ,
@@ -376,7 +405,7 @@ export const en = {
 
 
 
-  [tokens.form.franciscoTitle]: 'Lawyer',
+  [tokens.form.franciscoTitle]: 'Attorney',
   [tokens.form.franciscoEducation]: 'Education: Faculty of Law, Pontifical Catholic University of Chile (Degree in Law with Highest Distinction, 2014).' +
   '\n' +
 
@@ -390,7 +419,7 @@ export const en = {
   [tokens.form.franciscoPublications]:'',
 
 
-  [tokens.form.carolinaTitle]: 'Lawyer',
+  [tokens.form.carolinaTitle]: 'Attorney',
   [tokens.form.carolinaEducation]: 'Education: Law School, Pontifical Catholic University of Chile (Bachelor of Law, 1985).\n' +
   'Master in Business Law, Pontifical Catholic University of Chile 1998 (Thesis: forestry sector legislation); ' +
   '\n' +
@@ -398,7 +427,7 @@ export const en = {
   'Post title in Tax Planning, University of Development, 2010 (Thesis: tax aspect of the forestry sector).\n ',
   [tokens.form.carolinaProfessionalAca]:'',
   [tokens.form.carolinaExperiencePro]:'Admitted to practice: 1986\n' +
-  'Other activities: Sofofa HR Committee; Chief Lawyer and Human Resources Manager CCF Group (1998-2008).\n' +
+  'Other activities: Sofofa HR Committee; Chief Attorney and Human Resources Manager CCF Group (1998-2008).\n' +
   '\n' +
 
   'Awards: Best HR Manager of the Wine and Forestry sector, recognition awarded by peers and Capital magazine 2007.\n',
@@ -406,7 +435,7 @@ export const en = {
   [tokens.form.carolinaPublications]:'',
 
 
-  [tokens.form.catalinaTitle]: 'Lawyer',
+  [tokens.form.catalinaTitle]: 'Attorney',
   [tokens.form.catalinaBio]: '',
   [tokens.form.catalinaEducation]: 'Education: Law School, University of Los Andes (Law Degree, 2007). Diploma in Advanced Studies in Civil Liability, University of Los Andes (2007).\n' +
   'Admitted to practice: 2009.\n ',
@@ -416,7 +445,7 @@ export const en = {
   [tokens.form.catalinaLanguages]: 'Languages: Spanish and English.',
 
 
-  [tokens.form.diegoTitle]: 'Lawyer',
+  [tokens.form.diegoTitle]: 'Attorney',
   [tokens.form.diegoBio]: '',
   [tokens.form.diegoEducation]: 'Education: Law School, University of Chile (Law Degree, 2018). Diploma in Tax Planning, Faculty of Economics and Business, University of Chile, 2023' ,
   [tokens.form.diegoExperiencePro]: 'Admitted to practice: 2020.\n' ,
@@ -425,7 +454,7 @@ export const en = {
   [tokens.form.diegoLanguages]: 'Languages: Spanish',
 
 
-  [tokens.form.luisTitle]: 'Lawyer',
+  [tokens.form.luisTitle]: 'Attorney',
   [tokens.form.luisBio]: '',
   [tokens.form.luisEducation]: 'Education: Law School, University of Chile, diploma in Tax Legislation, U. de Chile. Author of "Venezuelan Organization in Chile" (Journal Annals of the University of Chile, series No. 7, "Migrants", 2019)\n' +
      'Coauthor of the book Economic Crimes. Edited and Published by Thomson Reuters.' ,
@@ -434,7 +463,7 @@ export const en = {
   [tokens.form.luisPublications]: '',
   [tokens.form.luisLanguages]: 'Languages: Spanish and English.',
 
-  [tokens.form.mariaGLDTitle]: 'Lawyer',
+  [tokens.form.mariaGLDTitle]: 'Attorney',
   [tokens.form.mariaGLDEducation]: 'Graduated in Juridical Sciences from the University of Los Andes (2019). Diploma in Advanced Studies in Legal English, University of Los Andes (2018). Minor in Political Science (2018). Assistant in Criminal Law, University of Los Andes (2016-2017)',
   [tokens.form.mariaGLDExperiencePro]: 'Admitted to practice in 2020.\n',
   [tokens.form.mariaGLDProfessionalAca]: '',
@@ -442,7 +471,7 @@ export const en = {
   [tokens.form.mariaGLDLanguages]: 'Languages: Spanish and English.',
 
 
-  [tokens.form.franciscaTitle]: 'Lawyer',
+  [tokens.form.franciscaTitle]: 'Attorney',
   [tokens.form.franciscaBio]: '',
   [tokens.form.franciscaEducation]: 'Education: Faculty of Law, Diego Portales University (Law Degree, 2014). Master\'s degree in Criminal Law and Criminal Procedural Law, Diego Portales University (2014). Post Graduate in Compliance Pompeu Fabra University, Barcelona. Graduate program in General Taxation, U. de Chile.\n' +
   'Coauthor of the book Economic Crimes. Edited and Published by Thomson Reuters.',
@@ -452,7 +481,7 @@ export const en = {
   [tokens.form.franciscaPublications]: '',
   [tokens.form.franciscaLanguages]: 'Languages: Spanish and English.',
 
-  [tokens.form.joaoTitle]: 'Lawyer',
+  [tokens.form.joaoTitle]: 'Attorney',
   [tokens.form.joaoBio]:'',
   [tokens.form.joaoEducation]: 'Education: Law School, University of Chile (Bachelor of Law, 2021).\n' +
   'Legal Clinic Assistant for Business Management – U. de Chile (2021-2022)\n ' ,
@@ -460,6 +489,77 @@ export const en = {
   [tokens.form.joaoProfessionalAca]: '' ,
   [tokens.form.joaoPublications]: '' ,
   [tokens.form.joaoLanguages]: 'Language: Spanish, English and Portuguese.',
+
+
+  [tokens.form.franciscoRRTitle]: 'Attorney',
+  [tokens.form.franciscoRRBio]: '',
+  [tokens.form.franciscoRREducation]: 'Public Accountant and Audit Accountant from the University of Los Lagos, Post-Degree in Tax Legislation from the University of Santiago de Chile (1997), Post-Degree in Management Audit from the University of Santiago de Chile (1999), Diploma in International Accounting from the University of Chile (2007), Tax Head at Aguas Andinas and Senior Manager at Deloitte.\n',
+  [tokens.form.franciscoRRExperiencePro]: ' Professional Experience\n' +
+  '\n' +
+  'Until part of 2010, he held the position of Senior Manager of the Legal Taxation Consulting Division of Deloitte & Touche. He joined this firm in early 1993 as a tax specialist.\n' +
+  '\n' +
+  'In 2001, he left Deloitte to take over the Tax Department of Aguas Andinas. \n' +
+  '\n' +
+  'After nine years in this company, in which he formed his own tax advisory team, he returned to Deloitte to take over the entire southern division - Concepción Office. \n' +
+  '\n' +
+  'During his professional activity, he has provided consulting and planning services to several companies in different industries. At the end of 2010, he decided to join AVL Attorneys, to take over the management of the tax audit area, composed of a team of auditors specialized in tax matters. \n ',
+  [tokens.form.franciscoRRProfessionalAca]: '',
+  [tokens.form.franciscoRRPublications]: '',
+  [tokens.form.franciscoRRLanguages]: '',
+
+
+  [tokens.form.franciscaGCTitle]: 'Auditor',
+  [tokens.form.franciscaGCBio]:'',
+  [tokens.form.franciscaGCEducation]: 'Auditing Accountant, Pontifical Catholic University of Valparaíso (Bachelor of Commerce and Economic Sciences with focus in Finance 2012). Diploma in Taxation, Faculty of Economy and Business University of Chile (2015).\n' ,
+  [tokens.form.franciscaGCExperiencePro]: ' ' ,
+  [tokens.form.franciscaGCProfessionalAca]: '' ,
+  [tokens.form.franciscaGCPublications]: '' ,
+  [tokens.form.franciscaGCLanguages]: '',
+
+
+  [tokens.form.silvanaTitle]: 'Auditor',
+  [tokens.form.silvanaBio]:'',
+  [tokens.form.silvanaEducation]: 'Commercial Engineer, University of Valparaíso (Bachelor in Science in Business Administration, 2010). Diploma in Taxation, Faculty of Economy and Business University of Chile (2016).\n' +
+  '\n.\n' ,
+  [tokens.form.silvanaExperiencePro]: ' ' ,
+  [tokens.form.silvanaProfessionalAca]: '' ,
+  [tokens.form.silvanaPublications]: '' ,
+  [tokens.form.silvanaLanguages]: '',
+
+
+
+
+  [tokens.form.joseDQTitle]: 'Auditor',
+  [tokens.form.joseDQBio]:'',
+  [tokens.form.joseDQEducation]: 'Public Accountant and Auditor from the University of Santiago de Chile (2021). \n' +
+  '\n' +
+  'He worked until 2020 in the General Comptroller of the Republic.\n.\n' ,
+  [tokens.form.joseDQExperiencePro]: ' ' ,
+  [tokens.form.joseDQProfessionalAca]: '' ,
+  [tokens.form.joseDQPublications]: '' ,
+  [tokens.form.joseDQLanguages]: '',
+
+
+  [tokens.form.denisseTitle]: 'Auditor',
+  [tokens.form.denisseBio]:'',
+  [tokens.form.denisseEducation]: 'Engineer in International Trade. Metropolitan University of Chile. Auditor from DUOC – UC Professional Institute. \n' +
+  '\n.\n' ,
+  [tokens.form.denisseExperiencePro]: ' ' ,
+  [tokens.form.denisseProfessionalAca]: '' ,
+  [tokens.form.denissePublications]: '' ,
+  [tokens.form.denisseLanguages]: '',
+
+
+  [tokens.form.darelysTitle]: 'Auditor',
+  [tokens.form.darelysBio]: '',
+  [tokens.form.darelysEducation]: 'Studying auditing career - DUOC (UC)',
+  [tokens.form.darelysExperiencePro]: '',
+  [tokens.form.darelysProfessionalAca]: '',
+  [tokens.form.darelysPublications]: '',
+  [tokens.form.darelysLanguages]: '',
+  [tokens.form.darelysBio]: '',
+
+
 
 
   [tokens.form.private]: 'Private',
