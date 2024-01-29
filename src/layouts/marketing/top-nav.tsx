@@ -97,7 +97,7 @@ export const TopNav: FC<TopNavProps> = (props) => {
   const theme = useTheme();
 
   // Define your logos for light and dark mode
-  const lightModeLogo = '/assets/logos/vla-light2.svg';
+  const lightModeLogo = '/assets/logos/vla-dark2.svg';
   const darkModeLogo = '/assets/logos/vla-dark2.svg';
 
   // Determine the logo based on the theme mode

@@ -5,7 +5,7 @@ const withAlphas = (color: PaletteColor): PaletteColor => {
   return {
     ...color,
     alpha4: alpha(color.main, 0.04),
-    alpha8: alpha(color.main, 0.08),
+    alpha8: alpha(color.main, 0.48),
     alpha12: alpha(color.main, 0.12),
     alpha30: alpha(color.main, 0.3),
     alpha50: alpha(color.main, 0.5),
@@ -13,11 +13,11 @@ const withAlphas = (color: PaletteColor): PaletteColor => {
 };
 
 export const neutral: ColorRange = {
-  50: '#F8F9FA',
+  50: '#181818',
   100: '#F3F4F6',
   200: '#E5E7EB',
   300: '#D2D6DB',
-  400: '#9DA4AE',
+  400: '#353739',
   500: '#6C737F',
   600: '#4D5761',
   700: '#28303c',
@@ -37,16 +37,16 @@ export const blue = withAlphas({
 export const green = withAlphas({
   lightest: '#f9e7d4',
   light: '#ffb98f',
-  main: '#e05200',
-  dark: '#ab4800',
-  darkest: '#953900',
+  main: '#b98f55',
+  dark: '#a6804c',
+  darkest: '#7d6037',
   contrastText: '#FFFFFF',
 });
 
 export const indigo = withAlphas({
   lightest: '#F5F7FF',
   light: '#EBEEFE',
-  main: '#6b6b6e',
+  main: '#808080',
   dark: '#727274',
   darkest: '#5d5d5d',
   contrastText: '#FFFFFF',
@@ -55,7 +55,7 @@ export const indigo = withAlphas({
 export const purple = withAlphas({
   lightest: '#ead095',
   light: '#ceab5a',
-  main: '#ffb201',
+  main: '#b98f55',
   dark: '#a27f2f',
   darkest: '#785c1b',
   contrastText: '#FFFFFF',

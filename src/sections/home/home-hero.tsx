@@ -37,10 +37,10 @@ export const HomeHero: FC = () => {
 
   const theme = useTheme();
 
-  const lightModeImage = '/assets/lawfirmwhite.jpg';
+  const lightModeImage = '/assets/lawfirmmain.png';
   const darkModeImage = '/assets/lawfirmmain.png';
 
-  const lightModeGradient = 'linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.7))';
+  const lightModeGradient = 'linear-gradient(rgba(0, 0, 5, 0.8), rgba(0, 0, 0, 0.8))';
   const darkModeGradient = 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7))';
 // Determine the background image based on the theme mode
   const backgroundImage = theme.palette.mode === 'dark' ? darkModeImage : lightModeImage;

@@ -17,7 +17,7 @@ interface Option {
 
 const options: Option[] = [
   {
-    label: 'Día',
+    label: 'Plomo oscuro',
     value: 'light',
     icon: (
       <SvgIcon fontSize="small">
@@ -26,7 +26,7 @@ const options: Option[] = [
     ),
   },
   {
-    label: 'Noche',
+    label: 'Azul Marino',
     value: 'dark',
     icon: (
       <SvgIcon fontSize="small">

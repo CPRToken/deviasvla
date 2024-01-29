@@ -16,7 +16,7 @@ export const createPalette = (config: Config): PaletteOptions => {
 
   return {
     action: {
-      active: neutral[500],
+      active: neutral[300],
       disabled: alpha(neutral[900], 0.38),
       disabledBackground: alpha(neutral[900], 0.12),
       focus: alpha(neutral[900], 0.16),
@@ -24,10 +24,10 @@ export const createPalette = (config: Config): PaletteOptions => {
       selected: alpha(neutral[900], 0.12),
     },
     background: {
-      default: contrast === 'high' ? neutral[50] : common.white,
-      paper: common.white,
+      default: contrast === 'high' ? '#101010' : '#101010',
+      paper: '#171717',
     },
-    divider: '#F2F4F7',
+    divider: '#3d3d3d',
     error,
     info,
     mode: 'light',
@@ -35,9 +35,9 @@ export const createPalette = (config: Config): PaletteOptions => {
     primary: getPrimary(colorPreset),
     success,
     text: {
-      primary: neutral[900],
-      secondary: neutral[500],
-      disabled: alpha(neutral[900], 0.38),
+      primary: neutral[100],
+      secondary: neutral[200],
+      disabled: alpha(neutral[500], 0.38),
     },
     warning,
   };

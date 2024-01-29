@@ -18,7 +18,7 @@ export const createComponents = ({ palette }: Config): Components => {
       styleOverrides: {
         root: {
           backgroundColor: palette.neutral![200],
-          color: common.black,
+          color: common.white,
         },
       },
     },
@@ -26,7 +26,7 @@ export const createComponents = ({ palette }: Config): Components => {
       styleOverrides: {
         root: {
           [`&:not(.${backdropClasses.invisible})`]: {
-            backgroundColor: alpha(palette.neutral![900], 0.75),
+            backgroundColor: alpha(palette.neutral![800], 0.75),
           },
         },
       },
@@ -46,7 +46,7 @@ export const createComponents = ({ palette }: Config): Components => {
           color: palette.action!.active,
         },
         root: {
-          borderColor: palette.neutral![200],
+          borderColor: palette.neutral![700],
         },
       },
     },
@@ -80,7 +80,7 @@ export const createComponents = ({ palette }: Config): Components => {
     MuiFilledInput: {
       styleOverrides: {
         root: {
-          borderColor: palette.neutral![200],
+          borderColor: palette.neutral![800],
           '&:hover': {
             backgroundColor: palette.action!.hover,
           },
@@ -150,7 +150,7 @@ export const createComponents = ({ palette }: Config): Components => {
         root: {
           [`& .${tableCellClasses.root}`]: {
             backgroundColor: palette.neutral![50],
-            color: palette.neutral![700],
+            color: palette.neutral![800],
           },
         },
       },
@@ -167,7 +167,7 @@ export const createComponents = ({ palette }: Config): Components => {
       styleOverrides: {
         tooltip: {
           backdropFilter: 'blur(6px)',
-          background: alpha(palette.neutral![900], 0.8),
+          background: alpha(palette.neutral![500], 0.8),
         },
       },
     },
