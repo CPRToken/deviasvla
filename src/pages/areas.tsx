@@ -107,7 +107,7 @@ const Page: NextPage = () => {
 
   return (
     <Container sx={{ py: { xs: 5, md: 10, lg: 17 } }}>
-      <Typography sx={{ ...typography.h5, mb: 9, mt: 4, textAlign: 'center' }}>
+      <Typography sx={{ ...typography.h5, mb: 9, mt: 6, textAlign: 'center' }}>
         ÁREAS DE PRÁCTICA
       </Typography>
 
