@@ -32,6 +32,54 @@ const Page: NextPage = () => {
   useTheme();
 
   const categories: CategoryItem[] = [
+    {
+      title: 'CORPORATIVO',
+      icon: '/assets/icons/ic_checklist.svg',
+    },
+    {
+      title: 'FUSIONES Y ADQUISICIONES',
+      icon: 'assets/icons/ic_file.svg', // Replace with the correct path
+    },
+    {
+      title: 'TRIBUTARIA',
+      icon: 'assets/icons/ic_agreement.svg', // Replace with the correct path
+    },
+    {
+      title: 'LABORAL',
+      icon: 'assets/icons/ic_service_bullhorn.svg', // Replace with the correct path
+    },
+    {
+      title: 'CONTRATACIÓN NACIONAL E INTERNACIONAL',
+      icon: 'assets/icons/ic_service_analysis.svg', // Replace with the correct path
+    },
+    {
+      title: 'INMOBILIARIA, INGENIERÍA Y CONSTRUCCIÓN',
+      icon: 'assets/icons/ic_banking_currency.svg', // Replace with the correct path
+    },
+    {
+      title: 'FINANCIAMIENTO DE PROYECTOS',
+      icon: 'assets/icons/ic_money.svg', // Replace with the correct path
+    },
+    {
+      title: 'MERCADOS REGULADOS',
+      icon: 'assets/icons/ic_banking.svg', // Replace with the correct path
+    },
+    {
+      title: 'INMIGRACIÓN',
+      icon: 'assets/icons/ic_customer_service.svg', // Replace with the correct path
+    },
+    {
+      title: 'INVERSIÓN EXTRANJERA',
+      icon: 'assets/icons/ic_money.svg', // Replace with the correct path
+    },
+    {
+      title: 'ENERGÍA Y RECURSOS NATURALES',
+      icon: 'assets/icons/energy.svg', // Replace with the correct path
+    },
+    {
+      title: 'AGUAS',
+      icon: 'assets/icons/aguas.svg', // Replace with the correct path
+    },
     { title: 'LITIGIOS', icon: 'assets/icons/gavel_2.svg' },
     { title: 'SOLUCIÓN DE CONFLICTOS Y ARBITRAJE', icon: 'assets/icons/shake.svg' },
     { title: 'LIBRE COMPETENCIA', icon: 'assets/icons/free.svg' },
