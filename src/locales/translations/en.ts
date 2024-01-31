@@ -114,7 +114,7 @@ export const en = {
   [tokens.form.GeneralPractice]: 'General Practice',
 
     [tokens.form.privacy]: 'Privacy',
-  [tokens.form.firmaTitle]: 'About the Firm',
+  [tokens.form.firmaTitle]: 'The Firm',
   [tokens.form.areasTitle]: 'Areas of Practice',
   [tokens.form.areasList]:' CORPORATE\n' +
   'MERGERS AND ACQUISITIONS\n' +

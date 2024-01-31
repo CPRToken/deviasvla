@@ -38,7 +38,7 @@ const Page: NextPage = () => {
 
   return (
     <Container
-      maxWidth="xl"
+      maxWidth="lg"
       sx={{
         pt: { xs: '60px', sm: '80px', md: '120px', lg: '180px' },
         pb: { xs: '30px', sm: '40px', md: '50px', lg: '120px' },
@@ -64,7 +64,7 @@ const Page: NextPage = () => {
         <Typography
           color="#b98f55"
           sx={{
-            ...typography.h5,
+            ...typography.h2,
 
             paddingTop: '10px', // Add padding to the top
             paddingBottom: '30px', // Add padding to the bottom

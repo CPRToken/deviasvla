@@ -4,8 +4,6 @@ import PropTypes from 'prop-types';
 import Menu01Icon from '@untitled-ui/icons-react/build/esm/Menu01';
 import { alpha } from '@mui/system/colorManipulator';
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
-
 import Container from '@mui/material/Container';
 import IconButton from '@mui/material/IconButton';
 import Stack from '@mui/material/Stack';
@@ -121,11 +119,11 @@ export const TopNav: FC<TopNavProps> = (props) => {
       }}
     >
       <Container
-        maxWidth="lg"
+        maxWidth="xl"
         sx={{
           backdropFilter: 'blur(6px)',
           backgroundColor: 'transparent',
-          borderRadius: 2.5,
+          borderRadius: 2.0,
           boxShadow: 'none',
           transition: (theme) =>
             theme.transitions.create('box-shadow, background-color', {
@@ -164,7 +162,8 @@ export const TopNav: FC<TopNavProps> = (props) => {
                 sx={{
                   display: 'inline-flex',
                   height: smDown ? 50 : 90, // Smaller height for small screens
-                  width: smDown ? 330 : 550, // Smaller width for small screens
+                  width: smDown ? 330 : 560, // Smaller width for small screens
+                  paddingTop: smDown ? 0 : 2,
                 }}
               />
             </Stack>
@@ -224,7 +223,7 @@ export const TopNav: FC<TopNavProps> = (props) => {
             alignItems="center"
             direction="row"
             justifyContent="flex-end"
-            spacing={2}
+            spacing={1}
             sx={{ flexGrow: 1 }}
           >
 

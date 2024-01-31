@@ -40,7 +40,7 @@ export const primaryFont = Public_Sans({
   weight: ['400', '500', '600', '700', '800', '900'],
   subsets: ['latin'],
   display: 'swap',
-  fallback: ['Helvetica', 'Arial', 'sans-serif'],
+  fallback: ['Helvetica Neue', 'Helvetica', 'sans-serif'],
 });
 
 export const secondaryFont = Cormorant_Garamond({
@@ -101,6 +101,7 @@ export const typography = {
     lineHeight: 64 / 48,
     fontSize: pxToRem(28),
     fontFamily: tertiaryFont.style.fontFamily,
+    textTransform: 'uppercase',
     ...responsiveFontSizes({ sm: 40, md: 41, lg: 44 }),
   },
   h3: {
@@ -114,16 +115,16 @@ export const typography = {
     fontWeight: 400,
     lineHeight: 1,
     fontSize: pxToRem(24),
-    fontFamily: tertiaryFont.style.fontFamily,
+    fontFamily: primaryFont.style.fontFamily,
     ...responsiveFontSizes({ sm: 21, md: 23, lg: 26 }),
   },
   h5: {
-    fontWeight: 500,
+    fontWeight: 300,
     lineHeight: 1.5,
-    fontSize: pxToRem(25),
+    fontSize: pxToRem(27),
     fontFamily: secondaryFont.style.fontFamily,
     textTransform: 'uppercase',
-    ...responsiveFontSizes({ sm: 22, md: 25, lg: 23 }),
+    ...responsiveFontSizes({ sm: 22, md: 25, lg: 26 }),
   },
   h6: {
     fontWeight: 400,
