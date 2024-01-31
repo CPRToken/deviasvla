@@ -54,7 +54,14 @@ const items: Item[] = [
             title: 'Firma',
             path: paths.firma.index,
           },
-
+          {
+            title: 'Áreas',
+            path: paths.areas.index,
+          },
+          {
+            title: 'Áreas 2',
+            path: paths.categories.index,
+          },
           {
             title: 'Equipo',
             path: paths.equipo.index,

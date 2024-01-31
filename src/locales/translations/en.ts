@@ -8,7 +8,7 @@ export const en = {
   [tokens.nav.auth]: 'Auth',
   [tokens.headings.whatsOnYourMind]: "What's on your mind?",
   [tokens.headings.language]: "LANGUAGE",
-
+  [tokens.headings.Areas]: "AREAS OF PRACTICE",
   [tokens.nav.browse]: 'Browse',
   [tokens.nav.calendar]: 'Calendar',
     [tokens.nav.capsules]: 'Time Capsules',
@@ -579,5 +579,6 @@ export const en = {
   [tokens.headings['File Manager']]: 'File Manager',
     [tokens.nav.settings]: 'Settings',
     [tokens.nav.billing]: 'Billing',
+
 
 };

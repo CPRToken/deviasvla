@@ -1,86 +1,163 @@
-import React from 'react';
+import React from "react";
+import { NextPage } from 'next';
 import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
-import Button from '@mui/material/Button';
+import Card from '@mui/material/Card';
+import Stack from '@mui/material/Stack';
 import Container from '@mui/material/Container';
-import Grid from '@mui/material/Grid';
+import {tokens} from "src/locales/tokens";
+import { Layout as MarketingLayout } from 'src/layouts/marketing';
+import { useRouter } from 'next/router';
+import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import { categories } from 'src/api/blog/data';
+import {typography } from "src/theme/typography";
+import { createTheme } from '@mui/material/styles';
+import { paths } from 'src/paths';
+import { RouterLink } from 'src/components/router-link';
+import  TextMaxLine  from 'src/components/text-max-line/text-max-line';
 import Iconify from 'src/components/iconify';
-import TextMaxLine from 'src/components/text-max-line';
-import { useTranslation } from 'react-i18next';
+import SvgColor from "../components/svg-color";
+import {useTheme} from "@mui/material/styles";
+import { useTranslation } from 'react-i18next'
+import Paper from '@mui/material/Paper';
 
-type CategoryItemProps = {
-  name: string;
+
+type CategoryItem = {
+  title: string;
+  icon: string;
 };
 
-function CategoryItem({ name }: CategoryItemProps) {
+const Page: NextPage = () => {
   const { t } = useTranslation();
 
+  useTheme();
+
+  const categories: CategoryItem[] = [
+    { title: 'LITIGIOS', icon: 'assets/icons/gavel_2.svg' },
+    { title: 'SOLUCIÓN DE CONFLICTOS Y ARBITRAJE', icon: 'assets/icons/shake.svg' },
+    { title: 'LIBRE COMPETENCIA', icon: 'assets/icons/free.svg' },
+    { title: 'CONSTITUCIONAL Y ADMINISTRATIVO', icon: 'assets/icons/const.svg' },
+    { title: 'INFORMES ESPECIALIZADOS EN DERECHO', icon: 'assets/icons/law.svg' },
+    { title: 'CONFLICTOS DE LEYES Y JURISDICCIÓN', icon: 'assets/icons/conflicts.svg' },
+    { title: 'PROTECCIÓN DEL CONSUMIDOR', icon: 'assets/icons/protect.svg' },
+    { title: 'INSOLVENCIA Y REORGANIZACIÓN EMPRESARIAL', icon: 'assets/icons/reorg.svg' },
+    { title: 'MEDIO AMBIENTE', icon: 'assets/icons/environ.svg' },
+    { title: 'AGROINDUSTRIA', icon: 'assets/icons/AGROIN.svg ' },
+    { title: 'EDUCACIÓN', icon: 'assets/icons/edu.svg ' },
+    { title: 'PRÁCTICA GENERAL', icon: 'assets/icons/general.svg' },
+  ];
+
+
+
+
+
+  // Additional areas
+
   return (
-    <Box sx={{ flex: '1 0 21%', margin: '0.5%' }}>
-      <Paper
-        variant="outlined"
+    <Container sx={{ py: { xs: 5, md: 10, lg: 17 } }}>
+      <Typography sx={{ ...typography.h5, mb: 9, mt: 3, textAlign: 'center' }}>
+        {t(tokens.headings.Areas)}
+      </Typography>
+
+      <Box
         sx={{
-          p: 3,
-          borderRadius: 1.5,
-          cursor: 'pointer',
-          bgcolor: 'transparent',
-          transition: (theme) =>
-            theme.transitions.create('all', {
-              duration: theme.transitions.duration.enteringScreen,
-            }),
-          '&:hover': {
-            bgcolor: 'background.paper',
-            boxShadow: (theme) => theme.shadows[5],
-            h6: {
-              color: 'primary.main',
-            },
+          gap: 4,
+          paddingLeft: 0,
+          display: 'grid',
+          my: { xs: 8, md: 10 },
+          gridTemplateColumns: {
+            xs: 'repeat(2, 1fr)',
+            sm: 'repeat(2, 1fr)',
+            md: 'repeat(4, 1fr)',
           },
         }}
       >
-        <TextMaxLine variant="h6" line={1}>
-          {t(name)}
-        </TextMaxLine>
-      </Paper>
-    </Box>
+        {categories.map((module) => (
+          <CategoryItem key={module.title} module={module} />
+        ))}
+      </Box>
+    </Container>
   );
 }
 
-export default function Categories() {
+type CategoryItemProps = {
+  module: CategoryItem;
+};
+
+const CategoryItem = ({ module }: CategoryItemProps) => {
+  const router = useRouter();
+  const theme = useTheme();
+  const [hovered, setHovered] = React.useState(false);
+
+  const handleMouseEnter = () => {
+    setHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setHovered(false);
+  };
+
   return (
-    <Box
+    <Paper
+
+      variant="outlined"
       sx={{
-        overflow: 'hidden',
-        bgcolor: 'background.neutral',
-        py: { xs: 10, md: 15, lg: 20 },
+        pt: '100%',
+        borderRadius: 2,
+        cursor: 'pointer',
+        textAlign: 'center',
+        position: 'relative',
+        bgcolor: hovered ? 'background.paper' : 'transparent', // Change background color on hover
+        transition: theme.transitions.create('all'),
+        '&:hover': {
+          bgcolor: 'background.paper', // Change background color on hover
+          boxShadow: '0 4px 20px 0 rgba(0,0,0,0.12)',
+        },
       }}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
     >
-      <Container>
-        <Grid container spacing={3} justifyContent="center">
-          <Grid item xs={12} lg={4} sx={{ textAlign: { xs: 'center', lg: 'unset' } }}>
-            <Typography variant="h2">Featured Category</Typography>
-            <Typography sx={{ color: 'text.secondary', mt: 2, mb: 2 }}>
-              Description or subtitle here
-            </Typography>
-            <Button
-              variant="contained"
-              size="large"
-              color="inherit"
-              endIcon={<Iconify icon="carbon:chevron-right" />}
-            >
-              Explore more
-            </Button>
-          </Grid>
-          <Grid item xs={12} lg={7}>
-            <Box sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 1 }}>
-              {categories.map((name, index) => (
-                <CategoryItem key={index} name={name} />
-              ))}
-            </Box>
-          </Grid>
-        </Grid>
-      </Container>
-    </Box>
+      <Stack
+        alignItems="center"
+        justifyContent="center"
+        sx={{
+          width: 1,
+          height: 1,
+          top: 0,
+          position: 'absolute',
+        }}
+      >
+        <Box
+          className="svg-color"
+          sx={{
+            mb: 2.5,
+            width: 72,
+            height: 72,
+            mx: 'auto',
+            display: 'flex',
+            borderRadius: '50%',
+            alignItems: 'center',
+            justifyContent: 'center',
+          }}
+        >
+          <SvgColor
+            src={module.icon}
+            color={hovered ? theme.palette.primary.main : 'info'} // Change icon color on hover to primary color
+            sx={{
+              width: 60,
+              height: 60,
+            }}
+          />
+        </Box>
+
+        <Typography sx={{ ...typography.subtitle1, color: 'text.secondary', mt: 1, mb: 1 }}>
+          {module.title}
+        </Typography>
+      </Stack>
+    </Paper>
   );
 }
+
+
+Page.getLayout = (page) => <MarketingLayout>{page}</MarketingLayout>;
+export default Page;
+

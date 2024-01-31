@@ -64,6 +64,12 @@ export const paths = {
     kyle: 'team/kyle',
   },
 
+  categories: {
+    index: '/categories',
+
+  },
+
+
   blog: {
 
   index: '/team',

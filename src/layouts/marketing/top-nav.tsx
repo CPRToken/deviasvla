@@ -51,6 +51,11 @@ const items: Item[] = [
 
   },
   {
+    title: 'PRÁCTICA',
+    path: paths.categories.index,
+
+  },
+  {
     title: 'EQUIPO',
     path: paths.equipo.index,
 

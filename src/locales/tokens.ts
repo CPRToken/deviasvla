@@ -62,6 +62,7 @@ export const tokens = {
 headings: {
   primaryColor: 'headings.primaryColor',
   welcome: 'headings.welcome',
+  Areas: 'headings.Areas',
   whatsOnYourMind: 'headings.whatsOnYourMind',
       aboutUs: 'headings.aboutUs',
   documents: 'headings.documents',
