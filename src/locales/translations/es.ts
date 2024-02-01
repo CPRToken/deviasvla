@@ -94,7 +94,7 @@ export const es = {
   '\n' +
 
   'Los abogados de Villarroel, Lecaros y Aste se enorgullecen de ser profesionales accesibles, estudiosos, actualizados, con visión creativa y comprometidos con sus clientes.',
-  [tokens.form.firmaTitle]: 'Firma',
+  [tokens.form.firmaTitle]: 'FIRMA',
   [tokens.form.areasTitle]: 'Áreas de Práctica',
   [tokens.form.areasList]:'CORPORATIVO\n' +
   'FUSIONES Y ADQUISICIONES\n' +
