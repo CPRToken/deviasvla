@@ -38,6 +38,11 @@ const Page: NextPage = () => {
             education={lawyer.education}
             professional={lawyer.professional}
             publications={lawyer.publications}
+            sx={{
+              '& .MuiCardMedia-root': { // Target the CardMedia component
+                height: { xs: 300, sm: 300, md: 270 }, // Example: 140px for xs, 180px for sm, 220px for md
+              },
+            }}
           />
         </Grid>
       ))}

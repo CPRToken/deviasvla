@@ -52,14 +52,14 @@ const { t } = useTranslation();
         px: { xs: '10px', sm: '15px', md: '20px', lg: '25px' }, // Responsive padding left and right
         // You can add more responsive styles here
       }}>
-      <Paper elevation={3} sx={{ mt: 4, p: 3 }}>
+      <Paper elevation={3} sx={{ mt: 4, p: 2 }}>
         <Box
           component="img"
           src={lawyer.image}
           alt={lawyer.title}
           sx={{
             float: 'left',
-            borderRadius: '10px',
+            borderRadius: '20px',
             marginRight: '20px',
             marginTop: '20px',
             marginBottom: '20px',
@@ -73,9 +73,10 @@ const { t } = useTranslation();
             '@media (max-width:600px)': {
               pt: '20px',
               pb: '20px',
-              borderRadius: '20px',
-              height: '50vh',
+               height: '50vh',
               width: '100%',
+              borderRadius: '30px',
+
             }
           }}
         />
