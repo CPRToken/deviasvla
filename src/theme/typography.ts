@@ -52,7 +52,7 @@ export const secondaryFont = Cormorant_Garamond({
 
 
 export const tertiaryFont = Cormorant_Garamond({
-  weight: ['300', '400','500','700'], // Example weights, you can choose what you need
+  weight: ['400', '400','500','700'], // Example weights, you can choose what you need
   subsets: ['latin'],
   display: 'swap',
   fallback: ['Helvetica', 'Arial', 'sans-serif'],
@@ -101,8 +101,7 @@ export const typography = {
     lineHeight: 64 / 48,
     fontSize: pxToRem(28),
     fontFamily: tertiaryFont.style.fontFamily,
-    textTransform: 'uppercase',
-    ...responsiveFontSizes({ sm: 40, md: 41, lg: 44 }),
+       ...responsiveFontSizes({ sm: 40, md: 41, lg: 44 }),
   },
   h3: {
     fontWeight: 500,
