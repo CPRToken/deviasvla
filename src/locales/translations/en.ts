@@ -81,6 +81,9 @@ export const en = {
   [tokens.headings.upgradeSubheader]: 'Upgrade before reaching it',
     [tokens.headings.usedStorage]: 'You have used {percentage}% of your available storage.',
   [tokens.form.forgotPassword]: 'Forgot Password',
+  [tokens.form.contactTitle]: 'Contact Us',
+  [tokens.form.question]: '\'Use the following contact form to communicate with us and we will respond promptly.\'',
+
   [tokens.form.emailSentMessage]: 'If an account exists with this email, please check your inbox and follow the instructions.',
   [tokens.form.sendResetLink]: 'Send reset link',
   [tokens.form.maritalStatus]: 'Marital Status',
@@ -220,8 +223,17 @@ export const en = {
 
 
 
-
-
+  [tokens.form.kyleTitle]: 'Attorney',
+  [tokens.form.kyleIntro]: ' ' ,
+  [tokens.form.kyleEducation]: 'Education: School of Law, Universidad de Los Andes (Bachelor of Law, 2018).\n' +
+  '\n' +
+  'Diploma of Advanced Studies in Legal English, Universidad de los Andes (2018).\n' +
+'\n' ,
+  [tokens.form.kyleProfessionalAca]: 'Admitted to practice: 2019.',
+  [tokens.form.kylePublications]: '',
+  [tokens.form.kyleLanguages]: 'Languages: Spanish and English.',
+  [tokens.form.kyleBio]: '',
+  [tokens.form.kyleExperiencePro]: '',
 
   [tokens.form.carlosTitle]: 'Attorney',
   [tokens.form.carlosEducation]: 'Education: School of Law, Pontifical Catholic University of Chile (Bachelor in Law, 1981).\n' +
@@ -491,7 +503,7 @@ export const en = {
   [tokens.form.joaoLanguages]: 'Language: Spanish, English and Portuguese.',
 
 
-  [tokens.form.franciscoRRTitle]: 'Attorney',
+  [tokens.form.franciscoRRTitle]: 'Auditor',
   [tokens.form.franciscoRRBio]: '',
   [tokens.form.franciscoRREducation]: 'Public Accountant and Audit Accountant from the University of Los Lagos, Post-Degree in Tax Legislation from the University of Santiago de Chile (1997), Post-Degree in Management Audit from the University of Santiago de Chile (1999), Diploma in International Accounting from the University of Chile (2007), Tax Head at Aguas Andinas and Senior Manager at Deloitte.\n',
   [tokens.form.franciscoRRExperiencePro]: ' Professional Experience\n' +

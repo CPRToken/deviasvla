@@ -48,21 +48,13 @@ const items: Item[] = [
     path: paths.areas.index,
 
   },
-  {
-    title: 'PRÁCTICA',
-    path: paths.categories.index,
 
-  },
   {
     title: 'EQUIPO',
     path: paths.equipo.index,
 
   },
-  {
-    title: 'TEAM',
-    path: paths.team.index,
 
-  },
 ];
 
 const TOP_NAV_HEIGHT = 64;

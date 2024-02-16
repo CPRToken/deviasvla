@@ -57,7 +57,9 @@ export const es = {
 
 
   [tokens.nav.verifyCode]: 'Verificar Código',
-  [tokens.form.saveOrPublish]: 'Guardar o publicar',
+  [tokens.form.contactTitle]: 'Contacto',
+  [tokens.form.question]: 'Utilice el siguiente formulario de contacto para comunicarse con nosotros y le responderemos con prontitud.',
+    [tokens.form.saveOrPublish]: 'Guardar o publicar',
   [tokens.form.education]: 'Educación',
   [tokens.form.Corporate]: 'Corporativo',
   [tokens.form.MergersAndAcquisitions]: 'Fusiones y Adquisiciones',
@@ -191,6 +193,23 @@ export const es = {
   [tokens.form.fernandaPublications]:'',
   [tokens.form.fernandaLanguages]: 'Idiomas: Español e inglés',
   [tokens.form.fernandaBio]: '',
+
+
+
+  [tokens.form.kyleTitle]: 'Abogado',
+  [tokens.form.kyleIntro]: ' ' ,
+
+  [tokens.form.kyleEducation]: 'Educación: Facultad de Derecho, Universidad de Los Andes (Licenciado en Derecho, 2018).\n' +
+  '\n' +
+  'Diploma de Estudios Profundizados en Inglés Legal, Universidad de los Andes (2018).\n' +
+  '\n' ,
+   [tokens.form.kyleProfessionalAca]: 'Admitido a práctica: 2019.',
+  [tokens.form.kylePublications]: '',
+  [tokens.form.kyleLanguages]: 'Idiomas: Español e inglés.',
+  [tokens.form.kyleBio]: '',
+  [tokens.form.kyleExperiencePro]: '',
+
+
 
 
   [tokens.form.carlosTitle]: 'Abogado',
@@ -471,7 +490,7 @@ export const es = {
 
 
 
-  [tokens.form.franciscoRRTitle]: 'Abogado',
+  [tokens.form.franciscoRRTitle]: 'Auditor',
   [tokens.form.franciscoRRBio]:'',
   [tokens.form.franciscoRREducation]: 'Contador Público y Contador Auditor de la Universidad de Los Lagos, Post-Título en Legislación Tributaria de la Universidad de Santiago de Chile (1997), Post Título en Auditoria de Gestión de la Universidad de Santiago de Chile (1999), Diplomado en Contabilidad Internacional de la Universidad de Chile (2007), Jefe Tributario Aguas Andinas y Senior Manager en Deloitte.\n' ,
    [tokens.form.franciscoRRExperiencePro]: ' Experiencia profesional\n' +

@@ -6,9 +6,21 @@ export const firma = {
 
 
   title: tokens.form.firmaTitle as string,
+
   about:tokens.form.aboutFirm as string,
 
 };
+
+
+export const contact = {
+
+
+  title: tokens.form.contactTitle as string,
+  question: tokens.form.question as string,
+  about:tokens.form.aboutFirm as string,
+
+};
+
 
 export const areas = {
 
@@ -234,16 +246,18 @@ export const lawyers: Lawyer[] = [
   {
     id: '29',
     name: 'Kyle Townley',
-    email: 'kyle@vla.cl ',
-    title: 'Abogado',
+    email: 'kyle@vla.cl',
+    title: tokens.form.kyleTitle as string, // Placeholder token for title
     cover: '/assets/team/kyle-townley.jpg', // Placeholder
-    image: '/assets/team/kyle-townley.jpg',// Placeholder
+    image: '/assets/team/kyle-townley.jpg', // Placeholder
     userurl: 'kyle-townley',
-    bio: 'Especialista en Derecho de Aguas y Recursos Naturales.',
-    intro: 'Educación: Universidad de Chile (Licenciado en Derecho, 1987).',
-    education: 'Universidad Adolfo Ibáñez, Magíster en Dirección y Gestión Tributaria (2005).',
-    professional: 'Actividad Académica: Profesor de Derecho de Aguas.',
-    publications: 'Publicaciones: Varios artículos en Derecho de Aguas y Medio Ambiente.'
+    bio: tokens.form.kyleBio as string, // Placeholder token for bio
+    intro: tokens.form.kyleIntro as string, // Placeholder token for intro
+    education: tokens.form.kyleEducation as string, // Placeholder token for education
+    professional: tokens.form.kyleProfessionalAca as string, // Placeholder token for professional activity
+   experience: tokens.form.kyleExperiencePro as string, // Placeholder token for professional experience
+    publications: tokens.form.kylePublications as string, // Placeholder token for publications
+  languages: tokens.form.kyleLanguages as string, // Placeholder token for languages
   },
 
 

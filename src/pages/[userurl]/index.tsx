@@ -47,7 +47,7 @@ const { t } = useTranslation();
     <Container
       maxWidth="xl"
       sx={{
-        pt: { xs: '60px', sm: '80px', md: '120px', lg: '180px' }, // Responsive padding top
+        pt: { xs: '60px', sm: '80px', md: '120px', lg: '140px' }, // Responsive padding top
         pb: { xs: '30px', sm: '40px', md: '50px', lg: '120px' }, // Responsive padding bottom
         px: { xs: '10px', sm: '15px', md: '20px', lg: '25px' }, // Responsive padding left and right
         // You can add more responsive styles here

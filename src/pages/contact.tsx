@@ -3,25 +3,29 @@ import ArrowLeftIcon from '@untitled-ui/icons-react/build/esm/ArrowLeft';
 import Mail01Icon from '@untitled-ui/icons-react/build/esm/Mail01';
 import Avatar from '@mui/material/Avatar';
 import Box from '@mui/material/Box';
+import {contact, firma} from 'src/api/blog/data';
 import Container from '@mui/material/Container';
 import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
 import SvgIcon from '@mui/material/SvgIcon';
+import { Layout as MarketingLayout } from 'src/layouts/marketing';
 import Typography from '@mui/material/Typography';
-
-import { LogoAccenture } from 'src/components/logos/logo-accenture';
-import { LogoAtt } from 'src/components/logos/logo-att';
-import { LogoAws } from 'src/components/logos/logo-aws';
-import { LogoBolt } from 'src/components/logos/logo-bolt';
-import { LogoSamsung } from 'src/components/logos/logo-samsung';
-import { LogoVisma } from 'src/components/logos/logo-visma';
+import { typography, primaryFont } from "src/theme/typography";
+import { useTheme } from '@mui/material/styles';
+import { useTranslation } from 'react-i18next';
 import { RouterLink } from 'src/components/router-link';
 import { Seo } from 'src/components/seo';
 import { usePageView } from 'src/hooks/use-page-view';
 import { paths } from 'src/paths';
 import { ContactForm } from 'src/sections/contact/contact-form';
+import React from "react";
+
+
+
 
 const Page: NextPage = () => {
+  useTheme();
+  const { t } = useTranslation();
   usePageView();
 
   return (
@@ -67,7 +71,17 @@ const Page: NextPage = () => {
                   <Typography variant="subtitle2">Home</Typography>
                 </Link>
               </div>
-              <Typography variant="h3">Contact</Typography>
+              <Typography
+                color="#b98f55"
+                sx={{
+                  ...typography.h2,
+
+                  paddingTop: '10px', // Add padding to the top
+                  paddingBottom: '30px', // Add padding to the bottom
+                }}
+                variant="body1">
+                {contact.title ? (t(contact.title)) : t('defaultTitleKey')}
+              </Typography>
             </Stack>
             <Stack
               alignItems="center"
@@ -89,28 +103,13 @@ const Page: NextPage = () => {
                   <Mail01Icon />
                 </SvgIcon>
               </Avatar>
-              <Typography variant="overline">Contact sales</Typography>
+
             </Stack>
-            <Typography
-              sx={{ mb: 3 }}
-              variant="h1"
-            >
-              Talk to our account expert
+
+            <Typography color="text.secondary" sx={{ ...typography.body1 }} variant="body1">
+              {contact.question ? (t(contact.question)) : t('defaultEducationKey')}
             </Typography>
-            <Typography
-              sx={{ mb: 3 }}
-              variant="body1"
-            >
-              Have questions about integrating our APIs? Fill out the form and a senior web expert
-              will be in touch shortly.
-            </Typography>
-            <Typography
-              color="primary"
-              sx={{ mb: 3 }}
-              variant="h6"
-            >
-              Join 6,000+ forward-thinking companies:
-            </Typography>
+
             <Stack
               alignItems="center"
               direction="row"
@@ -123,12 +122,7 @@ const Page: NextPage = () => {
                 },
               }}
             >
-              <LogoSamsung />
-              <LogoVisma />
-              <LogoBolt />
-              <LogoAws />
-              <LogoAccenture />
-              <LogoAtt />
+
             </Stack>
           </Container>
         </Box>
@@ -160,5 +154,7 @@ const Page: NextPage = () => {
     </>
   );
 };
+
+Page.getLayout = (page) => <MarketingLayout>{page}</MarketingLayout>;
 
 export default Page;

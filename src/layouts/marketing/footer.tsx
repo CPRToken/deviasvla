@@ -23,29 +23,26 @@ interface Section {
 const sections: Section[] = [
 
   {
-    title: 'Legal',
+    title: 'Contacto',
     items: [
       {
-        title: 'Terms & Conditions',
-        path: '#',
+        title: 'contacto@vla.cl',
+        path: 'mailto:contacto@vla.cl',
       },
       {
-        title: 'License',
-        path: '#',
+        title: '(56-2) 28877200',
+        path: 'tel:+56228877200',
       },
-      {
-        title: 'Contacto',
-        path: '#',
-      },
+
     ],
   },
   {
-    title: 'Social',
+    title: 'DIRECCIÓN',
     items: [
 
       {
-        title: 'LinkedIn',
-        path: '#',
+        title: 'Cerro El Plomo 5630, of. 1601. Las Condes, Santiago',
+        path: 'https://www.google.com/maps/place/Las+Condes+Santiago,+Chile/@-33.4057068,-70.5767909,17z/data=!3m1!4b1!4m6!3m5!1s0x9662cf63985a0c5d:0x428533b5ba9cfe8e!8m2!3d-33.4057113!4d-70.574216!16s%2Fg%2F1td501m7?entry=ttu',
       },
     ],
   },
@@ -60,7 +57,7 @@ export const Footer: FC = (props) => (
       borderTopWidth: 1,
       pb: 3,
       pt: {
-        md: 15,
+        md: 12,
         xs: 6,
       },
     }}
@@ -97,7 +94,7 @@ export const Footer: FC = (props) => (
                 sx={{
                   color: 'text.primary',
                   fontFamily: secondaryFont.style.fontFamily,
-                  fontSize: 17,
+                  fontSize: 18,
                   fontWeight: 800,
                   letterSpacing: '0.3px',
                   lineHeight: 2.5,

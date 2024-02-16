@@ -3,7 +3,7 @@ import { firma } from 'src/api/blog/data';
 import type { NextPage } from 'next';
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
-import { tokens } from  'src/locales/tokens';
+
 import { Layout as MarketingLayout } from 'src/layouts/marketing';
 import Typography from '@mui/material/Typography';
 import { typography, primaryFont } from "src/theme/typography";

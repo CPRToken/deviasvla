@@ -7,14 +7,9 @@ import Container from '@mui/material/Container';
 import {tokens} from "src/locales/tokens";
 import { Layout as MarketingLayout } from 'src/layouts/marketing';
 import { useRouter } from 'next/router';
-import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import {typography } from "src/theme/typography";
-import { createTheme } from '@mui/material/styles';
-import { paths } from 'src/paths';
-import { RouterLink } from 'src/components/router-link';
-import  TextMaxLine  from 'src/components/text-max-line/text-max-line';
-import Iconify from 'src/components/iconify';
+
 import SvgColor from "../components/svg-color";
 import {useTheme} from "@mui/material/styles";
 import { useTranslation } from 'react-i18next'
@@ -108,14 +103,15 @@ const Page: NextPage = () => {
 
       <Box
         sx={{
-          gap: 4,
+          gap: 2,
           paddingLeft: 0,
           display: 'grid',
           my: { xs: 8, md: 10 },
           gridTemplateColumns: {
-            xs: 'repeat(2, 1fr)',
-            sm: 'repeat(2, 1fr)',
-            md: 'repeat(4, 1fr)',
+            xs: 'repeat(2, 1fr)', // 2 columns for extra small screens
+            sm: 'repeat(2, 1fr)', // 2 columns for small screens
+            md: 'repeat(4, 1fr)', // 4 columns for medium screens
+            lg: 'repeat(5, 1fr)', // 5 columns for large screens
           },
         }}
       >
@@ -178,8 +174,8 @@ const CategoryItem = ({ module }: CategoryItemProps) => {
           className="svg-color"
           sx={{
             mb: 2.5,
-            width: 72,
-            height: 72,
+            width: 65,
+            height: 65,
             mx: 'auto',
             display: 'flex',
             borderRadius: '50%',
