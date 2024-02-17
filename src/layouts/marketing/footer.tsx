@@ -57,7 +57,7 @@ export const Footer: FC = (props) => (
       borderTopWidth: 1,
       pb: 3,
       pt: {
-        md: 12,
+        md: 10,
         xs: 6,
       },
     }}
@@ -185,12 +185,7 @@ export const Footer: FC = (props) => (
         ))}
       </Grid>
       <Divider sx={{ my: 6 }} />
-      <Typography
-        color="text.secondary"
-        variant="caption"
-      >
-        All Rights Reserved.
-      </Typography>
+
     </Container>
   </Box>
 );

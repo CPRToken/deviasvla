@@ -5,9 +5,9 @@
   "homepage": "",
   "private": true,
   "scripts": {
-    "dev": "next -H 0.0.0.0",
+    "dev": "next -H 0.0.0.0 -p 2000",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 2000",
     "export": "next export",
     "lint": "next lint",
     "lint-fix": "next lint --fix",

@@ -42,7 +42,7 @@ export const HomeHero: FC = () => {
     "TRABAJO EN EQUIPO",
   ];
 
-  const darkModeGradient = 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7))';
+  const darkModeGradient = 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7))';
 
   return (
     <Box
@@ -55,10 +55,10 @@ export const HomeHero: FC = () => {
         backgroundPosition: 'center', // Center the background image
         backgroundSize: 'cover',
         backgroundImage: `${darkModeGradient}, url(${backgroundImages[backgroundIndex]})`,
-        height: '65vh',
+        height: '70vh',
         width: '100vw',
         '@media (max-width:600px)': {
-          height: '50vh',
+          height: '60vh',
         },
       }}
     >
