@@ -61,15 +61,13 @@ const Page: NextPage = () => {
 
 
 
-        <Typography
-          color="#b98f55"
-          sx={{
-            ...typography.h2,
-
-            paddingTop: '10px', // Add padding to the top
-            paddingBottom: '30px', // Add padding to the bottom
-          }}
-          variant="body1">
+      <Typography sx={{
+        ...typography.h5,
+        mb: 9,
+        mt: { xs: 5, sm: 5, md: 7 }, // Adjust these values as needed
+        pt: { xs: 5, sm: 4, md: 6 }, // Adjust these values as needed
+        textAlign: 'center'
+      }}>
           {firma.title ? renderTextWithLineBreaks(t(firma.title)) : t('defaultTitleKey')}
         </Typography>
 

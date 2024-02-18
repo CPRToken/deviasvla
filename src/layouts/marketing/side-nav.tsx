@@ -32,23 +32,15 @@ interface Item {
 const items: Item[] = [
 
   {
-    title: 'Paginas',
+    title: 'Menú',
     children: [
       {
-        subheader: 'INICIO',
+        subheader: 'Paginas',
         items: [
           {
-            title: 'Firma',
-            path: paths.firma.index,
+            title: 'Inicio',
+            path: paths.index,
           },
-
-
-        ],
-      },
-      {
-        subheader: 'ÁREAS',
-        items: [
-
 
           {
             title: 'Firma',
@@ -58,27 +50,18 @@ const items: Item[] = [
             title: 'Áreas',
             path: paths.areas.index,
           },
-          {
-            title: 'Áreas 2',
-            path: paths.categories.index,
-          },
+
           {
             title: 'Equipo',
             path: paths.equipo.index,
           },
-          {
-            title: 'Contacto',
-            path: paths.contact,
-          },
+
         ],
       },
+
     ],
   },
-  {
-    title: 'Equipo',
-    path: paths.equipo.index,
-    external: true,
-  },
+
 ];
 
 const renderItems = ({

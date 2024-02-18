@@ -97,7 +97,13 @@ const Page: NextPage = () => {
 
   return (
     <Container sx={{ py: { xs: 5, md: 10, lg: 17 } }}>
-      <Typography sx={{ ...typography.h5, mb: 9, mt: 3, textAlign: 'center' }}>
+      <Typography sx={{
+        ...typography.h5,
+        mb: 9,
+        mt: { xs: 5, sm: 5, md: 7 }, // Adjust these values as needed
+        pt: { xs: 5, sm: 4, md: 6 }, // Adjust these values as needed
+        textAlign: 'center'
+      }}>
         {t(tokens.headings.Areas)}
       </Typography>
 

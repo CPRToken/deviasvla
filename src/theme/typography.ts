@@ -123,7 +123,7 @@ export const typography = {
     fontSize: pxToRem(27),
     fontFamily: secondaryFont.style.fontFamily,
     textTransform: 'uppercase',
-    ...responsiveFontSizes({ sm: 22, md: 25, lg: 26 }),
+    ...responsiveFontSizes({ sm: 20, md: 22, lg: 26 }),
   },
   h6: {
     fontWeight: 400,
