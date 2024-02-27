@@ -138,6 +138,6 @@ TeamCard.propTypes = {
   name: PropTypes.string.isRequired,
   email: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  bio: PropTypes.string.isRequired,
+  bio: PropTypes.string,
   sx: PropTypes.any,
 };
