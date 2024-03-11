@@ -549,23 +549,7 @@ export const lawyers: Lawyer[] = [
     languages: tokens.form.joseDQLanguages as string,
   },
 
-// 5. Denisse Silvana Navarrete
-  {
-    id: '27',
-    name: 'Denisse Silvana Navarrete',
-    email: 'dnavarrete@vla.cl',
-    title: tokens.form.denisseTitle as string,
-    cover: '/assets/team/denisse-navarrete.jpg',
-    image: '/assets/team/denisse-navarrete.jpg',
-    userurl: 'denisse-navarrete',
-    bio: tokens.form.denisseBio as string,
-    intro: tokens.form.denisseIntro as string,
-    education: tokens.form.denisseEducation as string,
-    professional: tokens.form.denisseProfessionalAca as string,
-    experience: tokens.form.denisseExperiencePro as string,
-    publications: tokens.form.denissePublications as string,
-    languages: tokens.form.denisseLanguages as string,
-  },
+
 
   {
     id: '28',
