@@ -580,7 +580,7 @@ export const en = {
 
 
   [tokens.form.nelsonBio]: '',
-  [tokens.form.nelsonTitle]: 'Lawyer',
+  [tokens.form.nelsonTitle]: 'Attorney',
   [tokens.form.nelsonEducation]: 'Education. Law School, University of Chile, Bachelor of Legal and Social Sciences. ',
   [tokens.form.nelsonExperiencePro]: 'Admitted to practice in 1995. Postgraduate degree in Business Labour Law from the University of Chile; Diploma in Collective Negotiation and Labour Relations from the UAI.',
   [tokens.form.nelsonProfessionalAca]: 'Professional with over 20 years of experience as a lawyer. Specialist in Individual and Collective Labour Law, with extensive knowledge in Union Relations and solid experience in cross-sectional areas of Human Resources in large companies with high operational staff.' +
@@ -593,7 +593,7 @@ export const en = {
   [tokens.form.nelsonLanguages]: '',
 
 
-  [tokens.form.maxTitle]: 'Lawyer',
+  [tokens.form.maxTitle]: 'Attorney',
   [tokens.form.maxEducation]: 'Faculty of Law, Universidad de los Andes. Minor in Political Sciences',
   [tokens.form.maxExperiencePro]: 'Admitted to practice in 2020. ',
   [tokens.form.maxProfessionalAca]: 'Diploma in Criminal Procedural Law from the University of Talca. He worked in the Metropolitan West Regional Prosecutor\s Office and as a criminal litigator in the Defensoría of various municipalities of Santiago, including Lo Barnechea and Las Condes.',

@@ -474,30 +474,8 @@ export const lawyers: Lawyer[] = [
 
 
 
-
-
-
-
   {
     id: '23',
-    name: 'Francisco Ramos Rojas',
-    email: 'framos@vla.cl',
-    title: tokens.form.franciscoRRTitle as string,
-    cover: '/assets/team/nofoto.jpg',
-    image: '/assets/team/nofoto.jpg',
-    userurl: 'francisco-ramos',
-    bio: tokens.form.franciscoRRBio as string,
-    intro: tokens.form.franciscoRRIntro as string,
-    education: tokens.form.franciscoRREducation as string,
-    professional: tokens.form.franciscoRRProfessionalAca as string,
-    experience: tokens.form.franciscoRRExperiencePro as string,
-    publications: tokens.form.franciscoRRPublications as string,
-    languages: tokens.form.franciscoRRLanguages as string,
-  },
-
-
-  {
-    id: '24',
     name: 'Nelson Rodríguez Messina',
     email: 'nrodriguez@vla.cl',
     title: tokens.form.nelsonTitle as string,
@@ -514,7 +492,7 @@ export const lawyers: Lawyer[] = [
   },
 
   {
-    id: '25',
+    id: '24',
     name: 'Maximiliano Wildner Zambra',
     email: 'mwildner@vla.cl',
     title: tokens.form.maxTitle as string,
@@ -531,6 +509,24 @@ export const lawyers: Lawyer[] = [
   },
 
 // 2. AUDITORS
+
+  {
+    id: '25',
+    name: 'Francisco Ramos Rojas',
+    email: 'framos@vla.cl',
+    title: tokens.form.franciscoRRTitle as string,
+    cover: '/assets/team/nofoto.jpg',
+    image: '/assets/team/nofoto.jpg',
+    userurl: 'francisco-ramos',
+    bio: tokens.form.franciscoRRBio as string,
+    intro: tokens.form.franciscoRRIntro as string,
+    education: tokens.form.franciscoRREducation as string,
+    professional: tokens.form.franciscoRRProfessionalAca as string,
+    experience: tokens.form.franciscoRRExperiencePro as string,
+    publications: tokens.form.franciscoRRPublications as string,
+    languages: tokens.form.franciscoRRLanguages as string,
+  },
+
   {
     id: '49',
     name: 'Francisca González Cabrera',
