@@ -499,7 +499,7 @@ export const lawyers: Lawyer[] = [
   {
     id: '24',
     name: 'Nelson Rodríguez Messina',
-    email: '',
+    email: 'nrodriguez@vla.cl',
     title: tokens.form.nelsonTitle as string,
     cover: '/assets/team/nofoto.jpg',
     image: '/assets/team/nofoto.jpg',
@@ -516,7 +516,7 @@ export const lawyers: Lawyer[] = [
   {
     id: '25',
     name: 'Maximiliano Wildner Zambra',
-    email: '',
+    email: 'mwildner@vla.cl',
     title: tokens.form.maxTitle as string,
     cover: '/assets/team/nofoto.jpg',
     image: '/assets/team/nofoto.jpg',
