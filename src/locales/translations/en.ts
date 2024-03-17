@@ -503,6 +503,11 @@ export const en = {
   [tokens.form.joaoLanguages]: 'Language: Spanish, English and Portuguese.',
 
 
+
+
+
+
+
   [tokens.form.franciscoRRTitle]: 'Auditor',
   [tokens.form.franciscoRRBio]: '',
   [tokens.form.franciscoRREducation]: 'Public Accountant and Audit Accountant from the University of Los Lagos, Post-Degree in Tax Legislation from the University of Santiago de Chile (1997), Post-Degree in Management Audit from the University of Santiago de Chile (1999), Diploma in International Accounting from the University of Chile (2007), Tax Head at Aguas Andinas and Senior Manager at Deloitte.\n',
@@ -572,6 +577,28 @@ export const en = {
   [tokens.form.darelysBio]: '',
 
 
+
+
+  [tokens.form.nelsonBio]: '',
+  [tokens.form.nelsonTitle]: 'Lawyer',
+  [tokens.form.nelsonEducation]: 'Education. Law School, University of Chile, Bachelor of Legal and Social Sciences. ',
+  [tokens.form.nelsonExperiencePro]: 'Admitted to practice in 1995. Postgraduate degree in Business Labour Law from the University of Chile; Diploma in Collective Negotiation and Labour Relations from the UAI.',
+  [tokens.form.nelsonProfessionalAca]: 'Professional with over 20 years of experience as a lawyer. Specialist in Individual and Collective Labour Law, with extensive knowledge in Union Relations and solid experience in cross-sectional areas of Human Resources in large companies with high operational staff.' +
+    '\n' +
+    'He has served as a lawyer at the National Labour Directorate, providing advisory and training functions, and has developed his career in the area of Labour Relations, in large private companies, such as Turbus, Johnsons, KPMG, SMU and Farmacias Ahumada.\n' +
+'\n' +
+'Specialties\n' +
+'Complex collective negotiations, Labour Relations, litigation, Due diligence, corporate labour consulting. Crisis management and external communications.\n',
+  [tokens.form.nelsonPublications]: '',
+  [tokens.form.nelsonLanguages]: '',
+
+
+  [tokens.form.maxTitle]: 'Lawyer',
+  [tokens.form.maxEducation]: 'Faculty of Law, Universidad de los Andes. Minor in Political Sciences',
+  [tokens.form.maxExperiencePro]: 'Admitted to practice in 2020. ',
+  [tokens.form.maxProfessionalAca]: 'Diploma in Criminal Procedural Law from the University of Talca. He worked in the Metropolitan West Regional Prosecutor\s Office and as a criminal litigator in the Defensoría of various municipalities of Santiago, including Lo Barnechea and Las Condes.',
+  [tokens.form.maxPublications]: '',
+  [tokens.form.maxLanguages]: 'Italian. Spanish.',
 
 
   [tokens.form.private]: 'Private',

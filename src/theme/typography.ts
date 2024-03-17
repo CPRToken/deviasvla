@@ -104,7 +104,7 @@ export const typography = {
        ...responsiveFontSizes({ sm: 45, md: 45, lg: 55 }),
   },
   h3: {
-    fontWeight: 500,
+    fontWeight: 200,
     lineHeight: 64 / 48,
     fontSize: pxToRem(28),
     fontFamily: tertiaryFont.style.fontFamily,

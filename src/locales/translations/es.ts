@@ -490,6 +490,37 @@ export const es = {
 
 
 
+  [tokens.form.nelsonBio]: '',
+  [tokens.form.nelsonTitle]: 'Abogado',
+  [tokens.form.nelsonEducation]: 'Educación: Facultad de Derecho, Universidad de Chile, Licenciado en Ciencias Jurídicas y Sociales. ',
+  [tokens.form.nelsonExperiencePro]: 'Admitido a práctica en 1995. Postitulo en Derecho Laboral de la Empresa por la U de Ch; Diplomado en Negociación Colectiva y Relaciones Laborales por la UAI.',
+  [tokens.form.nelsonProfessionalAca]: 'Profesional con más de veinte años de experiencia como abogado. Especialista en Derecho Laboral individual y Colectivo, con amplios conocimientos en Relaciones Sindicales y sólida experiencia en áreas transversales de Recursos Humanos en grandes empresas de alta dotación operativa.' +
+  '\n' +
+    'Se ha desempeñado como abogado en la Dirección Nacional del Trabajo, cumpliendo funciones de asesoría y capacitación y ha desarrollado su carrera en el área de Relaciones Laborales, en grandes empresas privadas, cómo Turbus, Johnson´s, KPMG, SMU Y Farmacias Ahumada.\n' +
+  '\n' +
+    'Especialidades\n' +
+  'Negociaciones colectivas complejas, Relaciones Laborales, litigios, Due diligence, asesoría laboral corporativa. Manejo de Crisis y comunicaciones externas.\n',
+  [tokens.form.nelsonPublications]: '',
+  [tokens.form.nelsonLanguages]: '',
+
+
+  [tokens.form.maxBio]: '',
+  [tokens.form.maxTitle]: 'Abogado',
+  [tokens.form.maxEducation]: 'Facultad de Derecho Universidad de los Andes. Minor en Ciencias Políticas',
+  [tokens.form.maxExperiencePro]: 'Admitido a práctica en 2020. ',
+  [tokens.form.maxProfessionalAca]: 'Diplomado en Derecho Procesal Penal por la Universidad de Talca. Ejerció en la Fiscalía Regional Metropolitana Occidente y como litigante penal en la Defensoría de varias Municipalidad de Santiago, entre ellas, Lo Barnechea y las Condes.',
+  [tokens.form.maxPublications]: '',
+  [tokens.form.maxLanguages]: 'Italiano. Español.',
+
+
+
+
+
+
+
+
+
+
   [tokens.form.franciscoRRTitle]: 'Auditor',
   [tokens.form.franciscoRRBio]:'',
   [tokens.form.franciscoRREducation]: 'Contador Público y Contador Auditor de la Universidad de Los Lagos, Post-Título en Legislación Tributaria de la Universidad de Santiago de Chile (1997), Post Título en Auditoria de Gestión de la Universidad de Santiago de Chile (1999), Diplomado en Contabilidad Internacional de la Universidad de Chile (2007), Jefe Tributario Aguas Andinas y Senior Manager en Deloitte.\n' ,

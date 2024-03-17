@@ -421,6 +421,29 @@ headings: {
     darelysPublications: 'form.darelysPublications',
     darelysBio: 'form.darelysBio',
 
+
+    nelsonTitle: 'form.nelsonTitle',
+    nelsonIntro: 'form.nelsonIntro',
+    nelsonEducation: 'form.nelsonEducation',
+    nelsonExperiencePro: 'form.nelsonExperiencePro',
+    nelsonProfessionalAca: 'form.nelsonProfessionalAca',
+    nelsonPublications: 'form.nelsonPublications',
+    nelsonLanguages: 'form.nelsonLanguages',
+    nelsonBio: 'form.nelsonBio',
+
+    maxTitle: 'form.maxTitle',
+    maxIntro: 'form.maxIntro',
+    maxEducation: 'form.maxEducation',
+    maxExperiencePro: 'form.maxExperiencePro',
+    maxProfessionalAca: 'form.maxProfessionalAca',
+    maxPublications: 'form.maxPublications',
+    maxLanguages: 'form.maxLanguages',
+    maxBio: 'form.maxBio',
+
+
+
+
+
     details: 'form.details',
     sendNow: 'form.sendNow',
     firstName: 'form.firstName',
