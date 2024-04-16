@@ -10,6 +10,7 @@ export const tokens = {
     capsules: 'nav.capsules',
     browse: 'nav.browse',
     calendar: 'nav.calendar',
+    blog: 'nav.blog',
 
   overview: 'nav.overview',
     concepts: 'nav.concepts',
@@ -108,6 +109,8 @@ headings: {
 
     privateVideoCaption: 'form.privateVideoCaption',
     privacy: 'form.privacy',
+    corporateTitle: 'form.corporateTitle',
+    corporateAbout: 'form.corporateAbout',
     unlistedVideoCaption: 'form.unlistedVideoCaption',
     publicVideoCaption: 'form.publicVideoCaption',
     quote: 'form.quote',

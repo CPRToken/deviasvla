@@ -83,7 +83,8 @@ export const en = {
   [tokens.form.forgotPassword]: 'Forgot Password',
   [tokens.form.contactTitle]: 'Contact Us',
   [tokens.form.question]: '\'Use the following contact form to communicate with us and we will respond promptly.\'',
-
+  [tokens.form.corporateTitle]: 'Corporate',
+  [tokens.form.corporateAbout]: 'Villarroel, Lecaros y Aste are much more than a law firm; it is a beacon of trust and assurance. Founded in 1968, our commitment to build strong, enduring relationship with our clients has been unwavering. We take pride in the proficiency and extensive wisdom of our skilled professionals, devoted to deliver bespoke legal support with alacrity and precision.',
   [tokens.form.emailSentMessage]: 'If an account exists with this email, please check your inbox and follow the instructions.',
   [tokens.form.sendResetLink]: 'Send reset link',
   [tokens.form.maritalStatus]: 'Marital Status',

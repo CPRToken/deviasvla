@@ -123,7 +123,13 @@ export const es = {
   'EDUCACIÓN\n' +
   'PRÁCTICA GENERAL',
 
-  [tokens.form.christianTitle]: 'Abogado',
+
+  [tokens.form.corporateTitle]: 'Corporativo',
+  [tokens.form.corporateAbout]: 'Nuestro equipo de abogados corporativos brinda asesoría en una amplia gama de asuntos corporativos, incluyendo la formación de empresas, fusiones y adquisiciones, reestructuraciones corporativas, gobierno corporativo, cumplimiento normativo, contratos comerciales, propiedad intelectual, protección de datos, entre otros. ' ,
+
+
+
+    [tokens.form.christianTitle]: 'Abogado',
   [tokens.form.christianEducation]: 'Licenciado en Ciencias Jurídicas de la Universidad Central (1992). Diplomado en Derecho Bancario, Universidad Central (1991).  ' +
   '\n' +
   '\n' +

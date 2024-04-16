@@ -88,10 +88,10 @@ export const paths = {
     account: '/dashboard/account',
     analytics: '/dashboard/analytics',
     blank: '/dashboard/blank',
-    capsules: {
-      index: '/capsules',
-      postDetails: '/capsules/:postId',
-      postCreate: '/capsules/create',
+    blog: {
+      index: '/blog',
+      postDetails: '/blog/:postId',
+      postCreate: '/blog/create',
     },
     calendar: '/dashboard/calendar',
     chat: '/dashboard/chat',
