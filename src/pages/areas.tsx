@@ -30,7 +30,6 @@ const Page: NextPage = () => {
     {
       title: 'CORPORATIVO',
       icon: '/assets/icons/ic_checklist.svg',
-
     },
     {
       title: 'FUSIONES Y ADQUISICIONES',

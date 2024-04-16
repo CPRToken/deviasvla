@@ -102,8 +102,24 @@ const CustomApp = (props: CustomAppProps) => {
 
                               <>
                                 {getLayout(<Component {...pageProps} />)}
-
-
+                                <SettingsButton onClick={settings.handleDrawerOpen} />
+                                <SettingsDrawer
+                                  canReset={settings.isCustom}
+                                  onClose={settings.handleDrawerClose}
+                                  onReset={settings.handleReset}
+                                  onUpdate={settings.handleUpdate}
+                                  open={settings.openDrawer}
+                                  values={{
+                                    colorPreset: settings.colorPreset,
+                                    contrast: settings.contrast,
+                                    direction: settings.direction,
+                                    paletteMode: settings.paletteMode,
+                                    responsiveFontSizes: settings.responsiveFontSizes,
+                                    stretch: settings.stretch,
+                                    layout: settings.layout,
+                                    navColor: settings.navColor,
+                                  }}
+                                />
                               </>
 
                             <Toaster />

@@ -11,17 +11,6 @@ export const firma = {
 
 };
 
-export const corporate = {
-
-
-  title: tokens.form.corporateTitle as string,
-
-  about:tokens.form.corporateAbout as string,
-
-};
-
-
-
 
 export const contact = {
 
